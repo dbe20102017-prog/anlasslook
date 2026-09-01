@@ -1,0 +1,26 @@
+# Slugs, die auf Pinterest bereits einen Pin haben.
+# Verhindert, dass derselbe Beitrag ein zweites Mal gepinnt wird.
+# Zeile entfernen = Beitrag darf erneut in die Bulk-CSV.
+breiter-guertel
+brosche-tragen
+capsule-buero
+drei-farben-regel
+goldschmuck-stapeln
+heiligabend-outfit
+hochzeitsgast-ab-40
+hochzeitsgast-herbst
+khaki-coded
+layering-regeln
+mantel-ueber-anlass-outfit
+poetcore-cape
+quiet-business
+seidentuch-binden
+silvester-gold
+silvester-herren
+standesamt-schlicht
+weihnachtsfeier
+weihnachtsfeier-ab-50
+weihnachtsmarkt-outfit
+weisser-blazer
+weite-hose-regel
+winterhochzeit-gast
