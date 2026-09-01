@@ -1,0 +1,74 @@
+name: Website bauen und veroeffentlichen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: anlasslook-site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhaengigkeiten
+        run: pip install -r requirements.txt
+
+      - name: Schriften holen
+        run: |
+          mkdir -p fonts
+          curl -sSfL -o fonts/Lora-Variable.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora%5Bwght%5D.ttf"
+          curl -sSfL -o fonts/Poppins-Medium.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Medium.ttf"
+
+      - name: Bauen
+        env:
+          ANLASSLOOK_SERIF: fonts/Lora-Variable.ttf
+          ANLASSLOOK_SANS: fonts/Poppins-Medium.ttf
+        run: |
+          python3 build.py
+          python3 makepins.py
+          cp CNAME dist/CNAME
+          touch dist/.nojekyll
+
+      - name: Pruefliste
+        run: |
+          set -e
+          GESAMT=$(grep -rho 'https://www\.amazon\.de/s?[^"]*' dist/beitraege | wc -l)
+          MIT=$(grep -rho 'https://www\.amazon\.de/s?[^"]*' dist/beitraege | grep -c 'tag=anlasslook-21')
+          test "$GESAMT" = "$MIT" || { echo "FEHLER: Amazon-Links ohne Tracking-ID"; exit 1; }
+          SEITEN=$(ls -d dist/beitraege/*/ | wc -l)
+          OG=$(grep -rl 'og:type" content="article"' dist/beitraege/*/index.html | wc -l)
+          test "$SEITEN" = "$OG" || { echo "FEHLER: og:type fehlt"; exit 1; }
+          test "$(grep -c '<item>' dist/feed.xml)" = "6" || { echo "FEHLER: feed.xml nicht 6 Eintraege"; exit 1; }
+          test "$(md5sum dist/assets/pins/*.jpg | awk '{print $1}' | sort | uniq -d | wc -l)" = "0" || { echo "FEHLER: bytegleiche Pins"; exit 1; }
+          echo "Pruefliste bestanden: $MIT Links mit Tag, $OG Beitraege, Feed 6 Eintraege, keine Pin-Dubletten"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: anlasslook-site/dist
+
+  veroeffentlichen:
+    needs: bauen
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
