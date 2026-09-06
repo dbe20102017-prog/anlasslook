@@ -8,8 +8,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 # in einen Ordner ausserhalb des iCloud-Ordners legen - dort darf gelöscht
 # werden, im verbundenen Ordner nicht.
 DIST = os.environ.get("ANLASSLOOK_DIST") or os.path.join(ROOT, "dist")
-TODAY = "2026-08-29"
-RSS_DATE = "Sat, 29 Aug 2026 09:00:00 +0200"
+TODAY = "2026-09-04"
+RSS_DATE = "Fri, 04 Sep 2026 09:00:00 +0200"
 
 CATBY = {c["slug"]: c for c in CATEGORIES}
 

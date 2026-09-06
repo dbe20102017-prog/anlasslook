@@ -1240,6 +1240,157 @@ POSTS = [
 # Fehlt hier ein Slug, nimmt makepins.py automatisch den `title`.
 # --------------------------------------------------------------------------
 
+# =====================================================================
+# Freitagslauf 04.09.2026 — zwei Kategorien, drei Beiträge
+# =====================================================================
+
+CATEGORIES.append(
+    {"slug": "trauer", "nav": "Trauerfeier", "title": "Trauerfeier & Kondolenz",
+     "lead": "Was zieht man zu einer Trauerfeier an, wenn Schwarz nicht vorgegeben ist oder nicht im Schrank hängt? Ruhige, gedeckte Zusammenstellungen, die angemessen wirken, ohne dass man extra einkaufen müsste.",
+     "img": "cat-trauer.jpg",
+     "meta": "Trauerfeier-Outfits für Damen und Herren: gedeckte Farben, angemessene Schnitte und was Sie tun, wenn kein Schwarz da ist."})
+
+CATEGORIES.append(
+    {"slug": "familienfeier", "nav": "Familienfeier", "title": "Taufe, Geburtstag & Jubiläum",
+     "lead": "Taufe, runder Geburtstag, Konfirmation, Hochzeitstag: Anlässe im engen Kreis haben eigene Regeln — festlich genug für die Fotos, bequem genug für einen langen Nachmittag.",
+     "img": "cat-familienfeier.jpg",
+     "meta": "Outfits für Taufe, runden Geburtstag, Konfirmation und Jubiläum — festlich, aber alltagstauglich zusammengestellt."})
+
+for _q in POSTS:
+    if _q["slug"] in ("taufe-gast-herbst", "runder-geburtstag-damen"):
+        _q["cat"] = "familienfeier"
+del _q
+
+POSTS.append({
+    "slug": "trauerfeier-outfit",
+    "cat": "trauer",
+    "title": "Trauerfeier-Outfit: Was anziehen, wenn nicht Schwarz?",
+    "teaser": "Dunkelblau, Anthrazit, Dunkelbraun: Warum gedeckte Farben fast immer angemessen sind — und wie Sie in einer Stunde ein vollständiges Outfit aus dem zusammenstellen, was da ist.",
+    "img": "trauerfeier-outfit.jpg",
+    "meta": "Trauerfeier-Outfit ohne Schwarz: gedeckte Farben, angemessene Schnitte und eine ruhige Zusammenstellung für Damen und Herren.",
+    "intro": [
+        "Die häufigste Frage vor einer Trauerfeier lautet nicht „was ziehe ich an“, sondern „muss es wirklich Schwarz sein“. Die ehrliche Antwort: In Deutschland ist Schwarz die sichere Wahl, aber längst nicht die einzige zulässige. Angemessen heißt gedeckt, ruhig und unauffällig — und das leisten Dunkelblau, Anthrazit, Dunkelgrau und Dunkelbraun genauso.",
+        "Dieser Beitrag ist für den Fall geschrieben, in dem die Nachricht kurzfristig kam und kein schwarzes Kleid im Schrank hängt. Er zeigt, welche Farben tragen, welche Schnitte ruhig wirken und in welcher Reihenfolge Sie das Outfit zusammenstellen, damit am Ende nichts improvisiert aussieht.",
+    ],
+    "sections": [
+        ("Gedeckt statt schwarz — welche Farben gehen wirklich", [
+            "Maßgeblich ist nicht die Farbe an sich, sondern ihre Sättigung. Dunkelblau, Anthrazit, Dunkelgrau, Dunkelbraun und ein sehr dunkles Flaschengrün wirken alle zurückhaltend und werden auf einer Trauerfeier nicht bemerkt — und genau das ist das Ziel. Bemerkt zu werden ist der einzige echte Fehler.",
+            "Was nicht geht: kräftige Signalfarben, große Muster, glänzende Oberflächen und alles, was Aufmerksamkeit auf sich zieht. Ein Pailletten-Detail an der Schulter oder eine auffällige Schnalle kippt ein sonst korrektes Outfit sofort.",
+            "Grauzone Weiß: Eine weiße Bluse unter dunklem Blazer ist unproblematisch und in vielen Regionen üblich. Ein durchgehend helles Outfit ist es nicht — es sei denn, die Familie hat ausdrücklich darum gebeten. Solche Bitten kommen inzwischen häufiger vor und gehen immer vor.",
+        ]),
+        ("Die Schnitte: geschlossen, ruhig, nicht körperbetont", [
+            "Zwei Regeln decken fast alles ab: die Schultern sind bedeckt und der Ausschnitt ist geschlossen. Ein Etuikleid mit kurzem Arm, ein dunkler Rollkragen unter dem Blazer oder eine hochgeschlossene Bluse erfüllen das ohne Aufwand.",
+            "Die Länge liegt am besten am Knie oder darunter. Sehr kurze Röcke, tiefe Rückenausschnitte und stark taillierte Schnitte wirken auf einer Trauerfeier unpassend, auch wenn die Farbe stimmt.",
+            "Für Herren gilt das Gleiche in einfacherer Form: dunkler Anzug oder dunkle Hose mit dunklem Sakko, weißes oder hellgraues Hemd, gedeckte Krawatte. Eine Krawatte ist in den meisten Fällen erwartet, ein schwarzer Schlips aber keine Pflicht — dunkelblau oder anthrazit ist ebenso richtig.",
+        ]),
+        ("Schuhe, Tasche, Schmuck — hier entscheidet sich der Eindruck", [
+            "Geschlossene Schuhe mit flachem oder niedrigem Blockabsatz sind die richtige Wahl. Trauerfeiern führen fast immer über Kies, Rasen oder unebene Wege, oft im Stehen und bei Wind. Ein dünner Absatz wird dort zum Problem, und ein Outfit, in dem man sich unsicher bewegt, wirkt sofort angespannt.",
+            "Die Tasche bleibt klein und matt. Was hineinmuss: Taschentücher, Schlüssel, Telefon lautlos, und falls eine Kondolenzkarte übergeben wird, diese flach und ungeknickt.",
+            "Beim Schmuck gilt: eine Sache, still. Kleine Ohrstecker oder eine schlichte Kette reichen. Was klappert oder blitzt, bleibt zu Hause. Ein dunkler Schal ist praktischer als ein Schmuckstück — er wärmt am Grab und schließt gleichzeitig den Ausschnitt.",
+        ]),
+        ("In dieser Reihenfolge zusammenstellen", [
+            "Beginnen Sie mit dem größten Teil in der dunkelsten Farbe, die Sie besitzen — meist ein Kleid, ein Rock oder eine Hose. Das ist die Grundfarbe des Outfits, und alles Weitere ordnet sich ihr unter.",
+            "Legen Sie dann die zweite Schicht dazu: Blazer, Strickjacke oder Mantel. Sie darf dunkler sein als die Grundfarbe, aber nicht heller. Erst danach kommen Schuhe und Tasche, und beide gehören in dieselbe Farbfamilie wie die zweite Schicht, nicht wie die Grundfarbe.",
+            "Zum Schluss der Blick von drei Metern Entfernung im Spiegel. Wenn Ihr Auge zuerst auf ein einzelnes Teil fällt, ist dieses Teil zu auffällig. Tauschen Sie es, und das Outfit ist fertig.",
+        ]),
+    ],
+    "products": [
+        ("Dunkler Blazer, gerade geschnitten", "Die zweite Schicht, die aus fast jedem dunklen Oberteil ein vollständiges Outfit macht — und im Büro weiterläuft.", "damen blazer dunkelblau gerade geschnitten"),
+        ("Etuikleid in Anthrazit oder Dunkelblau", "Knielang und hochgeschlossen: das Teil, das die Frage nach Schwarz gar nicht erst aufkommen lässt.", "etuikleid damen knielang dunkelblau"),
+        ("Geschlossene Pumps mit Blockabsatz", "Standfest auf Kies und Rasen, ruhig im Auftritt. Der häufigste Fehlkauf ist der zu dünne Absatz.", "pumps damen blockabsatz geschlossen dunkel"),
+        ("Dunkler Wollschal", "Wärmt am Grab, schließt den Ausschnitt und ersetzt jeden Schmuck.", "wollschal damen dunkelgrau uni"),
+        ("Kleine matte Handtasche", "Groß genug für Taschentücher und Karte, klein genug, um nicht aufzufallen.", "handtasche damen klein schwarz matt"),
+        ("Dunkler Anzug für Herren", "Dunkelblau oder anthrazit ist ebenso angemessen wie schwarz und danach im Berufsalltag tragbar.", "herren anzug dunkelblau slim fit"),
+    ],
+})
+
+POSTS.append({
+    "slug": "weihnachtsfeier-firma-2026",
+    "cat": "festtage",
+    "title": "Weihnachtsfeier der Firma: Outfits, die am Montag nicht peinlich sind",
+    "teaser": "Die Firmenfeier ist kein Silvester. Vier Zusammenstellungen zwischen zu brav und zu viel — für Restaurant, Betriebskantine und den Abend, der länger wird als geplant.",
+    "img": "weihnachtsfeier-firma-2026.jpg",
+    "meta": "Weihnachtsfeier Firma 2026: Outfit-Ideen für Damen, die festlich wirken und trotzdem zum Arbeitsplatz passen.",
+    "intro": [
+        "Die betriebliche Weihnachtsfeier ist der schwierigste Anlass des Jahres, weil zwei Regelwerke gleichzeitig gelten. Es ist ein Fest, also darf es festlich sein. Es sind Kolleginnen und Kollegen, also arbeiten Sie am Montag mit allen weiter, die Sie am Freitagabend gesehen haben. Wer das zweite vergisst, merkt es erst hinterher.",
+        "Die vier Zusammenstellungen hier lösen das über ein einfaches Prinzip: ein festliches Element, alles andere ruhig. Damit sind Sie eindeutig zurechtgemacht, ohne aus der Rolle zu fallen — und die Teile bleiben nach dem Abend im Schrank benutzbar.",
+    ],
+    "sections": [
+        ("Zuerst klären: Restaurant, Kantine oder Halle?", [
+            "Der Ort entscheidet mehr als der Anlass. Ein Menü im Restaurant erlaubt und erwartet mehr als ein Buffet in der eigenen Kantine, und eine gemietete Halle oder ein Weihnachtsmarkt-Rundgang verlangt vor allem, dass Sie nicht frieren.",
+            "Fragen Sie im Zweifel jemanden, der im Vorjahr dabei war. Die Antwort „so wie im Büro, nur etwas schicker“ hören Sie in etwa acht von zehn Fällen — und genau darauf sind die folgenden Zusammenstellungen ausgelegt.",
+            "Ein praktischer Punkt, der oft untergeht: Wenn der Abend mit einem Stehempfang beginnt, stehen Sie die erste Stunde. Das ist eine Entscheidung über die Schuhe, nicht über das Kleid.",
+        ]),
+        ("Vier Zusammenstellungen, ein festliches Element", [
+            "Erstens, der Samtblazer. Dunkelgrün, Bordeaux oder Marine, dazu eine gerade schwarze Hose und ein einfaches Oberteil. Der Samt macht die gesamte Arbeit; alles andere darf schlicht sein. Diese Kombination ist die zuverlässigste von allen, weil der Blazer auch im Büro funktioniert.",
+            "Zweitens, die Satinbluse zur Anzughose. Elfenbein, Champagner oder tiefes Petrol, hineingesteckt, dazu ein schmaler Gürtel. Wirkt festlicher als es ist und lässt sich am Montag mit einem Strickpullover darüber komplett entschärfen.",
+            "Drittens, das dunkle Strickkleid mit Statement-Ohrringen. Für Feiern, bei denen es kalt oder informell wird. Das Kleid ist bequem, der Schmuck übernimmt den festlichen Teil — und lässt sich im Auto abnehmen, wenn Sie sich überschätzt haben.",
+            "Viertens, der weite Hosenanzug in einer gedeckten Farbe. Die Antwort auf die Frage, die auf Pinterest am häufigsten hinter „Weihnachtsfeier“ steckt: Hose statt Kleid. Wirkt souverän, braucht keine Strumpfhose und ist bei jeder Raumtemperatur tragbar.",
+        ]),
+        ("Die drei Fehler, die man am Montag noch merkt", [
+            "Zu kurz und zu tief ausgeschnitten. Was am Samstagabend privat unproblematisch wäre, verschiebt im beruflichen Umfeld die Wahrnehmung — und zwar länger als einen Abend. Die einfache Regel: was Sie in einem Gespräch mit der Bereichsleitung nicht tragen würden, tragen Sie auch auf der Feier nicht.",
+            "Zu viel Glanz. Ein glänzendes Teil ist festlich, zwei sind Silvester. Pailletten-Oberteil und Metallic-Schuhe zusammen kippen jedes Firmenoutfit.",
+            "Zu unbequeme Schuhe. Der Abend dauert länger als geplant, es wird gestanden, und irgendwann ist die Frage nach dem Schuh wichtiger als die nach dem Kleid. Ein Blockabsatz oder ein eleganter flacher Schuh löst das, ohne dass es jemand bemerkt.",
+        ]),
+        ("Mantel, Weg und Kälte mitdenken", [
+            "Zwischen Parkplatz und Eingang liegen im Dezember oft ein paar hundert Meter. Ein gerader dunkler Mantel, der über den Blazer passt, ist wichtiger als jedes Detail am Outfit darunter — er ist das Erste, was gesehen wird.",
+            "Wenn die Feier über einen Weihnachtsmarkt führt, planen Sie warme Strumpfhosen und feste Sohlen ein. Kalte Füße beenden einen Abend zuverlässiger als jedes andere Problem.",
+            "Und legen Sie am Vorabend alles zusammen an einen Platz: Outfit, Schuhe, Mantel, Tasche. Der Freitag vor der Feier ist ein Arbeitstag, und der Zeitpuffer am Abend ist immer kleiner als gedacht.",
+        ]),
+    ],
+    "products": [
+        ("Samtblazer in Dunkelgrün oder Bordeaux", "Das eine festliche Element, das den Rest schlicht bleiben lässt — und danach im Büro weitergetragen wird.", "damen samtblazer dunkelgrün"),
+        ("Satinbluse in Elfenbein oder Petrol", "Wirkt festlicher als sie ist und lässt sich am nächsten Werktag mit einem Pullover entschärfen.", "damen satinbluse elfenbein langarm"),
+        ("Weite Anzughose mit hoher Taille", "Die Antwort auf „Hose statt Kleid“: souverän, warm und ohne Strumpfhosenfrage.", "damen anzughose weit hohe taille"),
+        ("Dunkles Strickkleid, knielang", "Für Feiern, bei denen es kühl oder informell wird — bequem, der Schmuck macht den Rest.", "strickkleid damen knielang dunkelgrün"),
+        ("Pumps mit Blockabsatz", "Der Abend dauert länger als geplant. Blockabsatz löst das, ohne weniger elegant zu wirken.", "pumps damen blockabsatz schwarz elegant"),
+        ("Gerader Wollmantel über Blazerlänge", "Das Erste, was gesehen wird — und im Dezember der eigentliche Unterschied zwischen angenehm und ausgekühlt.", "damen wollmantel gerade geschnitten dunkel"),
+    ],
+})
+
+POSTS.append({
+    "slug": "stiefel-zum-anlasskleid",
+    "cat": "accessoires",
+    "title": "Stiefel zum Anlasskleid: Wann es funktioniert und wann nicht",
+    "teaser": "Ab Oktober ist die Frage nicht mehr, ob Stiefel zum Kleid passen, sondern welche. Drei Schafthöhen, drei Anlässe und die Regel, an der sich alles entscheidet.",
+    "img": "stiefel-zum-anlasskleid.jpg",
+    "meta": "Stiefel zum Anlasskleid im Herbst 2026: welche Schafthöhe zu welcher Rocklänge passt und bei welchen Anlässen Stiefel gehen.",
+    "intro": [
+        "Sobald es draußen kalt wird, steht dieselbe Frage im Raum: Kann ich zu einem Anlasskleid Stiefel tragen, oder müssen es Pumps sein? Die Antwort ist seltener ein klares Nein, als die meisten annehmen — sie hängt aber an zwei Dingen, die man kennen muss: der Schafthöhe im Verhältnis zur Rocklänge, und der Formalität des Anlasses.",
+        "Dieser Beitrag ordnet beides. Danach wissen Sie, welche Stiefel Sie zu welchem Kleid tragen können, wo die Grenze verläuft und mit welchen zwei Paaren Sie die gesamte kalte Jahreshälfte abdecken.",
+    ],
+    "sections": [
+        ("Die eine Regel: der Zwischenraum entscheidet", [
+            "Zwischen Saum und Stiefelschaft entsteht ein sichtbarer Streifen Bein. Dieser Streifen ist das eigentliche Gestaltungselement — und er soll entweder deutlich vorhanden oder gar nicht vorhanden sein. Ein schmaler Streifen von wenigen Zentimetern wirkt fast immer unglücklich, weil das Auge ihn als Zufall liest.",
+            "Praktisch heißt das: Zu einem knielangen Kleid gehören entweder Stiefeletten, die deutlich unterhalb der Wade enden, oder Overknee-Stiefel, die über dem Saum beginnen. Der Kniestiefel, der genau am Saum aufhört, ist die einzige Kombination, die man besser meidet.",
+            "Zu einem Midikleid, das die Wade zur Hälfte bedeckt, passt die Stiefelette hervorragend, der Kniestiefel dagegen verschwindet darunter und lohnt sich nicht. Zu einem langen Kleid ist der Stiefel ohnehin unsichtbar — dort zählt nur, dass Sie sicher gehen.",
+        ]),
+        ("Welcher Anlass verträgt welchen Stiefel", [
+            "Standesamt, Herbsthochzeit im Freien, Taufe, Firmenfeier und runder Geburtstag: Bei allen fünf sind Stiefeletten aus glattem Leder in einer gedeckten Farbe unproblematisch, solange sie spitz oder leicht spitz zulaufen und einen sauberen Absatz haben. Sie lesen sich als Schuh, nicht als Winterstiefel.",
+            "Kirchliche Trauung und Abendveranstaltung mit Menü sind die Grenzfälle. Hier funktioniert ein schmaler, hoher Stiefel aus glattem Leder — grobe Sohlen, Schnürungen, Schnallen und sichtbare Nähte kippen ihn dagegen ins Alltägliche.",
+            "Nicht geeignet sind gefütterte Winterstiefel, Wanderstiefel-Anleihen und alles mit Profilsohle. Wenn der Weg zum Ort das verlangt, ist der Wechselschuh in der Tasche die bessere Lösung als der Kompromiss am Fuß.",
+        ]),
+        ("Farbe und Strumpfhose — der häufigste Fehler", [
+            "Stiefel, Strumpfhose und Saum sollten sich farblich nicht widersprechen. Am zuverlässigsten ist die durchgehende dunkle Linie: blickdichte Strumpfhose und Stiefel in derselben Farbfamilie lassen das Bein optisch länger wirken und den Übergang verschwinden.",
+            "Kontrast funktioniert, wenn er gewollt aussieht: cognacfarbene Stiefel zu einem rostroten oder cremefarbenen Kleid sind eine bewusste Entscheidung und wirken auch so. Was nicht funktioniert, ist die hautfarbene Strumpfhose zum dunklen Stiefel — der Bruch am Schaft zieht den Blick genau dorthin.",
+            "Für alle, die es einfach halten wollen: dunkelbraune oder schwarze Stiefeletten und blickdichte Strumpfhosen in derselben Tiefe decken praktisch jedes Anlasskleid ab, das Sie im Herbst tragen werden.",
+        ]),
+        ("Zwei Paare reichen für die gesamte Saison", [
+            "Das erste Paar: schwarze oder dunkelbraune Stiefeletten aus glattem Leder mit Blockabsatz von etwa fünf Zentimetern. Dieses Paar deckt Standesamt, Familienfeier, Büro und Firmenfeier ab und ist die Anschaffung, die sich am schnellsten rechnet.",
+            "Das zweite Paar: ein schmaler Kniestiefel ohne Verzierung, ebenfalls glattes Leder. Er ist der Schuh für lange und knielange Kleider, für kalte Tage und für die Anlässe, bei denen Sie draußen stehen werden.",
+            "Was Sie sich sparen können, ist ein dritter, auffälliger Stiefel. Er passt selten zu einem Anlasskleid und wird deshalb genau einmal getragen. Investieren Sie das lieber in eine wirklich gute Strumpfhose — sie ist bei diesen Outfits das Teil, das am schnellsten kaputtgeht.",
+        ]),
+    ],
+    "products": [
+        ("Stiefeletten aus glattem Leder mit Blockabsatz", "Das Paar, das Standesamt, Familienfeier und Büro gleichzeitig abdeckt — der wichtigste Schuh der kalten Hälfte.", "damen stiefeletten leder blockabsatz schwarz"),
+        ("Schmaler Kniestiefel ohne Verzierung", "Für lange und knielange Kleider, glattes Leder, keine Schnallen — das ist der Unterschied zwischen Anlass und Alltag.", "damen kniestiefel schmal leder"),
+        ("Blickdichte Strumpfhose, 60 bis 80 den", "Schließt die Lücke zwischen Saum und Schaft und lässt das Bein länger wirken.", "strumpfhose damen blickdicht 60 den schwarz"),
+        ("Midikleid in gedeckter Herbstfarbe", "Die Kleidlänge, zu der Stiefeletten am zuverlässigsten passen.", "midikleid damen langarm herbst rostrot"),
+        ("Faltbarer Wechselschuh für die Tasche", "Die bessere Lösung als ein Kompromiss am Fuß, wenn der Weg zum Ort über Kies oder Wiese führt.", "faltbare ballerinas damen tasche"),
+        ("Lederpflege-Set für glattes Leder", "Ein Anlassstiefel wird an der Ferse zuerst matt — fünf Minuten Pflege verlängern die Saison um ein Jahr.", "lederpflege set schuhe glattleder"),
+    ],
+})
+
 PINTITEL = {
     "hochzeitsgast-herbst":          "Hochzeitsgast Outfit Herbst 2026 – 7 Looks",
     "hochzeitsgast-ab-40":           "Hochzeitsgast Outfit ab 40 Damen",
@@ -1270,6 +1421,9 @@ PINTITEL = {
     "vorstellungsgespraech-herbst":  "Vorstellungsgespräch Outfit Damen 2026",
     "standesamt-winter-braut":       "Standesamt Outfit Winter Braut 2026",
     "schuhe-strumpfhose-anlasskleid":"Schuhe und Strumpfhose zum Anlasskleid",
+    "trauerfeier-outfit":            "Trauerfeier Outfit Damen nicht schwarz",
+    "weihnachtsfeier-firma-2026":    "Weihnachtsfeier Firma Outfit Damen 2026",
+    "stiefel-zum-anlasskleid":       "Stiefel zum Anlasskleid Herbst 2026",
 }
 
 for _p in POSTS:
