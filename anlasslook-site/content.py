@@ -1391,6 +1391,137 @@ POSTS.append({
     ],
 })
 
+# ---------------------------------------------------------------- KW37, 11.09.2026
+
+POSTS.append({
+    "slug": "strickjacke-statt-blazer",
+    "cat": "herbst",
+    "title": "Strickjacke statt Blazer: Wann der Tausch funktioniert – und wann nicht",
+    "teaser": "Die feine Strickjacke ist der bequemere Blazer. Sie hält aber nur, was sie verspricht, wenn drei Dinge stimmen: Feinheit, Länge und das Teil darunter.",
+    "img": "strickjacke-statt-blazer.jpg",
+    "meta": "Strickjacke statt Blazer im Herbst 2026: welche Feinheit, welche Länge und welches Oberteil darunter den Tausch bürotauglich machen.",
+    "intro": [
+        "Der Blazer ist das Arbeitstier jeder Anlass-Garderobe, und er hat einen Nachteil: Er sitzt. Er zwingt die Schultern in eine Form und die Haltung dazu. Es gibt Tage, an denen das genau richtig ist, und Tage, an denen es sich anfühlt wie eine Verkleidung.",
+        "Die feine Strickjacke ist die Antwort darauf. Sie übernimmt die Aufgabe des Blazers — Schultern abschließen, Silhouette rahmen, das Outfit fertig aussehen lassen — ohne die Strenge. Aber sie kann auch ins Gegenteil kippen und nach Sofa aussehen. Woran das liegt, lässt sich an drei Punkten festmachen.",
+    ],
+    "sections": [
+        ("Feinheit entscheidet, ob es Kleidung oder Bequemlichkeit ist", [
+            "Die wichtigste Größe ist die Maschenfeinheit. Grober Strick liest sich als Freizeit, unabhängig von Farbe und Schnitt — er hat sichtbare Struktur, und Struktur wirkt lässig. Feiner Strick aus Merino, Kaschmirmischung oder Baumwolle liegt flach und glatt an und verhält sich optisch wie Stoff.",
+            "Praktische Prüfung: Wenn Sie die Maschen aus zwei Metern Entfernung einzeln erkennen können, ist die Jacke zu grob für einen Anlass. Erkennen Sie nur eine gleichmäßige Fläche, funktioniert sie überall dort, wo sonst ein Blazer stünde.",
+            "Das gilt auch für die Knöpfe. Große Hornknöpfe ziehen jede Strickjacke Richtung Landhaus. Kleine, flache Knöpfe in Tonfarbe verschwinden und lassen den Strick sprechen.",
+        ]),
+        ("Die Länge ist da, wo der Blazer aufhört", [
+            "Ein Blazer endet knapp unter dem Gesäß oder darüber. Eine Strickjacke, die das nicht tut, übernimmt nicht seine Funktion, sondern die eines Mantels — und dann trägt man zwei Oberteile übereinander, ohne dass eines den Abschluss bildet.",
+            "Für Anlass und Büro heißt das: hüftlang oder kürzer. Die lange Strickjacke ist ein eigenes Kleidungsstück mit eigener Berechtigung, aber sie ersetzt keinen Blazer, sondern ein Jackett-Ersatzstück für den Abend zu Hause.",
+            "Cropped funktioniert, wenn darunter eine hohe Taille sitzt. Über einer tief sitzenden Hose entsteht sonst ein Streifen Bluse zwischen Jacke und Bund, der das Outfit optisch zerteilt.",
+        ]),
+        ("Was darunter liegt, macht den Unterschied", [
+            "Eine Strickjacke über einem T-Shirt bleibt Freizeit. Über einer Seidenbluse, einem feinen Rollkragen oder einem schlichten Top mit rundem Ausschnitt wird sie zum Kleidungsstück. Der Grund ist einfach: Zwei weiche Materialien ergeben einen weichen Gesamteindruck, ein glattes Material darunter setzt den Kontrast, den das Auge als Absicht liest.",
+            "Der zweite Hebel ist der Ausschnitt. Eine offen getragene Strickjacke braucht eine senkrechte Linie darunter — einen Ausschnitt, eine Knopfleiste, eine Kette. Ohne diese Linie wirkt die Front leer.",
+            "Und ein Detail, das oft übersehen wird: Die Ärmel dürfen nicht zu lang sein. Strick dehnt sich mit dem Tragen, und ein Ärmel, der über den Handrücken rutscht, nimmt jedem Outfit die Kontur. Wer die Ärmel ohnehin schiebt, wählt besser gleich eine Dreiviertel-Länge.",
+        ]),
+        ("Drei Anlässe, drei Antworten", [
+            "Büro: feiner Strick, hüftlang, in Marine, Anthrazit, Camel oder Creme, darunter Bluse oder Rollkragen. Das ist ein vollwertiger Blazer-Ersatz und an den meisten Arbeitsplätzen sogar die angenehmere Wahl.",
+            "Familienfeier und Taufe: dieselbe Jacke, aber gern in einer weicheren Farbe und über einem Kleid statt über Hose. Die Strickjacke nimmt einem ärmellosen Kleid die Kühle, ohne die festliche Wirkung zu zerstören.",
+            "Abendliche Anlässe und Weihnachtsfeier: hier stößt die Strickjacke an ihre Grenze. Ab einer gewissen Festlichkeit erwartet das Auge glänzendes oder strukturiertes Material — Samt, Satin, Wolle mit klarer Kante. Dann ist der Blazer wieder im Recht.",
+        ]),
+    ],
+    "products": [
+        ("Feinstrickjacke aus Merinowolle, hüftlang", "Die Grundform: flach gestrickt, kleine Knöpfe, endet knapp unter der Hüfte. Ersetzt den Blazer, ohne wie ein Kompromiss auszusehen.", "damen feinstrickjacke merino huefte knopfleiste"),
+        ("Kaschmirmischung in Camel oder Creme", "Helle Töne lassen feinen Strick sofort teurer aussehen als er ist, weil jede Unregelmäßigkeit im Licht sichtbar wäre — und bei guter Qualität eben nicht sichtbar ist.", "damen strickjacke kaschmir camel"),
+        ("Seidenbluse mit V-Ausschnitt", "Das glatte Material unter dem weichen: der Kontrast, der aus Bequemlichkeit ein Outfit macht.", "damen seidenbluse v ausschnitt elegant"),
+        ("Feiner Rollkragenpullover", "Die Alternative zur Bluse, wenn es kälter wird. Schließt den Hals und gibt der offenen Strickjacke die senkrechte Linie.", "damen rollkragenpullover feinstrick"),
+        ("Schmale Stoffhose mit hoher Taille", "Die hohe Taille ist bei kurzen Strickjacken keine Stilfrage, sondern Statik: Sie schließt die Lücke zwischen Jacke und Bund.", "damen stoffhose high waist schmal"),
+        ("Filigrane lange Kette", "Verlängert die senkrechte Linie im Ausschnitt und füllt die Front, ohne aufzutragen.", "damen lange kette fein gold"),
+    ],
+})
+
+POSTS.append({
+    "slug": "weihnachtsfeier-herren-2026",
+    "cat": "festtage",
+    "title": "Weihnachtsfeier für Herren: drei Stufen zwischen Hemd und Anzug",
+    "teaser": "Die Einladung sagt selten, was gemeint ist. Diese drei Stufen decken praktisch jede Firmenweihnachtsfeier ab — und die häufigsten Fehlgriffe liegen dazwischen.",
+    "img": "weihnachtsfeier-herren-2026.jpg",
+    "meta": "Weihnachtsfeier Outfit Herren 2026: drei abgestufte Looks vom Rollkragen unter dem Sakko bis zum dunklen Anzug, je nach Ort und Uhrzeit.",
+    "intro": [
+        "Bei Herren ist die Weihnachtsfeier selten eine Frage des Geschmacks und fast immer eine der Einschätzung. Zu leger wirkt gleichgültig, zu formell wirkt angestrengt, und beides fällt auf einer Firmenfeier stärker auf als im Alltag.",
+        "Die gute Nachricht: Es gibt nicht zwanzig Möglichkeiten, sondern drei. Welche davon richtig ist, hängt an zwei Angaben, die in jeder Einladung stehen — Ort und Uhrzeit.",
+    ],
+    "sections": [
+        ("Stufe eins: Kantine, Nachmittag, Kollegen in Jeans", [
+            "Wenn die Feier im Haus stattfindet und am Nachmittag beginnt, ist der dunkle Anzug falsch. Er markiert einen Abstand, den niemand gewollt hat. Richtig ist hier: dunkle Chino oder Wollhose, feiner Strickpullover oder Hemd, dazu ein Sakko, das man ablegen kann, ohne dass der Rest nackt aussieht.",
+            "Der entscheidende Punkt ist das Schuhwerk. Eine Jeans mit Sneakern zieht das ganze Outfit auf Bürotag herunter. Derbys oder Chelsea Boots aus glattem Leder heben dieselbe Hose zwei Stufen an und kosten keine Bequemlichkeit.",
+            "Farblich reicht der Bestand: Anthrazit, Marine, dunkles Braun. Weihnachtliche Farben braucht es nicht — ein dunkelgrüner Pullover ist die eleganteste Verbeugung vor der Saison, die möglich ist.",
+        ]),
+        ("Stufe zwei: Restaurant, Abend, gemischtes Publikum", [
+            "Das ist der häufigste Fall und der, bei dem die meisten danebenliegen. Hier funktioniert die Kombination, die im Deutschen keinen guten Namen hat: Sakko und Hose in verschiedenen Farben, darunter ein feiner Rollkragen statt eines Hemds.",
+            "Der Rollkragen ist der Trick. Er ist förmlicher als ein offenes Hemd, aber ohne Krawatte, und er löst das Problem, dass ein Hemdkragen ohne Krawatte am Abend oft schlaff aussieht. Merino oder eine Kaschmirmischung, eng anliegend, in Dunkelgrün, Anthrazit, Marine oder Bordeaux.",
+            "Dazu ein Sakko aus Wolle mit etwas Struktur — Flanell, feines Tweed, Samt für die Mutigen — und eine Hose in klarem Kontrast dazu. Braune Lederschuhe, eine Uhr mit Lederband, fertig. Kein Einstecktuch, es sei denn, Sie tragen ohnehin eines.",
+        ]),
+        ("Stufe drei: Hotel, Abendessen mit Menü, Geschäftsführung anwesend", [
+            "Erst hier ist der Anzug richtig. Dunkelblau oder Anthrazit, nicht schwarz — Schwarz ist in Deutschland am Abend dem sehr Formellen und der Trauer vorbehalten und wirkt auf einer Feier unnötig streng.",
+            "Weißes oder sehr hellblaues Hemd, Krawatte nur, wenn es auf der Einladung steht oder im Unternehmen üblich ist. Ohne Krawatte den obersten Knopf öffnen und es dabei belassen; zwei offene Knöpfe kippen sofort ins Lässige.",
+            "Schuhe: glatte schwarze oder dunkelbraune Oxfords, geputzt. Auf dieser Stufe sieht man Schuhe, und ungepflegtes Leder ist der einzige Fehler, den ein guter Anzug nicht ausgleicht.",
+        ]),
+        ("Die drei Fehlgriffe, die wirklich vorkommen", [
+            "Der Weihnachtspullover. Er ist gemeint als Zeichen, dass man es locker nimmt, und liest sich bei allen außer den engsten Kollegen als Verkleidung. Wenn die Firma ihn ausdrücklich ausruft, gern. Sonst nicht.",
+            "Der zu große Anzug. Schultern, die über das eigene Gelenk hinausstehen, machen aus jedem Anzug einen geliehenen. Das ist kein Preis-, sondern ein Änderungsschneider-Thema und für unter dreißig Euro zu lösen.",
+            "Der Sneaker zum Sakko. Funktioniert in bestimmten Branchen und an bestimmten Orten, aber nie auf Stufe zwei und drei — und die Weihnachtsfeier ist nicht der Abend, an dem man das ausprobiert.",
+        ]),
+    ],
+    "products": [
+        ("Feiner Rollkragenpullover aus Merino", "Das Schlüsselstück für Stufe zwei. Dunkelgrün oder Bordeaux ist festlicher als Schwarz und fällt trotzdem niemandem unangenehm auf.", "herren rollkragenpullover merino dunkelgruen"),
+        ("Wollsakko in Anthrazit mit leichter Struktur", "Struktur im Stoff ersetzt am Abend das Muster. Trägt sich über Rollkragen wie über Hemd.", "herren sakko wolle anthrazit struktur"),
+        ("Dunkelblauer Anzug, schmal geschnitten", "Stufe drei. Marine statt Schwarz, weil Schwarz am Abend streng wirkt und Marine im Licht besser aussieht.", "herren anzug dunkelblau slim fit"),
+        ("Derby-Schuhe aus glattem Leder", "Der Schuh, der Stufe eins und zwei trägt. Glattes Leder, dunkelbraun, geschnürt.", "herren derby schuhe leder dunkelbraun"),
+        ("Schmale Wollhose in Grau", "Der Gegenpart zum dunklen Sakko. Wolle fällt am Abend besser als Baumwolle und knittert nicht im Sitzen.", "herren wollhose grau schmal"),
+        ("Uhr mit braunem Lederarmband", "Das einzige Schmuckstück, das Herren auf einer Firmenfeier kommentarlos tragen können.", "herren armbanduhr leder braun klassisch"),
+    ],
+})
+
+POSTS.append({
+    "slug": "samt-outfit-festlich-2026",
+    "cat": "festtage",
+    "title": "Samt festlich tragen, ohne dass es nach Theatervorhang aussieht",
+    "teaser": "Samt ist das festlichste Material, das man ohne Glitzer tragen kann. Er kippt nur dann ins Kostümhafte, wenn man mehr als ein Teil davon anzieht.",
+    "img": "samt-outfit-festlich-2026.jpg",
+    "meta": "Samt festlich kombinieren 2026: welche Farben tragbar sind, warum nur ein Samtteil ins Outfit gehört und welche Materialien dazu passen.",
+    "intro": [
+        "Es gibt wenige Stoffe, die so zuverlässig festlich wirken wie Samt, und keinen, bei dem der Grat zwischen elegant und verkleidet so schmal ist. Der Grund liegt im Material selbst: Samt hat einen Flor, der Licht in zwei Richtungen unterschiedlich zurückwirft. Deshalb verändert er im Gehen die Farbe — und deshalb zieht er Blicke an, ob man will oder nicht.",
+        "Daraus folgt die einzige Regel, die man wirklich braucht: Ein Samtteil pro Outfit. Alles andere ist Detailfrage.",
+    ],
+    "sections": [
+        ("Warum nur ein Teil", [
+            "Zwei Samtteile ergeben keinen doppelten Effekt, sondern eine Fläche. Das Auge kann die Teilung zwischen Oberteil und Rock nicht mehr lesen, weil beide dasselbe Licht zurückwerfen, und was bleibt, ist eine Silhouette ohne Gliederung. Genau so sehen Kostüme aus.",
+            "Ein Samtteil dagegen wirkt wie ein gesetzter Akzent. Der Rest des Outfits wird dadurch nicht langweilig, sondern zum Rahmen — und darf ruhig völlig schlicht sein.",
+            "Ausnahme, die die Regel bestätigt: ein Samtkleid in einem Stück. Da gibt es keine Teilung, die verloren gehen könnte, und die Gliederung übernehmen Schnitt und Gürtel.",
+        ]),
+        ("Die Farben, die tragbar sind", [
+            "Samt in tiefen, gedeckten Tönen ist am besten zu tragen: Smaragd, Dunkelblau, Bordeaux, Waldgrün, Anthrazit, Aubergine. Sie profitieren am stärksten vom Flor, weil der Farbwechsel im Licht bei satten Tönen sichtbar ist, bei hellen kaum.",
+            "Schwarzer Samt ist die sichere Wahl und zugleich die schwierigste: Er wirkt am Abend sehr formell und zeigt jedes Fussel. Wer Schwarz wählt, sollte eine Fusselrolle einstecken — das ist kein Scherz, sondern die häufigste Panne des Abends.",
+            "Helle Töne — Puder, Champagner, Hellgrau — funktionieren, wirken aber weicher und weniger festlich. Sie sind eher eine Frühjahrs- als eine Dezemberwahl.",
+        ]),
+        ("Was dazu passt und was nicht", [
+            "Samt verlangt einen matten Gegenpart. Crêpe, feine Wolle, Baumwollsatin mit stumpfer Oberfläche, glatte Strickware — all das gibt dem Samt den Kontrast, den er braucht.",
+            "Schwierig wird es mit anderen glänzenden Materialien. Satin neben Samt konkurriert um dasselbe Licht, Pailletten daneben wirken schnell nach zu viel. Wenn beides sein soll, dann sehr kleinflächig: eine Satinschleife, eine Clutch.",
+            "Beim Schmuck gilt dasselbe: Samt trägt Gold besser als Silber, weil warme Metalle den Farbwechsel im Flor aufnehmen. Große Ohrringe funktionieren, große Ketten liegen auf dem Flor auf und drücken ihn platt.",
+        ]),
+        ("Drei Kombinationen, die sicher funktionieren", [
+            "Samtblazer in Smaragd über schwarzer Crêpe-Hose und schlichtem Top. Der Blazer trägt den Abend, der Rest bleibt still. Funktioniert auf der Firmenfeier ebenso wie im Restaurant.",
+            "Samtrock in Bordeaux zu feinem Rollkragen in Creme oder Kamel. Die Kombination ist wärmer als sie klingt und eine der wenigen, die tagsüber wie abends geht.",
+            "Samtkleid, knielang oder midi, mit schmalem Ledergürtel und geschlossenen Schuhen. Das ist die schnellste festliche Lösung, die es gibt — ein Teil, fertig, und man muss über nichts weiter nachdenken.",
+        ]),
+    ],
+    "products": [
+        ("Samtblazer in Smaragd oder Dunkelblau", "Das vielseitigste Samtteil überhaupt: über Hose, über Kleid, über Rock — und man kann ihn ablegen, ohne dass das Outfit zusammenbricht.", "damen samtblazer gruen elegant"),
+        ("Midikleid aus Samt mit schmalem Schnitt", "Die Ein-Teil-Lösung. Bei Samtkleidern lohnt ein schlichter Schnitt, weil das Material bereits genug Aufmerksamkeit bindet.", "damen samtkleid midi elegant"),
+        ("Samtrock in Bordeaux, knie- oder wadenlang", "Der unterschätzte Gegenentwurf zum Kleid: kombinierbar mit allem, was man ohnehin besitzt.", "damen samtrock bordeaux midi"),
+        ("Crêpe-Hose in Schwarz, hoch geschnitten", "Der matte Gegenpart. Crêpe wirkt neben Samt ruhig, wo Satin konkurrieren würde.", "damen crepe hose schwarz high waist"),
+        ("Feiner Rollkragen in Creme oder Kamel", "Hellt dunklen Samt auf und macht aus dem Abend-Outfit ein Tages-Outfit.", "damen rollkragenpullover feinstrick creme"),
+        ("Ohrringe in Gold mit etwas Länge", "Warmes Metall nimmt den Farbwechsel im Flor auf. Länge statt Fläche, damit nichts auf dem Samt aufliegt.", "damen ohrringe gold haenger elegant"),
+    ],
+})
+
 PINTITEL = {
     "hochzeitsgast-herbst":          "Hochzeitsgast Outfit Herbst 2026 – 7 Looks",
     "hochzeitsgast-ab-40":           "Hochzeitsgast Outfit ab 40 Damen",
@@ -1424,6 +1555,9 @@ PINTITEL = {
     "trauerfeier-outfit":            "Trauerfeier Outfit Damen nicht schwarz",
     "weihnachtsfeier-firma-2026":    "Weihnachtsfeier Firma Outfit Damen 2026",
     "stiefel-zum-anlasskleid":       "Stiefel zum Anlasskleid Herbst 2026",
+    "strickjacke-statt-blazer":       "Strickjacke statt Blazer Outfit Damen",
+    "weihnachtsfeier-herren-2026":    "Weihnachtsfeier Outfit Herren 2026",
+    "samt-outfit-festlich-2026":      "Samt Outfit festlich Damen 2026",
 }
 
 for _p in POSTS:

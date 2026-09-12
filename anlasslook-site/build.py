@@ -8,8 +8,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 # in einen Ordner ausserhalb des iCloud-Ordners legen - dort darf gelöscht
 # werden, im verbundenen Ordner nicht.
 DIST = os.environ.get("ANLASSLOOK_DIST") or os.path.join(ROOT, "dist")
-TODAY = "2026-09-04"
-RSS_DATE = "Fri, 04 Sep 2026 09:00:00 +0200"
+TODAY = "2026-09-11"
+RSS_DATE = "Fri, 11 Sep 2026 09:00:00 +0200"
 
 CATBY = {c["slug"]: c for c in CATEGORIES}
 
@@ -29,7 +29,9 @@ def amazon(keyword):
     """Amazon-Suchlink. Tracking-ID wird nur angehängt, wenn sie gesetzt ist."""
     k = re.sub(r"\s+", "+", keyword.strip())
     tag = SITE["amazon_tag"].strip()
-    url = f"https://www.amazon.de/s?k={k}"
+    # &i=fashion haelt die Suche in der Abteilung Mode (Bekleidung, Schuhe,
+    # Taschen, Schmuck, Uhren) - das ist zugleich die 6-%-Provisionskategorie.
+    url = f"https://www.amazon.de/s?k={k}&i=fashion"
     if tag:
         url += f"&tag={tag}"
     return url
