@@ -68,7 +68,14 @@ def foto(post, groesse, centering):
     return ImageOps.fit(im,groesse,Image.LANCZOS,centering=centering)
 
 
-def pintitel(post):
+def pintitel(post, v="a"):
+    """Titel fuer die Pinterest-Zeile. Die c-Variante bekommt einen
+    zweiten Suchtitel, damit b und c nicht um dieselbe Suchanfrage
+    konkurrieren. Fehlt er, gilt der normale Titel."""
+    if v == "c":
+        zweit = post.get("pintitle_c")
+        if zweit:
+            return zweit
     return post.get("pintitle") or post["title"]
 
 
@@ -78,9 +85,9 @@ def variante_a(post):
     canvas.paste(foto(post,(W,IMGH),(0.5,0.4)),(0,0))
     d=ImageDraw.Draw(canvas)
     pad=72; y=IMGH+78
-    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,25),ACCENT)
+    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,29),ACCENT)
     y+=64
-    ft,lines=fit(d,pintitel(post),SER,W-2*pad,74)
+    ft,lines=fit(d,pintitel(post),SER,W-2*pad,96,50)
     for ln in lines:
         d.text((pad,y),ln,font=ft,fill=DARK); y+=ft.size+16
     y+=14
@@ -105,7 +112,7 @@ def variante_b(post):
     pad=72
     # Erst den Textblock ausmessen, dann den Verlauf genau darunter legen -
     # sonst steht heller Text auf hellem Foto.
-    ft,lines=fit(ImageDraw.Draw(base),pintitel(post),SER,W-2*pad,80,40)
+    ft,lines=fit(ImageDraw.Draw(base),pintitel(post),SER,W-2*pad,118,62)
     block=64+len(lines)*(ft.size+16)
     ytop=H-190-block
     ramp=max(260,ytop-240)
@@ -120,7 +127,7 @@ def variante_b(post):
     canvas=Image.composite(Image.new("RGB",(W,H),"#14110F"),base,maske)
     d=ImageDraw.Draw(canvas)
     y=ytop
-    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,25),LIGHT_ACCENT)
+    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,29),LIGHT_ACCENT)
     y+=64
     for ln in lines:
         d.text((pad,y),ln,font=ft,fill=CREAM); y+=ft.size+16
@@ -138,10 +145,10 @@ def variante_c(post):
     canvas.paste(foto(post,(W,IMGH_C),(0.5,0.72)),(0,H-IMGH_C))
     d=ImageDraw.Draw(canvas)
     pad=72
-    ft,lines=fit(d,pintitel(post),SER,W-2*pad,60,34,maxlines=3)
+    ft,lines=fit(d,pintitel(post,"c"),SER,W-2*pad,86,46,maxlines=3)
     block=62+len(lines)*(ft.size+14)+16+38
     y=max(72,(H-IMGH_C-block)//2)
-    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,25),ACCENT)
+    gesperrt(d,pad,y,CAT[post["cat"]]["title"].upper(),ImageFont.truetype(SAN,29),ACCENT)
     y+=62
     for ln in lines:
         d.text((pad,y),ln,font=ft,fill=DARK); y+=ft.size+14
@@ -176,7 +183,7 @@ GEPINNT = "pinterest-gepinnt.txt"
 def zeile(p, v="a"):
     zusatz={"a":"", "b":" Look zum Nachstylen.", "c":" Alle Teile im Beitrag."}[v]
     return {
-      "Title": pintitel(p)[:100],
+      "Title": pintitel(p, v)[:100],
       "Media URL": url(p["slug"],v),
       "Pinterest board": CAT[p["cat"]]["title"],
       "Description": (p["meta"] + zusatz + " Mehr Outfit-Ideen auf anlasslook.de. Enthält Werbelinks.")[:500],
@@ -192,6 +199,92 @@ def schreibe_csv(pfad_, zeilen):
         w=csv.DictWriter(fh,fieldnames=felder)
         w.writeheader(); w.writerows(zeilen)
 
+
+
+# ---------------------------------------------------------------------------
+# TEXTEBENE FÜR VIDEO-PINS
+#
+# Video-Pins laufen im Feed STUMM - rund 85 Prozent sehen sie nie mit Ton.
+# Ein Video ohne Schrift sagt deshalb nichts. Die Schrift wird NICHT
+# mitgeneriert (das Modell verzerrt Buchstaben), sondern hinterher mit ffmpeg
+# darübergelegt. Hier entsteht nur die transparente Ebene dafür.
+#
+# Pinterest blendet eigene Bedienelemente ein und nennt dafür Schutzzonen:
+# oben 270 px, unten 790 px, links 65 px, rechts 195 px. Nutzbar bleibt damit
+# das Band zwischen y=270 und y=1130. Genau dorthin gehört die Schlagzeile -
+# NICHT nach unten wie bei den Standbildern.
+# ---------------------------------------------------------------------------
+VW, VH = 1080, 1920
+V_OBEN, V_UNTEN = 270, 1130          # nutzbares Band
+V_LINKS, V_RECHTS = 72, 1080 - 200   # rechts mehr Abstand, dort sitzt die UI
+
+# Beiträge, die ein Video bekommen. Nur Anleitungs-Themen: wer wissen will,
+# WIE etwas geht, schaut zu. Wer wissen will, WAS er anzieht, will ein Bild.
+VIDEO_SLUGS = ("seidentuch-binden", "brosche-tragen", "goldschmuck-stapeln")
+
+
+def video_textebene(post):
+    """Transparente 1080x1920-Ebene mit Schlagzeile, zum Überlagern per ffmpeg."""
+    ebene = Image.new("RGBA", (VW, VH), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ebene)
+    breite = V_RECHTS - V_LINKS
+
+    ft, lines = fit(d, pintitel(post), SER, breite, 104, 58, maxlines=3)
+    hoehe = 70 + len(lines) * (ft.size + 18) + 30
+
+    # Weicher dunkler Verlauf hinter dem Text, sonst steht helle Schrift auf
+    # hellem Bildmaterial. Reicht etwas über das Textfeld hinaus.
+    # Der Schleier muss kräftig sein: unter dem Text kann helles Bildmaterial
+    # liegen, und creme auf creme ist unlesbar. Am 14.09. mit dem Seidentuch-
+    # Foto belegt - der erste, schwächere Verlauf reichte nicht.
+    ende = V_OBEN + hoehe
+    schleier = Image.new("RGBA", (VW, VH), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(schleier)
+    for y in range(0, min(VH, V_UNTEN + 90)):
+        if y < 160:
+            a = int(225 * (y / 160) ** 0.8)
+        elif y <= ende:
+            a = 225
+        else:
+            a = int(225 * max(0.0, 1 - (y - ende) / 240.0) ** 1.1)
+            # Danach ein schwacher Rest, der bis zur unteren Schutzzone weich
+            # ausläuft - sonst entsteht eine sichtbare waagerechte Kante.
+            aus = V_UNTEN + 90
+            rest = int(125 * max(0.0, (aus - y) / max(1, aus - (ende + 240))))
+            a = max(a, rest)
+        if a > 0:
+            sd.line([(0, y), (VW, y)], fill=(18, 15, 13, a))
+    ebene = Image.alpha_composite(ebene, schleier)
+    d = ImageDraw.Draw(ebene)
+
+    y = V_OBEN
+    gesperrt(d, V_LINKS, y, CAT[post["cat"]]["title"].upper(),
+             ImageFont.truetype(SAN, 34), LIGHT_ACCENT, 5)
+    y += 74
+    for ln in lines:
+        d.text((V_LINKS + 3, y + 3), ln, font=ft, fill=(0, 0, 0, 150))
+        d.text((V_LINKS, y), ln, font=ft, fill=CREAM)
+        y += ft.size + 18
+    y += 20
+    d.line([(V_LINKS, y), (V_LINKS + 150, y)], fill=LIGHT_ACCENT, width=4)
+
+    # Absender unten, aber oberhalb der unteren Schutzzone
+    gesperrt(d, V_LINKS, V_UNTEN - 46, "ANLASSLOOK.DE",
+             ImageFont.truetype(SAN, 32), CREAM, 6)
+    return ebene
+
+
+def schreibe_video_ebenen():
+    fehlt = [s for s in VIDEO_SLUGS if s not in {p["slug"] for p in POSTS}]
+    if fehlt:
+        print("\n!!! VIDEO_SLUGS kennt Beiträge, die es nicht gibt: " + ", ".join(fehlt))
+        raise SystemExit(1)
+    ziel = f"{DIST}/assets/video"
+    os.makedirs(ziel, exist_ok=True)
+    for p in POSTS:
+        if p["slug"] in VIDEO_SLUGS:
+            video_textebene(p).save(f"{ziel}/text-{p['slug']}.png")
+    return len(VIDEO_SLUGS)
 
 # --- Wächter 1: kein Foto darf zwei Beiträgen zugeordnet sein ---
 from collections import Counter as _C
@@ -226,11 +319,17 @@ if dubletten:
 
 # --- Wächter 3: trägt jeder Beitrag einen eigenen Pin-Titel? ---
 ohne=[p["slug"] for p in POSTS if not p.get("pintitle") or p["pintitle"]==p["title"]]
+ohne_c=[p["slug"] for p in POSTS if not p.get("pintitle_c") or p["pintitle_c"]==p.get("pintitle")]
 if ohne:
     print("\nHinweis - diese Beiträge nutzen den Website-Titel als Pin-Titel:")
     print("  " + ", ".join(ohne))
     print("  Website-Titel dürfen schön sein, Pin-Titel müssen Suchbegriffe sein.")
     print("  Eintrag in PINTITEL in content.py ergänzen.\n")
+if ohne_c:
+    print("\nHinweis - diese Beiträge haben keinen zweiten Suchtitel für Variante c:")
+    print("  " + ", ".join(ohne_c))
+    print("  b und c konkurrieren dann um dieselbe Suchanfrage.")
+    print("  Eintrag in PINTITEL_C in content.py ergänzen.\n")
 
 # --- CSV: Variante a nach der bisherigen Logik ---
 bereits=set()
@@ -261,6 +360,10 @@ print("  ACHTUNG: nicht auf einmal hochladen. 10 bis 15 Zeilen pro Woche,")
 print("  sonst sieht das Konto nach Massenupload aus. Datei oben abschneiden,")
 print("  Kopfzeile behalten, den Rest beim nächsten Mal.")
 print("Vollständige Liste für einen Neuaufbau des Kontos: dist/pinterest-bulk-alle.csv")
+
+_n = schreibe_video_ebenen()
+print(f"\nTextebenen für Video-Pins: {_n} Stück in dist/assets/video/ (1080x1920, transparent)")
+print("  Darüberlegen mit ffmpeg, siehe claude/anlasslook-video-pins.md")
 
 # --- Slugs als gepinnt vormerken ---
 if "--gepinnt" in sys.argv:

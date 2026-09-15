@@ -1522,6 +1522,353 @@ POSTS.append({
     ],
 })
 
+POSTS.append({
+    "slug": "geschenke-frauen-accessoires",
+    "cat": "accessoires",
+    "title": "Sechs Accessoires, die Frauen wirklich tragen — und nicht in die Schublade legen",
+    "teaser": "Das Problem beim Schenken ist selten die Idee, sondern die Größe. Accessoires lösen das, weil sie fast immer passen — wenn man die drei Fallen kennt.",
+    "img": "geschenke-frauen-accessoires.jpg",
+    "meta": "Geschenkideen für Frauen: zwölf Accessoires, die getragen statt weggelegt werden, mit den drei häufigsten Fehlgriffen.",
+    "intro": [
+        "Kleidung zu verschenken ist heikel, weil die Größe stimmen muss und die Rückgabe peinlich ist. Accessoires umgehen beides: Ein Tuch passt jedem, ein Armreif hat höchstens zwei Größen, eine Tasche gar keine. Deshalb landen sie so oft unter dem Baum — und deshalb auch so oft ungetragen in der Schublade.",
+        "Der Unterschied zwischen beidem liegt nicht am Preis. Er liegt daran, ob das Stück zu dem passt, was sie ohnehin trägt. Die folgenden zwölf sind danach ausgewählt.",
+    ],
+    "sections": [
+        ("Die drei Fehlgriffe, die jeder macht", [
+            "Erstens: zu auffällig. Wer selten Schmuck trägt, fängt nicht mit einer großen Statement-Kette an. Das Geschenk wird bewundert, bedankt und nie angezogen. Die Regel dagegen ist unbequem, aber verlässlich — schenke eine Stufe schlichter, als du denkst.",
+            "Zweitens: die falsche Metallfarbe. Fast jede Frau trägt konsequent entweder Gold oder Silber, oft seit Jahren, ohne je darüber gesprochen zu haben. Ein Blick auf ihre Uhr oder ihre Ohrringe beantwortet die Frage in zwei Sekunden.",
+            "Drittens: Parfüm, Nagellack und alles, was nach Geschmack riecht oder aussieht. Das sind Entscheidungen, die Menschen für sich selbst treffen. Accessoires sind es nicht — sie ergänzen, statt zu ersetzen.",
+        ]),
+        ("Was immer funktioniert", [
+            "Ein Seidentuch in einer Farbe, die sie schon im Schrank hat. Es ist das einzige Accessoire, das im Haar, am Hals, an der Tasche und am Gürtel funktioniert, und es verzeiht jede Unsicherheit über Stil und Größe.",
+            "Feine Ohrringe in ihrer Metallfarbe. Creolen in mittlerer Größe sind die sicherste Wahl, weil sie sowohl zur Jeans als auch zum Anlasskleid gehen und niemanden zwingen, sich neu zu erfinden.",
+            "Ein Schal aus echter Wolle statt Mischgewebe. Der Unterschied ist beim ersten Anfassen spürbar, hält Jahre und wird jeden Winter getragen — kein anderes Geschenk hat diese Trefferquote.",
+        ]),
+        ("Wenn du mehr über sie weißt", [
+            "Trägt sie oft Blazer, ist eine Brosche das Geschenk, das ihr niemand sonst macht. Sie sitzt am Revers, kostet keine Gewöhnung und verwandelt ein Alltagssakko in ein Anlassteil.",
+            "Pendelt sie zwischen Büro und Terminen, ist eine strukturierte Tasche mit festem Boden praktischer als jede weiche Form. Sie steht von allein, wenn man sie abstellt, und das merkt man erst, wenn man es einmal hatte.",
+            "Fährt sie viel Rad oder geht viel zu Fuß, sind gefütterte Lederhandschuhe das Stück, das sie sich selbst nie kauft und dann täglich benutzt.",
+        ]),
+        ("Wie du es übergibst", [
+            "Lege den Kassenbon dazu, ohne Kommentar. Das nimmt dem Umtausch die Peinlichkeit und dem Geschenk nichts von seiner Geste — im Gegenteil, es zeigt, dass dir wichtiger ist, dass sie es trägt, als dass sie es behält.",
+            "Verpacke Schmuck nicht in einer riesigen Schachtel. Die Erwartung, die eine große Box aufbaut, kann ein kleines Stück nicht einlösen, und der Moment kippt, bevor sie es in der Hand hält.",
+            "Sag beim Übergeben in einem Satz, warum du genau dieses Stück ausgesucht hast. Das ist der Teil, an den sie sich in zwei Jahren noch erinnert.",
+        ]),
+    ],
+    "products": [
+        ("Seidentuch, mittleres Format", "Passt jedem, funktioniert an vier Stellen und verlangt keine Größenangabe. Das sicherste Accessoire-Geschenk überhaupt.", "seidentuch damen 70x70 gemustert"),
+        ("Creolen in mittlerer Größe", "Die Ohrringgröße, die zur Jeans und zum Anlasskleid passt. In ihrer Metallfarbe kaufen, nicht in deiner.", "creolen damen gold mittelgross"),
+        ("Schal aus reiner Wolle", "Der Unterschied zu Mischgewebe ist beim ersten Anfassen spürbar und hält Jahre. Wird jeden Winter getragen.", "schal damen wolle uni"),
+        ("Brosche für das Revers", "Das Geschenk, das ihr sonst niemand macht. Verwandelt ein Alltagssakko in ein Anlassteil.", "brosche damen vintage elegant"),
+        ("Strukturierte Handtasche", "Steht von allein, wenn man sie abstellt. Klingt banal, merkt man aber jeden Tag.", "handtasche damen strukturiert leder"),
+        ("Gefütterte Lederhandschuhe", "Das Stück, das sie sich selbst nie kauft und dann den ganzen Winter trägt.", "lederhandschuhe damen gefuettert"),
+    ],
+})
+
+POSTS.append({
+    "slug": "geschenke-maenner-accessoires",
+    "cat": "accessoires",
+    "title": "Acht Accessoires für Männer, die tatsächlich benutzt werden",
+    "teaser": "Männer kaufen sich Accessoires selten selbst. Genau deshalb sind sie als Geschenk stark — und genau deshalb geht es so oft daneben.",
+    "img": "geschenke-maenner-accessoires.jpg",
+    "meta": "Geschenkideen für Männer: zehn Accessoires, die im Alltag landen statt in der Schublade, und die Fehler, die man dabei macht.",
+    "intro": [
+        "Die meisten Männer ersetzen Gürtel, Schal und Geldbörse erst, wenn das alte Stück kaputt ist. Das macht Accessoires zum dankbarsten Geschenk, das es gibt: Es gibt fast immer eine Lücke, und sie wird fast nie freiwillig geschlossen.",
+        "Der Haken ist, dass ein Accessoire für Männer noch weniger auffallen darf als für Frauen. Ein Stück, das nach Geschenk aussieht, wird nicht getragen.",
+    ],
+    "sections": [
+        ("Die Regel: ersetzen, nicht hinzufügen", [
+            "Schau dir an, was er täglich benutzt, und ersetze das älteste Stück durch eine bessere Ausführung. Derselbe Zweck, dieselbe Farbe, dieselbe Form — nur besser gemacht. Das ist unspektakulär und trifft fast immer.",
+            "Ein neuer Ledergürtel in genau der Breite, die er trägt, wird ab dem ersten Tag benutzt. Ein Gürtel mit auffälliger Schnalle bleibt liegen, egal wie gut er ist.",
+            "Dasselbe gilt für die Geldbörse: Wer seit zehn Jahren eine flache Klappbörse trägt, will keine mit Münzfach und Reißverschluss. Die Form ist Gewohnheit, nicht Geschmack.",
+        ]),
+        ("Was bei fast jedem ankommt", [
+            "Eine Uhr mit Lederarmband in Braun. Sie passt zu allem außer zu Schwarz, wirkt an Werktagen nicht overdressed und an Festtagen nicht zu leger — der einzige Schmuck, den viele Männer widerspruchslos anziehen.",
+            "Ein Kaschmirschal in Marine, Grau oder Anthrazit. Kein Muster, keine Fransen, keine Marke im Blickfeld. Wird vom Mantel bis zum Sakko getragen und hält länger als die Jacke darunter.",
+            "Warme Socken aus Merinowolle, mehrere Paare. Das klingt nach Verlegenheitsgeschenk und ist trotzdem das Stück, von dem er am Ende des Winters sagt, dass er mehr davon bräuchte.",
+        ]),
+        ("Wenn er Anzug trägt", [
+            "Ein Einstecktuch in Weiß mit schmalem Rand. Es ist das einzige Accessoire, das ein Sakko festlich macht, ohne dass jemand sagen kann, was sich geändert hat.",
+            "Manschettenknöpfe nur dann, wenn er tatsächlich Hemden mit Umschlagmanschette besitzt. Sonst ist es ein Geschenk, das eine Anschaffung nach sich zieht — und die macht er nicht.",
+            "Schuhspanner aus Zedernholz sind das unromantischste Geschenk auf dieser Liste und das, mit dem man gute Schuhe verdoppelt. Wer Lederschuhe trägt und keine hat, bekommt hier echten Nutzen.",
+        ]),
+        ("Finger weg von", [
+            "Krawatten, wenn er keine trägt. Und auch dann: Die Krawatte ist das Stück, bei dem Männer den eigenen Geschmack am stärksten verteidigen.",
+            "Allem mit sichtbarer Logo-Fläche. Was heute als Marke gefällt, ist in zwei Jahren datiert, und getragen wird es nur so lange wie das Logo.",
+            "Technikzubehör, das er schon hat. Der Kabelhalter, die Powerbank, das Kartenetui mit Funkschutz — alles schon dreimal verschenkt bekommen.",
+        ]),
+    ],
+    "products": [
+        ("Ledergürtel, schlichte Schnalle", "Ersetzt das älteste Stück im Schrank. Breite und Farbe abschauen, nicht neu erfinden.", "herren guertel leder braun schlicht"),
+        ("Uhr mit braunem Lederarmband", "Der einzige Schmuck, den viele Männer widerspruchslos tragen. Passt werktags wie festlich.", "herren armbanduhr leder braun klassisch"),
+        ("Kaschmirschal, einfarbig", "Marine, Grau oder Anthrazit, ohne Muster. Hält länger als die Jacke darüber.", "herren schal kaschmir uni dunkelblau"),
+        ("Merinosocken im Mehrerpack", "Klingt nach Verlegenheit, wird aber den ganzen Winter getragen.", "herren socken merinowolle mehrpack"),
+        ("Einstecktuch weiß", "Macht ein Sakko festlich, ohne dass jemand benennen kann, was sich geändert hat.", "einstecktuch herren weiss baumwolle"),
+        ("Schuhspanner aus Zedernholz", "Das unromantischste Geschenk hier und das, mit dem gute Schuhe doppelt so lange halten.", "schuhspanner zedernholz herren"),
+    ],
+})
+
+
+POSTS.append({
+    "slug": "wichtelgeschenke-ideen",
+    "cat": "accessoires",
+    "title": "Wichtelgeschenke, bei denen niemand höflich lächeln muss",
+    "teaser": "Beim Wichteln kennt man den Beschenkten kaum und trifft trotzdem eine Wahl vor Publikum. Es gibt eine Kategorie, die das löst.",
+    "img": "wichtelgeschenke-ideen.jpg",
+    "meta": "Wichtelgeschenke für Büro und Familie: zehn Ideen, die im Alltag benutzt werden, und die Kategorien, die zuverlässig danebengehen.",
+    "intro": [
+        "Wichteln hat eine Eigenheit, die es schwerer macht als jedes andere Geschenk: Man kennt die Person oft kaum, und ausgepackt wird vor allen anderen. Ein Fehlgriff ist damit nicht privat, sondern öffentlich.",
+        "Die Lösung liegt nicht in mehr Witz, sondern in weniger Persönlichem. Was gebraucht wird, funktioniert bei jedem — was Geschmack ausdrückt, nur bei wenigen.",
+    ],
+    "sections": [
+        ("Warum Scherzartikel fast immer scheitern", [
+            "Ein Witz braucht ein gemeinsames Vorwissen. Im Büro-Wichteln teilen selten alle dasselbe, und was in der einen Abteilung als Anspielung funktioniert, ist in der anderen eine Zumutung. Der Moment des Auspackens verzeiht das nicht.",
+            "Dazu kommt: Scherzartikel werden einmal gezeigt und nie wieder angefasst. Wer zwanzig Euro für drei Sekunden Lachen ausgibt, hat schlecht getauscht.",
+            "Wenn es lustig sein soll, dann über die Verpackung, nicht über den Inhalt. Das Geschenk bleibt brauchbar, die Pointe passiert trotzdem.",
+        ]),
+        ("Die sichere Kategorie: Dinge, die verbraucht werden", [
+            "Alles, was aufgebraucht wird, kann nicht im Weg stehen und muss nicht zum Einrichtungsstil passen. Guter Tee, gute Schokolade, ein Gewürz, das man sich selbst nicht kauft — das trifft quer durch jede Runde.",
+            "Der Unterschied zwischen langweilig und gut liegt in der Qualitätsstufe. Eine Tafel aus dem Supermarktregal ist ein Pflichtgeschenk, eine Tafel von einem Hersteller, den man nicht kennt, ist eine Entdeckung.",
+            "Zweitbeste Kategorie: Dinge, die im Alltag kaputtgehen. Ein gutes Notizbuch, ein ordentlicher Stift, feste Handcreme für den Schreibtisch.",
+        ]),
+        ("Accessoires, die beim Wichteln gehen", [
+            "Warme Socken aus Merinowolle. Die Größe ist grob genug, dass sie fast immer passt, und niemand hat genug davon. Das ist das mit Abstand sicherste Kleidungsstück für eine Runde, in der man niemanden kennt.",
+            "Ein einfarbiger Schal in Grau oder Marine. Er passt zu jeder Jacke, hat keine Größe und verlangt keine Stilentscheidung.",
+            "Ein Schlüsselanhänger aus Leder. Klein, benutzt, unauffällig — und das einzige Stück auf dieser Liste, das man täglich in der Hand hält.",
+        ]),
+        ("Die Regeln der Runde vorher klären", [
+            "Preisrahmen, Termin, ob gewünscht werden darf. Die meisten Enttäuschungen beim Wichteln entstehen nicht durch schlechte Geschenke, sondern durch unterschiedliche Annahmen über den Rahmen.",
+            "Wenn Wünsche erlaubt sind, nutze sie. Ein erfüllter Wunsch schlägt jede kreative Eigenidee — auch wenn sich das beim Kaufen falsch anfühlt.",
+            "Und pack es ordentlich ein. Beim Wichteln sieht die Verpackung jeder, bevor er den Inhalt sieht, und sie ist der halbe Eindruck.",
+        ]),
+    ],
+    "products": [
+        ("Merinosocken im Mehrerpack", "Grobe Größenstufen, hoher Gebrauchswert, niemand hat genug davon. Das sicherste Kleidungsstück für eine fremde Runde.", "socken merinowolle mehrpack unisex"),
+        ("Schal einfarbig Grau oder Marine", "Keine Größe, keine Stilentscheidung, passt zu jeder Jacke.", "schal unisex uni grau weich"),
+        ("Schlüsselanhänger aus Leder", "Klein, unauffällig und das einzige Stück hier, das täglich in der Hand liegt.", "schluesselanhaenger leder schlicht"),
+        ("Feste Handcreme für den Schreibtisch", "Wird aufgebraucht, steht niemandem im Weg und passt zu keiner Einrichtung — genau richtig.", "handcreme fest dose"),
+        ("Notizbuch mit festem Einband", "Geht im Alltag kaputt und wird deshalb gebraucht. Fester Einband ist der Unterschied.", "notizbuch hardcover punktraster a5"),
+        ("Teesortiment in Probiergrößen", "Verbraucht sich, trifft quer durch jede Runde und erlaubt eine Qualitätsstufe über dem Üblichen.", "tee geschenkset probiergroessen lose"),
+    ],
+})
+
+POSTS.append({
+    "slug": "festliches-kleid-figur",
+    "cat": "festtage",
+    "title": "Sechs festliche Kleiderschnitte und für welche Figur sie gemacht sind",
+    "teaser": "Ein Kleid sitzt nicht deshalb gut, weil es teuer ist, sondern weil sein Schnitt die Stelle betont, die tragen kann.",
+    "img": "festliches-kleid-figur.jpg",
+    "meta": "Festliches Kleid finden: neun Schnitte im Vergleich, welche Figur sie tragen und woran man im Laden erkennt, dass es passt.",
+    "intro": [
+        "Die meisten Fehlkäufe bei festlichen Kleidern entstehen nicht durch die falsche Größe, sondern durch den falschen Schnitt. Ein Kleid, das an der Schaufensterpuppe fällt, kann am Körper an genau der Stelle spannen, an der es fallen müsste.",
+        "Die Schnitte unten sind nach dem geordnet, was sie tun — nicht nach Modenamen. Wer weiß, welche Linie er sucht, findet sie in jeder Preisklasse.",
+    ],
+    "sections": [
+        ("Die drei Schnitte, die fast immer funktionieren", [
+            "Das Wickelkleid. Es legt die Taille dort fest, wo sie tatsächlich ist, statt dort, wo der Hersteller sie vermutet — und das ist der Grund, warum es an den meisten Körpern funktioniert. Achte darauf, dass der Wickel bis über die Hüfte reicht, sonst klafft er beim Sitzen.",
+            "Das A-Linien-Kleid. Eng an der schmalsten Stelle, ab dort frei fallend. Es verzeiht alles unterhalb der Taille und ist deshalb die ruhigste Wahl für einen langen Abend am Tisch.",
+            "Das Etuikleid mit leichtem Stretch. Es zeichnet nach, statt zu formen — vorausgesetzt, der Stoff hat Struktur. Reiner Jersey ohne Futter zeigt jede Naht der Wäsche darunter.",
+        ]),
+        ("Wenn die Schultern breiter sind als die Hüfte", [
+            "Alles, was unten Volumen hat, gleicht aus: A-Linie, Tellerrock, ein Kleid mit Falten ab der Taille. Die Silhouette wird dadurch ausgewogen, ohne dass oben etwas kaschiert werden muss.",
+            "Vermeide breite Träger, Puffärmel und waagerechte Ausschnitte. Sie verlängern die Schulterlinie genau dort, wo sie ohnehin schon die breiteste Stelle ist.",
+            "Ein V-Ausschnitt arbeitet in die richtige Richtung: Er führt den Blick nach unten zur Mitte statt nach außen.",
+        ]),
+        ("Wenn die Hüfte die breiteste Stelle ist", [
+            "Oben Aufmerksamkeit schaffen: ein Ausschnitt mit Detail, eine Schulterpartie mit Struktur, auffällige Ohrringe. Der Blick bleibt dort, wo er zuerst hinfällt.",
+            "Unten glatt und dunkel halten, ohne krampfhaft zu kaschieren. Ein Rock, der ab der Hüfte gerade fällt, wirkt schmaler als einer, der sich anschmiegt, und viel schmaler als einer, der abstehen will.",
+            "Finger weg von Taschen auf Hüfthöhe und von großen Mustern genau an dieser Stelle.",
+        ]),
+        ("Woran du im Laden erkennst, dass es sitzt", [
+            "Setz dich hin. Zwei Drittel eines Abends verbringt man sitzend, und genau dort scheitern die meisten Kleider: Der Wickel klafft, der Schlitz wandert, der Bund schneidet.",
+            "Heb beide Arme über den Kopf. Rutscht der Saum mehr als eine Handbreit hoch, wird das den ganzen Abend so bleiben.",
+            "Schau von der Seite in den Spiegel, nicht nur von vorn. Die Frontalansicht verzeiht Spannungsfalten, die im Profil sofort auffallen — und andere sehen dich überwiegend im Profil.",
+        ]),
+    ],
+    "products": [
+        ("Wickelkleid, knielang", "Legt die Taille dort fest, wo sie ist. Auf einen Wickel achten, der über die Hüfte reicht.", "wickelkleid damen knielang festlich"),
+        ("Kleid in A-Linie", "Eng an der schmalsten Stelle, ab dort frei fallend. Die ruhigste Wahl für einen langen Abend.", "kleid damen a linie festlich midi"),
+        ("Etuikleid mit Struktur", "Zeichnet nach statt zu formen — aber nur mit festem Stoff und Futter.", "etuikleid damen festlich gefuettert"),
+        ("Kleid mit V-Ausschnitt", "Führt den Blick zur Mitte statt nach außen. Die richtige Wahl bei breiteren Schultern.", "kleid damen v ausschnitt festlich"),
+        ("Formende Unterwäsche ohne Naht", "Entscheidet bei glatten Stoffen mehr über den Sitz als das Kleid selbst.", "shapewear damen nahtlos unsichtbar"),
+        ("Unterkleid in Hautton", "Nimmt dünnen Stoffen die Durchsicht und lässt sie besser fallen. Wird fast immer vergessen.", "unterkleid damen hautfarben"),
+    ],
+})
+
+
+POSTS.append({
+    "slug": "silvester-outfit-damen",
+    "cat": "festtage",
+    "title": "Silvester-Looks für vier verschiedene Abende",
+    "teaser": "Silvester ist der einzige Abend im Jahr, an dem fast jeder Dresscode gleichzeitig gilt. Deshalb hilft es, zuerst zu klären, wo man steht.",
+    "img": "silvester-outfit-damen.jpg",
+    "meta": "Silvester Outfit Damen 2026: acht Looks nach Anlass sortiert, von der Hausparty bis zum Ball, mit dem Wärmeproblem gelöst.",
+    "intro": [
+        "Die Frage nach dem Silvesteroutfit lässt sich nicht allgemein beantworten, weil der Abend an fünf verschiedenen Orten stattfindet: im Wohnzimmer von Freunden, im Restaurant, im Club, auf der Straße beim Feuerwerk und auf dem Ball. Zwischen dem ersten und dem letzten liegen Welten.",
+        "Was alle teilen, ist ein Problem, das jedes Jahr unterschätzt wird: Um Mitternacht steht man draußen. Jeder Look hier ist so gebaut, dass er das überlebt.",
+    ],
+    "sections": [
+        ("Hausparty bei Freunden", [
+            "Der häufigste Fall und der, bei dem man am leichtesten zu viel macht. Auf einem Sofa in einer engen Robe zu sitzen ist der schnellste Weg, den Abend unbequem zu machen.",
+            "Die Lösung ist ein Teil mit Glanz und der Rest schlicht: eine Satinhose zu einem feinen Strickpullover, ein Paillettentop zur dunklen Jeans. Das liest sich als Silvester, ohne dass man sich verkleidet fühlt.",
+            "Schuhe, die man ausziehen kann, ohne dass der Look zusammenbricht. In vielen Wohnungen ist das nach zwanzig Minuten ohnehin Realität.",
+        ]),
+        ("Restaurant und Bar", [
+            "Hier gilt der klassische festliche Rahmen, aber sitzend. Das heißt: Der Bund darf nicht schneiden, der Schlitz nicht wandern, der Ausschnitt nicht rutschen, wenn man sich nach vorn beugt.",
+            "Ein knielanges Kleid in einem tiefen Ton mit Schmuck als einzigem Glanz funktioniert überall zwischen Bistro und Hotelrestaurant. Wer es weniger formell will, tauscht das Kleid gegen weite Hose und Seidenbluse.",
+            "Absatz maximal so hoch, wie man zwei Stunden stehen kann — der Übergang zwischen Restaurant und Mitternacht findet oft im Freien statt.",
+        ]),
+        ("Club und Tanzfläche", [
+            "Hier darf das Material auffällig sein: Pailletten, Metallic, Lack. Was nicht auffällig sein darf, ist der Schnitt — alles, was ständig zurechtgezogen werden muss, ruiniert den Abend.",
+            "Trägerkleider mit Gummizug am Oberrand sind der häufigste Fehlkauf. Nach drei Liedern sitzen sie woanders.",
+            "Tasche klein und quer über der Schulter. Alles andere steht entweder am Rand der Tanzfläche oder verschwindet.",
+        ]),
+        ("Das Wärmeproblem um Mitternacht", [
+            "Das Feuerwerk dauert zwanzig Minuten, und in diesen zwanzig Minuten steht man ohne Bewegung draußen. Eine Jacke, die nur bis zur Taille geht, reicht dafür nicht.",
+            "Am besten funktioniert ein Mantel, der länger ist als das Kleid darunter, plus Strumpfhose mit mindestens sechzig Denier. Beides sieht man auf keinem Foto und beides entscheidet, ob man danach noch draußen bleibt.",
+            "Wer Stiefel zum Kleid trägt, hat das Problem ohnehin gelöst — und liegt damit seit zwei Wintern auch modisch richtig.",
+        ]),
+    ],
+    "products": [
+        ("Satinhose mit weitem Bein", "Der Glanz-Anteil für einen Abend, an dem der Rest schlicht bleiben soll. Sitzt auch auf dem Sofa bequem.", "satinhose damen weit dunkel"),
+        ("Paillettentop", "Zur dunklen Jeans oder Wollhose — liest sich als Silvester, ohne verkleidet zu wirken.", "pailletten top damen langarm"),
+        ("Knielanges Kleid in tiefem Ton", "Der Restaurant-Look, der zwischen Bistro und Hotel überall funktioniert.", "cocktailkleid damen knielang dunkelgruen"),
+        ("Blickdichte Strumpfhose 60 den", "Entscheidet darüber, ob man die zwanzig Minuten Feuerwerk draußen übersteht. Sieht man auf keinem Foto.", "strumpfhose damen 60 den blickdicht"),
+        ("Mantel länger als das Kleid", "Die einzige Mantellänge, die zum Anlassoutfit funktioniert. Alles Kürzere zeigt einen Bruch.", "wollmantel damen lang tailliert"),
+        ("Kleine Umhängetasche", "Quer über der Schulter, damit sie beim Tanzen nicht am Rand liegen bleibt.", "umhaengetasche damen klein abend"),
+    ],
+})
+
+POSTS.append({
+    "slug": "adventskaffee-outfit",
+    "cat": "festtage",
+    "title": "Sechs Looks für Adventskaffee, Kirche und die Runde bei den Schwiegereltern",
+    "teaser": "Der Advent hat einen eigenen Dresscode, für den es keinen Namen gibt: festlich genug für den Tisch, bequem genug für vier Stunden daran.",
+    "img": "adventskaffee-outfit.jpg",
+    "meta": "Outfit für Adventskaffee und Adventsgottesdienst: sechs Looks, die festlich wirken und stundenlanges Sitzen aushalten.",
+    "intro": [
+        "Zwischen Weihnachtsfeier und Heiligabend liegen vier Sonntage, an denen man festlicher aussehen soll als im Alltag, aber deutlich weniger festlich als abends. Für diesen Bereich gibt es keine Regel, und genau deshalb fällt er so schwer.",
+        "Der brauchbarste Maßstab: Man sitzt lange, es ist warm drinnen und kalt draußen, und fotografiert wird auch.",
+    ],
+    "sections": [
+        ("Der Grundaufbau", [
+            "Ein festliches Oberteil zu einer alltagstauglichen Hose oder einem schlichten Rock. Der Glanz gehört nach oben, weil dort fotografiert wird und weil man dort nicht sitzt.",
+            "Feiner Strick in einem satten Ton ist das zuverlässigste Oberteil dieser Wochen. Er wirkt gepflegt, verzeiht Wärme und steht nicht vom Körper ab, wenn man sich an den Tisch lehnt.",
+            "Darunter eine Hose mit festem Bund und ohne Stretch-Knick — der Unterschied zwischen festlich und Freizeit entsteht hier, nicht oben.",
+        ]),
+        ("Für den Gottesdienst", [
+            "In der Kirche ist es kalt, auch im Dezember, besonders bei langen Gottesdiensten. Schichten schlagen ein einzelnes dickes Teil, weil man drinnen wieder ablegen kann.",
+            "Ein Blazer oder eine lange Strickjacke über dem Oberteil löst das und ist zugleich das Stück, das den Look vom Nachmittagskaffee zur Kirche hebt.",
+            "Schuhe mit Sohle, nicht mit Ballerinaboden. Steinböden im Winter sind unangenehmer, als man sich merkt.",
+        ]),
+        ("Wenn Kinder dabei sind", [
+            "Dunkle Farben im unteren Drittel, waschbare Materialien oben. Das klingt nüchtern und ist der Unterschied zwischen einem entspannten und einem angespannten Nachmittag.",
+            "Keine langen Ärmel aus Feinstrick, die in Teller hängen, und keine Kette, an der gezogen werden kann. Beides lernt man einmal.",
+            "Flache Schuhe, die man in zwei Sekunden anzieht. Der Gang nach draußen kommt öfter, als man plant.",
+        ]),
+        ("Das eine Teil, das den Unterschied macht", [
+            "Eine Brosche, eine Samtschleife im Haar, ein Seidentuch am Hals — ein einziges Detail, das im Alltag nicht vorkommt, macht aus dem Pullover ein Adventsoutfit.",
+            "Das ist billiger und wirksamer als ein neues Kleid und funktioniert an allen vier Sonntagen mit unterschiedlicher Basis.",
+            "Wenn du nur eine Sache änderst gegenüber dem Alltag: Nimm die auffälligeren Ohrringe. Sie sind auf jedem Foto zu sehen, auf dem man am Tisch sitzt.",
+        ]),
+    ],
+    "products": [
+        ("Feinstrickpullover in sattem Ton", "Das zuverlässigste Oberteil dieser Wochen: gepflegt, warm verträglich, steht nicht ab.", "feinstrick pullover damen bordeaux"),
+        ("Hose mit festem Bund", "Hier entsteht der Unterschied zwischen festlich und Freizeit — nicht oben.", "stoffhose damen fester bund elegant"),
+        ("Lange Strickjacke", "Hebt den Nachmittagslook zur Kirche und lässt sich drinnen ablegen.", "strickjacke damen lang grobstrick"),
+        ("Samtschleife fürs Haar", "Ein Detail, das im Alltag nicht vorkommt, verwandelt den Pullover in ein Adventsoutfit.", "haarschleife samt damen"),
+        ("Auffälligere Ohrringe", "Auf jedem Foto zu sehen, auf dem man am Tisch sitzt. Die wirksamste einzelne Änderung.", "ohrringe damen statement gold festlich"),
+        ("Loafer mit fester Sohle", "Steinböden im Winter sind unangenehmer, als man sie in Erinnerung hat.", "loafer damen leder profilsohle"),
+    ],
+})
+
+
+POSTS.append({
+    "slug": "wintertaufe-gast",
+    "cat": "familienfeier",
+    "title": "Taufe im Winter: das Outfit für Kirche, Kälte und Kaffeetafel",
+    "teaser": "Eine Wintertaufe hat zwei Räume mit zwanzig Grad Unterschied und einen Fototermin dazwischen. Das Outfit muss alle drei aushalten.",
+    "img": "wintertaufe-gast.jpg",
+    "meta": "Taufe im Winter als Gast: sieben Outfits für Kirche, Kälte und Kaffeetafel, mit den Farbregeln, die für Taufen gelten.",
+    "intro": [
+        "Taufen finden auch im Januar statt, und dann gilt alles, was für eine Sommertaufe gilt, plus ein Problem: Die Kirche ist kalt, der Gang zum Auto ist kälter und das Restaurant danach überheizt. Ein einzelnes schönes Teil löst das nicht.",
+        "Dazu kommen die Farbregeln, die bei Taufen strenger sind, als viele Gäste vermuten.",
+    ],
+    "sections": [
+        ("Die Farben: was geht und was nicht", [
+            "Schwarz von Kopf bis Fuß wirkt bei einer Taufe fehl am Platz — es ist ein Fest, kein Trauerfall. Schwarz als Teil eines Outfits ist dagegen völlig unproblematisch, solange etwas Helles oder Farbiges dazukommt.",
+            "Weiß und Creme bleiben dem Täufling vorbehalten. Das ist weniger streng als bei einer Hochzeit, aber ein komplett weißes Outfit wirkt trotzdem, als hätte man die Rolle verwechselt.",
+            "Am sichersten sind gedeckte, warme Töne: Kamel, Bordeaux, Tannengrün, Dunkelblau, Rostbraun. Sie passen zum Winterlicht und fotografieren sich in einer Kirche besser als kalte Farben.",
+        ]),
+        ("Das Schichtenproblem", [
+            "Drei Lagen statt einer dicken: Oberteil, Blazer oder Strickjacke, Mantel. In der Kirche bleibt alles an, im Restaurant kommen zwei Lagen weg, und man sieht in beiden Räumen angezogen aus.",
+            "Die mittlere Lage ist die wichtigste, weil sie auf den meisten Fotos zu sehen ist. Hier lohnt sich das schönere Teil, nicht beim Mantel.",
+            "Eine Strumpfhose mit sechzig bis achtzig Denier in einer Farbe, die zum Schuh passt. Feinstrumpfhosen sind in einer ungeheizten Kirche eine Fehlentscheidung, die man eine Stunde lang spürt.",
+        ]),
+        ("Kirche, Foto, Kaffeetafel", [
+            "In der Kirche steht und sitzt man abwechselnd, oft ohne Kissen. Röcke, die beim Hinsetzen hochrutschen, werden dabei zum Dauerthema.",
+            "Der Fototermin findet meist draußen vor dem Portal statt, im Mantel. Deshalb sollte der Mantel farblich zum Rest passen und nicht die Notlösung sein, die gerade greifbar war.",
+            "An der Kaffeetafel sitzt man lange und isst. Helle Ärmel und lange, weite Ärmel sind hier dieselbe schlechte Idee wie beim Adventskaffee.",
+        ]),
+        ("Als Patin oder Pate", [
+            "Paten stehen vorn und sind auf jedem Foto. Eine Stufe formeller als die übrigen Gäste ist hier richtig, nicht übertrieben.",
+            "Für Patinnen heißt das ein Kleid oder ein Rock-Blazer-Aufbau statt Hose, für Paten ein Sakko mit Hemd, gern ohne Krawatte.",
+            "Und etwas, das man behalten kann: Viele Paten tragen an diesem Tag zum ersten Mal ein Schmuckstück, das später mit dem Datum verbunden bleibt.",
+        ]),
+    ],
+    "products": [
+        ("Blazer in Kamel oder Bordeaux", "Die mittlere Lage ist auf den meisten Fotos zu sehen — hier lohnt das schönere Teil.", "blazer damen kamel tailliert"),
+        ("Kleid in gedecktem Winterton", "Tannengrün, Dunkelblau oder Rostbraun fotografieren sich in einer Kirche besser als kalte Farben.", "kleid damen winter dunkelgruen midi"),
+        ("Strumpfhose 80 den", "Eine ungeheizte Kirche verzeiht keine Feinstrumpfhose. Das spürt man eine Stunde lang.", "strumpfhose damen 80 den blickdicht"),
+        ("Mantel passend zum Outfit", "Der Fototermin findet im Mantel statt. Er sollte nicht die Notlösung sein.", "wollmantel damen kamel klassisch"),
+        ("Schlichte Kette für Patinnen", "Viele Paten tragen an diesem Tag zum ersten Mal ein Stück, das mit dem Datum verbunden bleibt.", "kette damen gold schlicht anhaenger"),
+        ("Loafer oder Stiefelette mit Absatz", "Steht und sitzt sich in der Kirche besser als jeder hohe Absatz.", "stiefelette damen blockabsatz leder"),
+    ],
+})
+
+POSTS.append({
+    "slug": "ballkleid-ballsaison-2027",
+    "cat": "festtage",
+    "title": "Ballsaison 2027: das Ballkleid und alles, was sonst dazugehört",
+    "teaser": "Ein Ball ist der einzige Anlass, bei dem der Dresscode tatsächlich geprüft wird. Und der einzige, bei dem die Nebensachen über den Abend entscheiden.",
+    "img": "ballkleid-ballsaison-2027.jpg",
+    "meta": "Ballkleid für die Saison 2027: sieben Schnitte, die Dresscodes von Black Tie bis festlich erklärt, plus die Ausstattung für den ganzen Abend.",
+    "intro": [
+        "Die Ballsaison läuft von Januar bis in den März, und anders als bei jeder Weihnachtsfeier steht der Dresscode auf der Einladung. Wer ihn liest und ernst nimmt, hat die halbe Entscheidung schon getroffen.",
+        "Die andere Hälfte sind die Dinge, die nicht auf Fotos landen: Schuhe, in denen man tanzen kann, und eine Tasche, in der das Nötigste Platz hat.",
+    ],
+    "sections": [
+        ("Den Dresscode auf der Einladung lesen", [
+            "Black Tie heißt bodenlang. Nicht knielang, nicht midi — bodenlang. Das ist die einzige Angabe, bei der es keinen Spielraum gibt, und zugleich die, bei der die meisten Gäste danebenliegen.",
+            "Festliche Abendgarderobe oder Abendkleidung lässt auch Wadenlänge und einen sehr festlichen Hosenanzug zu. Hier ist Material wichtiger als Länge: Satin, Samt, Crêpe — nicht Jersey.",
+            "Dunkler Anzug für Herren bedeutet dunkelblau oder anthrazit, nicht grau, und mit Krawatte. Wenn Smoking gefordert ist, steht es da.",
+        ]),
+        ("Die Schnitte, die auf einem Ball funktionieren", [
+            "Ein bodenlanges Kleid mit fließendem Fall bewegt sich beim Tanzen mit, statt zu bremsen. Enge, steife Schnitte sehen im Stehen gut aus und sind nach zwei Runden Walzer eine Zumutung.",
+            "Ein Schlitz gehört bis maximal zum Knie, wenn getanzt wird — höher wandert er, und das kostet den Abend über Aufmerksamkeit.",
+            "Träger sind einem trägerlosen Oberteil vorzuziehen, sobald Bewegung im Spiel ist. Was beim Sitzen hält, hält beim Drehen selten.",
+        ]),
+        ("Was über den Abend entscheidet und auf keinem Foto ist", [
+            "Schuhe mit Riemchen oder geschlossener Ferse. Pumps, die nur vorn halten, verliert man auf dem Parkett — das ist kein Klischee, sondern Physik.",
+            "Absatzhöhe, die man drei Stunden trägt, plus ein Paar faltbare Ballerinas in der Garderobe. Fast jeder Ball hat gegen Mitternacht eine Reihe barfüßiger Gäste, die anders geplant hatten.",
+            "Eine Clutch, in die Handy, Lippenstift und Garderobenmarke passen. Alles Größere legt man ab und sucht es später.",
+        ]),
+        ("Die Details, die man vorher regelt", [
+            "Das Kleid vor dem Abend einmal anziehen und darin sitzen, aufstehen, die Arme heben und eine Drehung machen. Alles, was dabei stört, stört auf dem Ball zehnmal so sehr.",
+            "Klebeband für Träger und ein Nadelkissen gehören in die Garderobe, nicht ins Wunschdenken. Jeder Ball hat mindestens einen gerissenen Träger.",
+            "Und die Garderobenmarke gehört in die Clutch, nicht in die Manteltasche. Sonst steht man um zwei Uhr früh in einer Schlange, die man sich hätte sparen können.",
+        ]),
+    ],
+    "products": [
+        ("Bodenlanges Kleid mit fließendem Fall", "Bewegt sich beim Tanzen mit, statt zu bremsen. Die einzige Länge, die Black Tie erfüllt.", "abendkleid damen bodenlang fliessend"),
+        ("Abendkleid mit Trägern", "Was beim Sitzen hält, hält beim Drehen selten. Träger schlagen trägerlos, sobald getanzt wird.", "abendkleid damen traeger elegant lang"),
+        ("Sandalette mit Fesselriemen", "Pumps, die nur vorn halten, verliert man auf dem Parkett. Das ist Physik, kein Klischee.", "sandaletten damen riemchen absatz abend"),
+        ("Faltbare Ballerinas", "Gegen Mitternacht steht auf jedem Ball eine Reihe barfüßiger Gäste, die anders geplant hatte.", "faltbare ballerinas damen taschenschuhe"),
+        ("Clutch mit Kettenriemen", "Handy, Lippenstift, Garderobenmarke. Alles Größere legt man ab und sucht es später.", "clutch damen abend kette"),
+        ("Modeschmuck-Set für den Abend", "Ein Ball verträgt mehr Schmuck als jeder andere Anlass — und nur hier fällt zu wenig auf.", "schmuckset damen abend ohrringe kette"),
+    ],
+})
+
 PINTITEL = {
     "hochzeitsgast-herbst":          "Hochzeitsgast Outfit Herbst 2026 – 7 Looks",
     "hochzeitsgast-ab-40":           "Hochzeitsgast Outfit ab 40 Damen",
@@ -1558,9 +1905,72 @@ PINTITEL = {
     "strickjacke-statt-blazer":       "Strickjacke statt Blazer Outfit Damen",
     "weihnachtsfeier-herren-2026":    "Weihnachtsfeier Outfit Herren 2026",
     "samt-outfit-festlich-2026":      "Samt Outfit festlich Damen 2026",
+    "geschenke-frauen-accessoires":      "Geschenke für Frauen: 6 Accessoires, die ankommen",
+    "geschenke-maenner-accessoires":     "Geschenke für Männer: 8 Accessoires",
+    "wichtelgeschenke-ideen":            "Wichtelgeschenke: 6 Ideen ohne Fremdscham",
+    "festliches-kleid-figur":            "Festliches Kleid: 6 Schnitte für jede Figur",
+    "silvester-outfit-damen":            "Silvester Outfit Damen 2026 – 4 Looks",
+    "adventskaffee-outfit":              "Adventskaffee Outfit: 6 Looks",
+    "wintertaufe-gast":                  "Wintertaufe Gast Outfit Damen",
+    "ballkleid-ballsaison-2027":         "Ballkleid 2027: Schnitte und Dresscode",
 }
 
 for _p in POSTS:
     if "pintitle" not in _p:
         _p["pintitle"] = PINTITEL.get(_p["slug"], _p["title"])
+del _p
+# Zweiter Suchtitel fuer die c-Variante. Grund: b und c zeigen dasselbe Ziel
+# mit anderem Motiv. Tragen beide denselben Titel, konkurrieren sie um
+# dieselbe Suchanfrage. Mit einem zweiten Titel deckt jeder Beitrag zwei
+# Suchbegriffe ab statt einen. Faellt ein Eintrag weg, nimmt makepins.py
+# automatisch PINTITEL - kaputt geht dabei nichts.
+PINTITEL_C = {
+    "hochzeitsgast-herbst":           "Hochzeit Gast Kleid Herbst 2026 – Ideen",
+    "hochzeitsgast-ab-40":            "Festliches Outfit ab 40: Hochzeit als Gast",
+    "drei-farben-regel":              "Welche Farben passen zusammen? Outfit-Regel",
+    "standesamt-schlicht":            "Was zieht man zum Standesamt an? 5 Looks",
+    "weisser-blazer":                 "Blazer Outfit Damen elegant kombinieren",
+    "quiet-business":                 "Quiet Luxury Büro Outfit Damen 2026",
+    "weite-hose-regel":               "Marlenehose Outfit Damen kombinieren",
+    "capsule-buero":                  "Business Basics Damen: Garderobe aufbauen",
+    "khaki-coded":                    "Herren Outfit Herbst 2026 casual elegant",
+    "poetcore-cape":                  "Poncho Outfit Damen Herbst kombinieren",
+    "layering-regeln":                "Zwiebellook Herbst Damen richtig kombinieren",
+    "weihnachtsfeier":                "Was zieht man zur Weihnachtsfeier an?",
+    "silvester-gold":                 "Silvester Kleid Damen 2026 festlich",
+    "brosche-tragen":                 "Brosche am Blazer tragen: Anleitung",
+    "breiter-guertel":                "Taillengürtel Outfit Damen kombinieren",
+    "seidentuch-binden":              "Halstuch binden Damen: Anleitung in 5 Schritten",
+    "goldschmuck-stapeln":            "Layering Ketten Gold Damen kombinieren",
+    "weihnachtsmarkt-outfit":         "Winter Outfit Damen warm und schick",
+    "heiligabend-outfit":             "Weihnachten Outfit Damen für zu Hause",
+    "silvester-herren":               "Silvester Outfit Männer 2026 elegant",
+    "winterhochzeit-gast":            "Hochzeit Gast Outfit Dezember Damen",
+    "weihnachtsfeier-ab-50":          "Festliches Outfit ab 50 Damen Winter",
+    "mantel-ueber-anlass-outfit":     "Welcher Mantel zum Kleid? Damen Anlass",
+    "herbsthochzeit-gast":            "Hochzeitsgast Kleid Oktober 2026 Damen",
+    "taufe-gast-herbst":              "Taufe Gast Outfit 2026 Damen",
+    "runder-geburtstag-damen":        "Outfit runder Geburtstag 50 Damen",
+    "vorstellungsgespraech-herbst":   "Bewerbungsgespräch Outfit Damen 2026",
+    "standesamt-winter-braut":        "Brautkleid standesamtlich Winter 2026",
+    "schuhe-strumpfhose-anlasskleid": "Welche Strumpfhose zum Kleid? Anlass",
+    "trauerfeier-outfit":             "Beerdigung Outfit Damen: was anziehen?",
+    "weihnachtsfeier-firma-2026":     "Betriebsfeier Outfit Damen 2026",
+    "stiefel-zum-anlasskleid":        "Kleid mit Stiefeln kombinieren Damen",
+    "strickjacke-statt-blazer":       "Grobstrick Cardigan Outfit Damen Büro",
+    "weihnachtsfeier-herren-2026":    "Festliches Outfit Männer Weihnachten 2026",
+    "samt-outfit-festlich-2026":      "Samtkleid kombinieren Damen festlich",
+    "geschenke-frauen-accessoires":      "Weihnachtsgeschenke für Frauen — Ideen 2026",
+    "geschenke-maenner-accessoires":     "Weihnachtsgeschenke Männer: Ideen 2026",
+    "wichtelgeschenke-ideen":            "Wichteln im Büro: was schenken?",
+    "festliches-kleid-figur":            "Welches Kleid passt zu welcher Figur?",
+    "silvester-outfit-damen":            "Was zieht man an Silvester an?",
+    "adventskaffee-outfit":              "Outfit Advent Damen: festlich und bequem",
+    "wintertaufe-gast":                  "Taufe im Winter: was anziehen als Gast?",
+    "ballkleid-ballsaison-2027":         "Was zieht man zu einem Ball an?",
+}
+
+for _p in POSTS:
+    if "pintitle_c" not in _p:
+        _p["pintitle_c"] = PINTITEL_C.get(_p["slug"], _p["pintitle"])
 del _p
