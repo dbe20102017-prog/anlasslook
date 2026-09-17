@@ -26,11 +26,29 @@ def tint(img):
 
 # ----------------------------------------------------------------- Helfer
 def amazon(keyword):
-    """Amazon-Suchlink. Tracking-ID wird nur angehängt, wenn sie gesetzt ist."""
-    k = re.sub(r"\s+", "+", keyword.strip())
+    """Amazon-Link. Zwei Formen, je nachdem was in content.py steht:
+
+    * **ASIN** (zehn Zeichen, Grossbuchstaben und Ziffern, z. B. B08XYZ1234)
+      -> kurzer Produktlink `/dp/<ASIN>`. Das ist zugleich ein **Deeplink**:
+      auf dem Handy oeffnet er die Amazon-App, in der der Besucher schon
+      angemeldet ist. Amazon empfiehlt das ausdruecklich, und unser Verkehr
+      kommt fast vollstaendig von Pinterest, also mobil.
+    * **Suchbegriff** -> Suchlink mit `&i=fashion`. Haelt die Suche in der
+      Abteilung Mode (Bekleidung, Schuhe, Taschen, Schmuck, Uhren) - das ist
+      zugleich die 6-%-Provisionskategorie.
+
+    Ein toter Produktlink ist schlechter als ein Suchlink: Der Besucher landet
+    auf "nicht verfuegbar" statt auf Auswahl. Produktlinks deshalb nur dort,
+    wo sie gepflegt werden - und regelmaessig nachsehen.
+    """
     tag = SITE["amazon_tag"].strip()
-    # &i=fashion haelt die Suche in der Abteilung Mode (Bekleidung, Schuhe,
-    # Taschen, Schmuck, Uhren) - das ist zugleich die 6-%-Provisionskategorie.
+    k = keyword.strip()
+    if re.fullmatch(r"[A-Z0-9]{10}", k):
+        url = f"https://www.amazon.de/dp/{k}"
+        if tag:
+            url += f"?tag={tag}"
+        return url
+    k = re.sub(r"\s+", "+", k)
     url = f"https://www.amazon.de/s?k={k}&i=fashion"
     if tag:
         url += f"&tag={tag}"

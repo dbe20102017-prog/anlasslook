@@ -1556,12 +1556,12 @@ POSTS.append({
         ]),
     ],
     "products": [
-        ("Seidentuch, mittleres Format", "Passt jedem, funktioniert an vier Stellen und verlangt keine Größenangabe. Das sicherste Accessoire-Geschenk überhaupt.", "seidentuch damen 70x70 gemustert"),
-        ("Creolen in mittlerer Größe", "Die Ohrringgröße, die zur Jeans und zum Anlasskleid passt. In ihrer Metallfarbe kaufen, nicht in deiner.", "creolen damen gold mittelgross"),
-        ("Schal aus reiner Wolle", "Der Unterschied zu Mischgewebe ist beim ersten Anfassen spürbar und hält Jahre. Wird jeden Winter getragen.", "schal damen wolle uni"),
-        ("Brosche für das Revers", "Das Geschenk, das ihr sonst niemand macht. Verwandelt ein Alltagssakko in ein Anlassteil.", "brosche damen vintage elegant"),
+        ("Seidentuch, mittleres Format", "Passt jedem, funktioniert an vier Stellen und verlangt keine Größenangabe. Das sicherste Accessoire-Geschenk überhaupt.", "B06XC7MMFQ"),
+        ("Creolen in mittlerer Größe", "Die Ohrringgröße, die zur Jeans und zum Anlasskleid passt. In ihrer Metallfarbe kaufen, nicht in deiner.", "B0FR8WK8T2"),
+        ("Schal aus reiner Wolle", "Der Unterschied zu Mischgewebe ist beim ersten Anfassen spürbar und hält Jahre. Wird jeden Winter getragen.", "B0BDZM3FR3"),
+        ("Brosche für das Revers", "Das Geschenk, das ihr sonst niemand macht. Verwandelt ein Alltagssakko in ein Anlassteil.", "B0F92YSCBD"),
         ("Strukturierte Handtasche", "Steht von allein, wenn man sie abstellt. Klingt banal, merkt man aber jeden Tag.", "handtasche damen strukturiert leder"),
-        ("Gefütterte Lederhandschuhe", "Das Stück, das sie sich selbst nie kauft und dann den ganzen Winter trägt.", "lederhandschuhe damen gefuettert"),
+        ("Gefütterte Lederhandschuhe", "Das Stück, das sie sich selbst nie kauft und dann den ganzen Winter trägt.", "B097XZ7HHH"),
     ],
 })
 
@@ -1599,12 +1599,12 @@ POSTS.append({
         ]),
     ],
     "products": [
-        ("Ledergürtel, schlichte Schnalle", "Ersetzt das älteste Stück im Schrank. Breite und Farbe abschauen, nicht neu erfinden.", "herren guertel leder braun schlicht"),
+        ("Ledergürtel, schlichte Schnalle", "Ersetzt das älteste Stück im Schrank. Breite und Farbe abschauen, nicht neu erfinden.", "B00NONXQK6"),
         ("Uhr mit braunem Lederarmband", "Der einzige Schmuck, den viele Männer widerspruchslos tragen. Passt werktags wie festlich.", "herren armbanduhr leder braun klassisch"),
-        ("Kaschmirschal, einfarbig", "Marine, Grau oder Anthrazit, ohne Muster. Hält länger als die Jacke darüber.", "herren schal kaschmir uni dunkelblau"),
-        ("Merinosocken im Mehrerpack", "Klingt nach Verlegenheit, wird aber den ganzen Winter getragen.", "herren socken merinowolle mehrpack"),
-        ("Einstecktuch weiß", "Macht ein Sakko festlich, ohne dass jemand benennen kann, was sich geändert hat.", "einstecktuch herren weiss baumwolle"),
-        ("Schuhspanner aus Zedernholz", "Das unromantischste Geschenk hier und das, mit dem gute Schuhe doppelt so lange halten.", "schuhspanner zedernholz herren"),
+        ("Kaschmirschal, einfarbig", "Marine, Grau oder Anthrazit, ohne Muster. Hält länger als die Jacke darüber.", "B08VRRXBRN"),
+        ("Merinosocken im Mehrerpack", "Klingt nach Verlegenheit, wird aber den ganzen Winter getragen.", "B013GD9ZLM"),
+        ("Einstecktuch weiß", "Macht ein Sakko festlich, ohne dass jemand benennen kann, was sich geändert hat.", "B01N6WDC3V"),
+        ("Schuhspanner aus Zedernholz", "Das unromantischste Geschenk hier und das, mit dem gute Schuhe doppelt so lange halten.", "B00K04SU8K"),
     ],
 })
 
@@ -1643,12 +1643,12 @@ POSTS.append({
         ]),
     ],
     "products": [
-        ("Merinosocken im Mehrerpack", "Grobe Größenstufen, hoher Gebrauchswert, niemand hat genug davon. Das sicherste Kleidungsstück für eine fremde Runde.", "socken merinowolle mehrpack unisex"),
-        ("Schal einfarbig Grau oder Marine", "Keine Größe, keine Stilentscheidung, passt zu jeder Jacke.", "schal unisex uni grau weich"),
-        ("Schlüsselanhänger aus Leder", "Klein, unauffällig und das einzige Stück hier, das täglich in der Hand liegt.", "schluesselanhaenger leder schlicht"),
-        ("Feste Handcreme für den Schreibtisch", "Wird aufgebraucht, steht niemandem im Weg und passt zu keiner Einrichtung — genau richtig.", "handcreme fest dose"),
-        ("Notizbuch mit festem Einband", "Geht im Alltag kaputt und wird deshalb gebraucht. Fester Einband ist der Unterschied.", "notizbuch hardcover punktraster a5"),
-        ("Teesortiment in Probiergrößen", "Verbraucht sich, trifft quer durch jede Runde und erlaubt eine Qualitätsstufe über dem Üblichen.", "tee geschenkset probiergroessen lose"),
+        ("Merinosocken im Mehrerpack", "Grobe Größenstufen, hoher Gebrauchswert, niemand hat genug davon. Das sicherste Kleidungsstück für eine fremde Runde.", "B0DHCNW3HG"),
+        ("Schal einfarbig Grau oder Marine", "Keine Größe, keine Stilentscheidung, passt zu jeder Jacke.", "B00XPI9BMW"),
+        ("Schlüsselanhänger aus Leder", "Klein, unauffällig und das einzige Stück hier, das täglich in der Hand liegt.", "B08L46KSMW"),
+        ("Feste Handcreme für den Schreibtisch", "Wird aufgebraucht, steht niemandem im Weg und passt zu keiner Einrichtung — genau richtig.", "B0CGX9JXJD"),
+        ("Notizbuch mit festem Einband", "Geht im Alltag kaputt und wird deshalb gebraucht. Fester Einband ist der Unterschied.", "B0D5HRSN1M"),
+        ("Teesortiment in Probiergrößen", "Verbraucht sich, trifft quer durch jede Runde und erlaubt eine Qualitätsstufe über dem Üblichen.", "B016IL75S4"),
     ],
 })
 
