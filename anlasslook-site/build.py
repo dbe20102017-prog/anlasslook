@@ -218,10 +218,25 @@ Kaufst du über einen dieser Links, erhalten wir eine Provision. Für dich ände
 Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.</div>"""
 
 
+def quickpick(products):
+    """Kompakte Liste direkt unter dem Einstieg. Sprungmarken auf die
+    ausführlichen Einträge weiter unten — kein Werbelink über dem Text."""
+    if not products:
+        return ""
+    items = "".join(
+        f'<li><a href="#p{i}">{e(name)}</a></li>'
+        for i, (name, _why, _kw) in enumerate(products, 1)
+    )
+    return f"""<aside class="quickpick">
+  <p class="quickpick-kopf">Auf einen Blick: {len(products)} Empfehlungen</p>
+  <ol class="quickpick-liste">{items}</ol>
+</aside>"""
+
+
 def product_block(products, heading="Das gehört ins Outfit"):
     items = []
-    for name, why, kw in products:
-        items.append(f"""    <li class="prod">
+    for i, (name, why, kw) in enumerate(products, 1):
+        items.append(f"""    <li class="prod" id="p{i}">
       <div class="prod-body">
         <h3>{e(name)}</h3>
         <p>{e(why)}</p>
@@ -356,6 +371,7 @@ def build_post(pst):
   <div class="post-body">
     {ad_notice()}
     {intro}
+    {quickpick(pst['products'])}
     {secs}
   </div>
   <div class="post-body">
@@ -492,6 +508,16 @@ a{color:inherit}
 .post-body p{margin:0 0 16px}
 .adnotice{background:var(--accent-soft);border-left:3px solid var(--accent);
   padding:15px 18px;font-size:14px;color:#5a504c;margin:0 0 32px;line-height:1.55}
+
+/* ---------- Auf einen Blick ---------- */
+.quickpick{background:var(--panel);border:1px solid var(--line);padding:20px 24px 22px;margin:28px 0 34px}
+.quickpick-kopf{margin:0 0 10px;font-size:14px;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--muted)}
+.quickpick-liste{margin:0;padding-left:20px}
+.quickpick-liste li{margin:0 0 5px;font-size:15.5px}
+.quickpick-liste a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+.quickpick-liste a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.prod{scroll-margin-top:90px}
 
 /* ---------- Produkte ---------- */
 .products{margin:52px 0 10px;background:#fff;border:1px solid var(--line);padding:34px 32px 38px}
