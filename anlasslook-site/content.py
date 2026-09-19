@@ -1974,3 +1974,57 @@ for _p in POSTS:
     if "pintitle_c" not in _p:
         _p["pintitle_c"] = PINTITEL_C.get(_p["slug"], _p["pintitle"])
 del _p
+
+
+# --------------------------------------------------------------------------
+# Pinterest-Keywords je Beitrag. Kleingeschrieben, komma-getrennt, 4-5 Stueck.
+# Pinterest wertet sie als Suchbegriffe aus; leer lassen verschenkt Reichweite.
+KEYWORDS = {
+    "hochzeitsgast-herbst": "hochzeitsgast outfit herbst, hochzeit gast kleid, herbsthochzeit outfit, hochzeitsgast damen, anlass outfit herbst",
+    "hochzeitsgast-ab-40": "hochzeitsgast outfit ab 40, festliches outfit ab 40, hochzeit gast damen, elegantes outfit ab 40, anlasskleid ab 40",
+    "drei-farben-regel": "farben kombinieren outfit, welche farben passen zusammen, outfit farbregel, anlass outfit kombinieren, farbkombination kleidung",
+    "standesamt-schlicht": "standesamt outfit, standesamt kleid schlicht, was anziehen standesamt, kleine hochzeit outfit, standesamt braut",
+    "weisser-blazer": "weißer blazer kombinieren, blazer outfit damen, blazer elegant, weißer blazer damen, blazer look",
+    "quiet-business": "büro outfit damen, quiet luxury outfit, business outfit ohne kostüm, arbeitsoutfit damen, büro look elegant",
+    "weite-hose-regel": "weite hose kombinieren, marlenehose outfit, palazzohose damen, weite hose damen look, bundfaltenhose outfit",
+    "capsule-buero": "capsule wardrobe büro, business basics damen, garderobe aufbauen, minimalistische garderobe, büro kleidung damen",
+    "khaki-coded": "herren herbst outfit, khaki outfit männer, herren look herbst, männer outfit elegant casual, herrenmode herbst",
+    "poetcore-cape": "cape outfit damen, poncho kombinieren, cape mantel herbst, umhang outfit, poncho damen look",
+    "layering-regeln": "layering outfit herbst, zwiebellook damen, schichten kombinieren, übergangsoutfit damen, layering look",
+    "weihnachtsfeier": "weihnachtsfeier outfit damen, betriebsfeier outfit, festliches outfit weihnachten, weihnachtsfeier look, firmenfeier kleidung",
+    "silvester-gold": "silvester outfit gold, silvester kleid damen, goldenes outfit festlich, silvester look damen, neujahr outfit",
+    "brosche-tragen": "brosche tragen, brosche am blazer, anstecknadel outfit, brosche kombinieren, schmuck am revers",
+    "breiter-guertel": "breiter gürtel kombinieren, taillengürtel outfit, gürtel damen look, taille betonen outfit, gürtel zum kleid",
+    "seidentuch-binden": "seidentuch binden, halstuch binden damen, tuch binden anleitung, seidentuch look, schal binden damen",
+    "goldschmuck-stapeln": "goldschmuck kombinieren, ketten layering, schmuck stapeln damen, goldketten kombinieren, layering schmuck",
+    "weihnachtsmarkt-outfit": "weihnachtsmarkt outfit, winter outfit damen, warm und schick winter, weihnachtsmarkt look, winterlook damen",
+    "heiligabend-outfit": "heiligabend outfit, weihnachten outfit damen, festlich zu hause, weihnachtsoutfit familie, feiertagsoutfit damen",
+    "silvester-herren": "silvester outfit herren, silvester männer look, festliches outfit männer, herren silvester, neujahr outfit männer",
+    "winterhochzeit-gast": "winterhochzeit gast outfit, hochzeit gast dezember, winterhochzeit kleid, hochzeitsgast winter, hochzeit gast warm",
+    "weihnachtsfeier-ab-50": "weihnachtsfeier outfit ab 50, festliches outfit ab 50, elegantes outfit ab 50, winteroutfit ab 50, anlass outfit reife damen",
+    "mantel-ueber-anlass-outfit": "mantel zum kleid, welcher mantel zum anlasskleid, mantel über kleid, anlassmantel damen, mantel festlich",
+    "herbsthochzeit-gast": "herbsthochzeit gast outfit, hochzeitsgast oktober, hochzeit gast kleid herbst, herbsthochzeit look, hochzeitsgast damen herbst",
+    "taufe-gast-herbst": "taufe outfit gast, taufe gast damen, taufe kleidung gast, taufe outfit herbst, taufpatin outfit",
+    "runder-geburtstag-damen": "runder geburtstag outfit, outfit 50 geburtstag, geburtstagsoutfit damen, festliches outfit geburtstag, 60 geburtstag outfit",
+    "vorstellungsgespraech-herbst": "vorstellungsgespräch outfit damen, bewerbungsgespräch kleidung, jobinterview outfit, bewerbung outfit damen, vorstellungsgespräch look",
+    "standesamt-winter-braut": "standesamt outfit winter, brautkleid standesamtlich, standesamt braut winter, winterhochzeit braut, standesamtliche trauung kleid",
+    "schuhe-strumpfhose-anlasskleid": "schuhe zum anlasskleid, welche strumpfhose zum kleid, strumpfhose farbe kleid, schuhe zum kleid damen, anlasskleid styling",
+    "trauerfeier-outfit": "trauerfeier outfit damen, beerdigung outfit, was anziehen beerdigung, trauerkleidung damen, trauerfeier kleidung",
+    "weihnachtsfeier-firma-2026": "weihnachtsfeier firma outfit, betriebsfeier outfit damen, firmenfeier kleidung, weihnachtsfeier büro, weihnachtsfeier dresscode",
+    "stiefel-zum-anlasskleid": "stiefel zum kleid, kleid mit stiefeln, stiefel anlasskleid, kleid stiefel kombinieren, herbstoutfit kleid stiefel",
+    "strickjacke-statt-blazer": "strickjacke statt blazer, grobstrick cardigan outfit, cardigan büro damen, strickjacke kombinieren, cardigan look elegant",
+    "weihnachtsfeier-herren-2026": "weihnachtsfeier outfit herren, festliches outfit männer, männer weihnachtsfeier, herren anlass outfit, betriebsfeier männer",
+    "samt-outfit-festlich-2026": "samt outfit festlich, samtkleid kombinieren, samt blazer damen, samt look winter, festliches samtoutfit",
+    "geschenke-frauen-accessoires": "geschenke für frauen, weihnachtsgeschenke frauen, accessoires geschenk, geschenkideen damen, geschenk freundin",
+    "geschenke-maenner-accessoires": "geschenke für männer, weihnachtsgeschenke männer, accessoires herren geschenk, geschenkideen mann, geschenk für ihn",
+    "wichtelgeschenke-ideen": "wichtelgeschenke, wichteln büro ideen, secret santa geschenk, wichtelgeschenk kollegen, kleines geschenk büro",
+    "festliches-kleid-figur": "festliches kleid figur, kleid passend zur figur, welches kleid passt mir, abendkleid schnitt, kleid schnittform",
+    "silvester-outfit-damen": "silvester outfit damen, silvester look, was anziehen silvester, neujahr outfit damen, silvesterparty outfit",
+    "adventskaffee-outfit": "adventskaffee outfit, advent outfit damen, festlich und bequem, weihnachtlicher look damen, adventsoutfit",
+    "wintertaufe-gast": "wintertaufe outfit, taufe im winter gast, taufe gast winter damen, taufe outfit warm, winter taufe kleidung",
+    "ballkleid-ballsaison-2027": "ballkleid 2027, was anziehen ball, ballsaison outfit, abendkleid ball, ball dresscode damen",
+}
+
+for _p in POSTS:
+    _p["keywords"] = KEYWORDS.get(_p["slug"], "")
+del _p

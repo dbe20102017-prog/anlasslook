@@ -189,7 +189,7 @@ def zeile(p, v="a"):
       "Description": (p["meta"] + zusatz + " Mehr Outfit-Ideen auf anlasslook.de. Enthält Werbelinks.")[:500],
       "Link": f"{SITE['url']}/beitraege/{p['slug']}/?utm_source=pinterest&utm_medium=pin&utm_campaign=variante-{v}",
       "Publish date": "",
-      "Keywords": "",
+      "Keywords": p.get("keywords", ""),
     }
 
 
