@@ -230,6 +230,7 @@ def quickpick(products):
     return f"""<aside class="quickpick">
   <p class="quickpick-kopf">Auf einen Blick: {len(products)} Empfehlungen</p>
   <ol class="quickpick-liste">{items}</ol>
+  <p class="quickpick-fuss">Antippen springt zur Empfehlung.</p>
 </aside>"""
 
 
@@ -515,8 +516,10 @@ a{color:inherit}
   text-transform:uppercase;color:var(--muted)}
 .quickpick-liste{margin:0;padding-left:20px}
 .quickpick-liste li{margin:0 0 5px;font-size:15.5px}
-.quickpick-liste a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
-.quickpick-liste a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.quickpick-liste a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);
+  text-decoration-thickness:1.5px;text-underline-offset:3px}
+.quickpick-liste a:hover{color:var(--accent)}
+.quickpick-fuss{margin:12px 0 0;font-size:13px;color:var(--muted)}
 .prod{scroll-margin-top:90px}
 
 /* ---------- Produkte ---------- */
