@@ -2028,3 +2028,70 @@ KEYWORDS = {
 for _p in POSTS:
     _p["keywords"] = KEYWORDS.get(_p["slug"], "")
 del _p
+
+
+# --------------------------------------------------------------------------
+# Neu am 19.09.2026: Dresscode-Erklaerbeitrag.
+# Pinterest DE zeigt bei "dresscode festlich" fast nur deutsche Blog-Pins
+# (Dresscode-Uebersicht, Dresscode Hochzeit, freundin.de) - unser Format,
+# keine Markenmacht dagegen.
+POSTS.append({
+    "slug": "dresscode-festlich",
+    "cat": "hochzeitsgast",
+    "title": "Dresscode entschlüsselt: 6 Angaben auf der Einladung",
+    "teaser": "Festlich, Cocktail, Black Tie — was davon wirklich gemeint ist und wo die Grenze zum Overdressed verläuft.",
+    "img": "post-dresscode.jpg",
+    "meta": "Dresscode auf der Einladung verstehen: Was festlich, Cocktail, Black Tie, White Tie, Business und Smart Casual konkret bedeuten — und was man anzieht, wenn gar nichts dabeisteht.",
+    "intro": [
+        "Auf der Einladung steht ein Wort, und dieses eine Wort entscheidet, ob man am Abend zu den Gästen gehört oder zu den Ausnahmen. Das Unangenehme daran ist nicht die Kleiderordnung selbst — sondern dass niemand erklärt, was sie bedeutet.",
+        "Die gute Nachricht: Es sind sechs Angaben, die in Deutschland überhaupt vorkommen. Alles andere sind Varianten davon. Wer die sechs kennt, liest jede Einladung richtig.",
+    ],
+    "sections": [
+        ("Der Dresscode nennt die Untergrenze, nicht die Obergrenze", [
+            "Ein Dresscode sagt, wie festlich man mindestens sein muss. Er sagt nicht, wie festlich man höchstens sein darf. Diese Obergrenze steht woanders: in der Uhrzeit und im Ort.",
+            "Deshalb funktioniert die einfachste Faustregel besser als jede Tabelle. Je später der Termin, desto festlicher. Was um 20 Uhr im Schlosssaal richtig ist, wirkt um 11 Uhr im Standesamt wie ein Kostümfest. Bodenlang vor 18 Uhr ist fast immer zu viel — außer die Einladung sagt ausdrücklich Black Tie.",
+        ]),
+        ("Festlich — die häufigste und die vageste Angabe", [
+            "„Festlich\" ist der deutsche Sammelbegriff und meint: bitte kein Alltag. Keine Jeans, keine Sneaker, keine Funktionsjacke. Was es nicht meint: Abendgarderobe. Bodenlang ist nicht verlangt, und ein Smoking wäre zu viel.",
+            "Für Damen heißt das ein Kleid oder ein Rock in Knie- bis Wadenlänge, gern in einem Stoff mit etwas Gewicht — Krepp, Satin, Samt. Für Herren ein Anzug, Krawatte nach Anlass. Wer unsicher ist, geht eine halbe Stufe höher als die anderen und nimmt ein Teil mit, das sich ablegen lässt: ein Sakko, eine Stola. Dann lässt sich nach oben und unten korrigieren.",
+        ]),
+        ("Cocktail — knielang bis wadenlang, nie bodenlang", [
+            "Cocktail ist präziser als festlich und eine Stufe darüber. Für Damen: knielang bis wadenlang, feinere Stoffe, mehr Schmuck erlaubt. Bodenlang gehört ausdrücklich nicht dazu — das ist der Unterschied zu Black Tie.",
+            "Für Herren bedeutet Cocktail den dunklen Anzug mit Krawatte. Braun und Hellgrau sind hier fehl am Platz, Marine und Anthrazit richtig.",
+        ]),
+        ("Black Tie — Smoking, und was das für Damen heißt", [
+            "Black Tie ist die einzige Angabe, die für Herren eindeutig ist: Smoking, schwarze Fliege, keine Krawatte. Wer keinen besitzt, leiht einen — ein dunkler Anzug ist nicht dasselbe, auch wenn er oft durchgeht.",
+            "Für Damen ist Black Tie weniger streng, als viele denken. Bodenlang ist die klassische Antwort, aber ein sehr feines wadenlanges Kleid in Seide oder Samt ist ebenso richtig. Entscheidend sind Stoff und Verarbeitung, nicht die Länge allein.",
+        ]),
+        ("White Tie — fast nur beim Ball", [
+            "White Tie bedeutet Frack für Herren und bodenlange Robe für Damen. In Deutschland begegnet man dem praktisch nur bei klassischen Bällen und Staatsempfängen. Steht es auf einer privaten Einladung, ist es meistens ein Irrtum — dann lohnt eine Rückfrage beim Gastgeber, bevor man einen Frack leiht.",
+        ]),
+        ("Business und Business Casual — der Firmenfall", [
+            "Bei Firmenfeiern steht oft Business oder Business Casual auf der Einladung. Business heißt: das, was man im Büro trägt, in der gepflegten Variante — Anzug, Kostüm, Hosenanzug. Business Casual streicht die Krawatte und erlaubt Strickjacke statt Blazer.",
+            "Der Fehler, den fast alle machen: Business Casual mit Freizeit zu verwechseln. Es bleibt eine Arbeitsveranstaltung mit Kollegen und Vorgesetzten. Was man am Samstag beim Einkaufen trägt, ist hier zu wenig.",
+        ]),
+        ("Smart Casual — die Falle", [
+            "Smart Casual klingt entspannt und ist die schwierigste Angabe von allen, weil sie je nach Gastgeber etwas anderes bedeutet. Der gemeinsame Nenner: gepflegt, aber nicht steif. Eine dunkle Jeans ist erlaubt, wenn sie gut sitzt und ein Blazer oder eine schöne Bluse dazukommt.",
+            "Was nicht funktioniert: Sportschuhe mit sichtbarer Sohlentechnik, T-Shirts mit Aufdruck, alles Ausgewaschene. Im Zweifel ein Teil mehr anziehen, nicht eines weniger.",
+        ]),
+        ("Wenn gar nichts dabeisteht", [
+            "Das ist der häufigste Fall, und er ist der einfachste. Steht kein Dresscode auf der Einladung, ist der Ort die Antwort. Restaurant am Abend: festlich. Garten am Nachmittag: gepflegt und bequem, aber mit einer Schicht, die es abends wärmer macht. Standesamt am Vormittag: elegant, nicht abendlich.",
+            "Und wer es genau wissen will, fragt. Eine kurze Nachricht an die Gastgeber ist keine Blöße — sie ist für die Gastgeber angenehmer als ein Gast, der sich den ganzen Abend falsch angezogen fühlt.",
+        ]),
+    ],
+    "products": [
+        ("Einfarbiges Midikleid", "Deckt festlich und Cocktail zugleich ab. Einfarbig, Knie- bis Wadenlänge — das Teil, das drei Dresscodes gleichzeitig bedient.", "midikleid damen elegant"),
+        ("Kleine Abendtasche", "Ab Cocktail aufwärts ist die Alltagstasche zu groß. Eine kleine Tasche macht denselben Look eine Stufe festlicher.", "B0B4J3WGWR"),
+        ("Pumps mit Blockabsatz", "Der Absatz, der einen ganzen Abend hält. Für alles von festlich bis Black Tie tragbar.", "B0C6YJWY8R"),
+        ("Stola oder großes Tuch", "Die Schicht, mit der sich nach oben und unten korrigieren lässt — und die Antwort auf jeden zugigen Saal.", "stola damen abendkleid"),
+        ("Schlichte Ohrringe", "Bei Black Tie dürfen sie größer sein, bei Business kleiner. Ein schlichtes Paar funktioniert überall.", "B0D9RT25LN"),
+        ("Brosche mit Steinbesatz", "Das Stück, das ein schlichtes Kleid ohne Umziehen festlich macht. Passt ans Revers, an den Gürtel, an die Tasche.", "B08MF2NR3K"),
+    ],
+    "pintitle": "Dresscode Hochzeit: 6 Angaben erklärt",
+    "pintitle_c": "Was heißt festlich? Dresscode verstehen",
+    "keywords": "dresscode hochzeit, was heißt festlich, dresscode festlich, cocktail dresscode, black tie damen",
+})
+
+PINTITEL["dresscode-festlich"] = "Dresscode Hochzeit: 6 Angaben erklärt"
+PINTITEL_C["dresscode-festlich"] = "Was heißt festlich? Dresscode verstehen"
+KEYWORDS["dresscode-festlich"] = "dresscode hochzeit, was heißt festlich, dresscode festlich, cocktail dresscode, black tie damen"
