@@ -2095,3 +2095,60 @@ POSTS.append({
 PINTITEL["dresscode-festlich"] = "Dresscode Hochzeit: 6 Angaben erklärt"
 PINTITEL_C["dresscode-festlich"] = "Was heißt festlich? Dresscode verstehen"
 KEYWORDS["dresscode-festlich"] = "dresscode hochzeit, was heißt festlich, dresscode festlich, cocktail dresscode, black tie damen"
+
+
+# --------------------------------------------------------------------------
+# Neu am 24.09.2026: Adventskalender.
+# Pinterest DE zeigt bei "adventskalender fuellen erwachsene" fast nur
+# Mega-Listen ("444 Fuellideen", "200+", "75+"). Gegen groessere Zahlen
+# gewinnen wir nicht - also der Gegenentwurf: wenige Teile, die zusammen
+# etwas ergeben.
+POSTS.append({
+    "slug": "adventskalender-fuellen",
+    "cat": "accessoires",
+    "title": "Adventskalender füllen: 6 Accessoires statt 24 Kleinigkeiten",
+    "teaser": "Vierundzwanzig Türchen, aber nur sechs Dinge kaufen — und am 24. liegt etwas Ganzes da.",
+    "img": "post-adventskalender.jpg",
+    "meta": "Adventskalender für Erwachsene füllen: sechs Accessoires, die sich auf 24 Türchen aufteilen lassen und am Ende zusammen ein Ganzes ergeben — statt 24 zusammengewürfelter Kleinigkeiten.",
+    "intro": [
+        "Die Suche nach Füllideen führt zuverlässig zu Listen mit zweihundert, vierhundert, manchmal tausend Vorschlägen. Man arbeitet sie ab, kauft vierundzwanzig kleine Dinge, und am Ende hat der Beschenkte vierundzwanzig kleine Dinge, von denen er drei behält.",
+        "Es geht auch andersherum: wenige Sachen kaufen, die zusammengehören, und sie auf die Türchen verteilen. Der Kalender erzählt dann etwas, und am 24. liegt kein weiteres Teelicht da, sondern das Stück, auf das alles hinauslief.",
+    ],
+    "sections": [
+        ("Die Regel: ein Thema, sechs Teile, vierundzwanzig Türchen", [
+            "Man braucht keine vierundzwanzig Einkäufe für vierundzwanzig Türchen. Man braucht ein Thema — hier: Accessoires, die getragen werden — und sechs bis acht Dinge, von denen sich mehrere aufteilen lassen.",
+            "Der Rest sind Türchen, die nichts kosten: eine Karte mit einem Satz, ein Gutschein über einen gemeinsamen Nachmittag, ein Foto. Diese Türchen sind oft die, an die man sich später erinnert.",
+        ]),
+        ("Was sich aufteilen lässt", [
+            "Sets sind der Trick. Ein Armband-Set mit fünf Teilen füllt fünf Türchen und ergibt am Ende trotzdem einen Look, nicht fünf Einzelteile. Dasselbe gilt für Socken im Mehrerpack oder ein Set aus mehreren kleinen Tüchern.",
+            "Wichtig ist nur, dass die Teile zusammenpassen — gleiche Metallfarbe, gleiche Machart. Sonst hat man wieder vierundzwanzig Kleinigkeiten, nur teurer eingekauft.",
+        ]),
+        ("Das Stück für den 24.", [
+            "Ein Kalender braucht ein Ende, sonst hört er einfach auf. Das letzte Türchen bekommt das Stück, das die anderen zusammenhält: ein Seidentuch, eine Brosche, etwas, das man sehen kann.",
+            "Es muss nicht das teuerste sein. Es muss das sein, mit dem die vorherigen Türchen im Nachhinein Sinn ergeben.",
+        ]),
+        ("Was besser nicht hineinkommt", [
+            "Kleidung in Größen. Ein Pullover im falschen Schnitt ist ein Umtausch mit Ansage, und der Moment am Türchen ist dahin. Accessoires haben dieses Problem nicht — Tuch, Brosche, Haarspange passen jedem.",
+            "Und Essbares nur, wenn es bis Weihnachten hält. Schokolade im geheizten Zimmer über drei Wochen ist keine gute Idee, selbstgebackene Plätzchen aus der ersten Dezemberwoche erst recht nicht.",
+        ]),
+        ("Wenn man selbst befüllt wird", [
+            "Der Kalender für sich selbst ist keine schlechte Idee, und er funktioniert nach derselben Regel: nicht vierundzwanzig Impulskäufe, sondern eine Handvoll Dinge, die man sich sonst nicht kauft, verteilt über den Monat.",
+            "Der Unterschied ist nur, dass man beim Packen schon weiß, was drin ist. Das nimmt weniger, als man denkt — die Vorfreude hängt am Datum, nicht an der Überraschung.",
+        ]),
+    ],
+    "products": [
+        ("Seidentuch 53 × 53 cm", "Das Stück für das letzte Türchen. Passt jedem, funktioniert an vier Stellen und braucht keine Größenangabe.", "B0BX963Q6V"),
+        ("Armband-Set aus mehreren Teilen", "Der eigentliche Trick: ein Kauf, drei bis fünf Türchen — und am Ende trotzdem ein zusammengehörender Look.", "B0CRZDMLPX"),
+        ("Haarspange in Gold", "Klein genug fürs Türchen, sichtbar genug, dass sie getragen wird. Eine der wenigen Kleinigkeiten ohne Größenproblem.", "B0CRZRM3LP"),
+        ("Schlichte Ohrringe", "In ihrer Metallfarbe kaufen, nicht in der eigenen. Dann passen sie zu allem, was schon im Schmuckkästchen liegt.", "B0D9RT25LN"),
+        ("Brosche mit Steinbesatz", "Das Teil, das ein schlichtes Kleid ohne Umziehen festlich macht — und das ihr sonst niemand schenkt.", "B08MF2NR3K"),
+        ("Merinosocken im Mehrerpack", "Klingt nach Verlegenheit, wird aber den ganzen Winter getragen. Und der Mehrerpack füllt gleich mehrere Türchen.", "B0DHCNW3HG"),
+    ],
+    "pintitle": "Adventskalender füllen: 6 Ideen für Erwachsene",
+    "pintitle_c": "Was in den Adventskalender für Frauen?",
+    "keywords": "adventskalender füllen, adventskalender erwachsene, füllideen adventskalender, adventskalender für frauen, adventskalender ideen",
+})
+
+PINTITEL["adventskalender-fuellen"] = "Adventskalender füllen: 6 Ideen für Erwachsene"
+PINTITEL_C["adventskalender-fuellen"] = "Was in den Adventskalender für Frauen?"
+KEYWORDS["adventskalender-fuellen"] = "adventskalender füllen, adventskalender erwachsene, füllideen adventskalender, adventskalender für frauen, adventskalender ideen"
