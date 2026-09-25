@@ -2152,3 +2152,69 @@ POSTS.append({
 PINTITEL["adventskalender-fuellen"] = "Adventskalender füllen: 6 Ideen für Erwachsene"
 PINTITEL_C["adventskalender-fuellen"] = "Was in den Adventskalender für Frauen?"
 KEYWORDS["adventskalender-fuellen"] = "adventskalender füllen, adventskalender erwachsene, füllideen adventskalender, adventskalender für frauen, adventskalender ideen"
+
+
+# Geschenke fuer die Schwiegermutter - 25.09.2026.
+# Pinterest-Pruefung: das Feld gehoert Blogs und Elternportalen, nicht den
+# Modemagazinen, und alle liefern Mengenlisten (15, 21, 12 Ideen).
+# Gegenwinkel: nicht die Menge, sondern die Frage, wie viel Naehe ein
+# Geschenk behauptet.
+POSTS.append({
+    "slug": "geschenk-schwiegermutter",
+    "cat": "accessoires",
+    "title": "Geschenke für die Schwiegermutter: 6 Accessoires, die nicht danebengreifen",
+    "teaser": "Die Frage ist selten, was sie mag. Die Frage ist, wie viel Nähe ein Geschenk behauptet — und darauf gibt es eine ziemlich genaue Antwort.",
+    "img": "post-schwiegermutter.jpg",
+    "meta": "Geschenke für die Schwiegermutter: sechs Accessoires, die weder zu persönlich noch zu beliebig wirken — mit den drei Kategorien, die regelmäßig danebengehen, und dem Metall-Trick für Schmuck.",
+    "intro": [
+        "Listen mit fünfzehn, einundzwanzig oder fünfzig Ideen gibt es reichlich. Sie helfen nur begrenzt, weil das Problem kein Mangel an Vorschlägen ist. Das Problem ist, dass dieses eine Geschenk vor Publikum ausgepackt wird, neben den Geschenken der anderen Schwiegerkinder, und dass es etwas darüber sagt, wie nah man sich steht.",
+        "Wer das einmal sortiert hat, braucht keine fünfzig Ideen mehr, sondern sechs. Die Regel dahinter ist simpel: etwas, das getragen wird, hat keine Größe und behauptet keine Vertrautheit, die es nicht gibt.",
+    ],
+    "sections": [
+        ("Warum es hier schwerer ist als bei der eigenen Mutter", [
+            "Bei der eigenen Mutter darf man danebenliegen. Man kennt sie lange genug, dass ein Fehlgriff eine Anekdote wird und kein Urteil. Bei der Schwiegermutter fehlt dieser Puffer, und häufig fehlt auch das Wissen: Man weiß, wie sie kocht und wie sie redet, aber nicht, welche Farben sie trägt oder was in ihrer Schmuckschatulle liegt.",
+            "Dazu kommt der Rahmen. Ausgepackt wird meist in der Runde, oft direkt nach oder vor den Geschenken der anderen. Das Geschenk muss deshalb ohne Erklärung verständlich sein. Alles, wozu man sagen muss „das ist, weil …“, hat den Moment schon verloren.",
+        ]),
+        ("Die drei Kategorien, die zu viel Nähe behaupten", [
+            "Parfum. Ein Duft ist eine der persönlichsten Entscheidungen überhaupt, und ihn auszusuchen heißt zu behaupten, man wisse, wie sie riechen möchte. Das darf der Partner. Das Schwiegerkind meist nicht.",
+            "Kleidung in Größen. Doppelt heikel: Man muss ihre Größe schätzen, und man trifft eine Aussage über ihre Figur. Selbst wenn beides stimmt, bleibt der Umtausch im Raum stehen.",
+            "Deko für ihre Wohnung — ein Bild, eine Vase, ein Kissen — das ist immer auch ein Kommentar zu ihrer Einrichtung. Und es muss irgendwo hin, auch wenn es nicht passt.",
+        ]),
+        ("Und die drei, die zu wenig sagen", [
+            "Gutschein, Pralinen, Blumenstrauß. Nichts davon ist falsch, und alles davon ist austauschbar. Es sagt: Ich habe an dich gedacht, aber nicht lange. Als Beigabe gut, als Hauptgeschenk selten.",
+            "Der Sonderfall ist der Gutschein für etwas Gemeinsames — ein Konzert, ein Essen zu zweit. Der sagt das Gegenteil, weil er Zeit verspricht statt Ware. Nur ist er kein Ding zum Auspacken, und genau das braucht der Moment.",
+        ]),
+        ("Was dazwischen liegt", [
+            "Getragene Dinge ohne Größe. Ein Tuch, ein Schal, ein schlichtes Schmuckstück, ein Paar Handschuhe. Sie sind persönlich genug, dass sie nicht beliebig wirken, und unpersönlich genug, dass niemand sich zu nah gekommen fühlt.",
+            "Sie haben noch einen praktischen Vorteil: Man sieht später, ob sie getragen werden. Bei einer Vase im Schrank erfährt man das nie.",
+        ]),
+        ("Der Metall-Trick", [
+            "Wer Schmuck schenkt, kauft fast automatisch in seiner eigenen Metallfarbe. Das ist die häufigste Ursache dafür, dass ein an sich schönes Stück in der Schublade bleibt: Wer silbern trägt, trägt selten golden und umgekehrt.",
+            "Einmal hinsehen genügt — Ehering, Uhr, Brille. Was sie täglich trägt, gibt die Farbe vor. Diese eine Beobachtung entscheidet öfter über Erfolg oder Schublade als die Frage, ob das Stück teuer war.",
+            "Zweite Beobachtung derselben Art: Ohrringe setzen Ohrlöcher voraus. Das klingt banal, wird aber regelmäßig übersehen, und man kann es beim letzten Besuch in zwei Sekunden prüfen.",
+        ]),
+        ("Wenn man sie kaum kennt", [
+            "Je weniger man weiß, desto neutraler sollte das Stück sein — und desto besser die Qualität. Ein einziges gutes Teil schlägt drei mittlere, weil sich Qualität anfassen lässt, ohne dass jemand den Preis kennt.",
+            "Bei sehr wenig Wissen hilft ein Stück, das nichts über ihren Geschmack behauptet, sondern ihn ordnet: ein Kästchen für das, was sie ohnehin besitzt. Das ist der seltene Fall, in dem ein Geschenk funktioniert, gerade weil es leer ist.",
+        ]),
+        ("Verpacken und übergeben", [
+            "Kleine Dinge wirken in großen Kartons verloren. Ein Tuch oder ein Schmuckstück gehört in eine Schachtel, die kaum größer ist als der Inhalt — das macht aus einem flachen Päckchen einen Gegenstand.",
+            "Und eine Karte mit zwei Sätzen dazu. Nicht als Erklärung des Geschenks, sondern als der persönliche Teil, den das Geschenk selbst bewusst nicht übernimmt.",
+        ]),
+    ],
+    "products": [
+        ("Schmuckkästchen mit Glasdeckel", "Das Stück für den Fall, dass man ihren Geschmack nicht kennt: Es urteilt nicht über ihren Schmuck, es ordnet ihn — und durch den Deckel sieht sie, was sie hat.", "B07ST9422L"),
+        ("Seidentuch aus Maulbeerseide", "Keine Größe, kein Kommentar zur Figur, und es lässt sich an Hals, Tasche oder Haar tragen. Das unauffälligste Geschenk mit dem größten Alltagsnutzen.", "B09J54HNPJ"),
+        ("Kaschmirschal, einfarbig", "Qualität, die man in der Hand spürt, bevor jemand nach dem Preis fragt. Einfarbig statt gemustert, dann passt er zu ihrem Mantel und nicht nur zu unserem Geschmack.", "B018XYS92A"),
+        ("Perlenohrstecker in Silber", "Die sicherste Bank im Schmuck — vorausgesetzt, sie trägt Ohrringe und silbern. Beides lässt sich beim letzten Besuch prüfen.", "B01MZH56PM"),
+        ("Armband einer bekannten Marke", "Wenn man sie kaum kennt, hilft ein Name, den sie einordnen kann. Erweiterbar ist es außerdem, womit das Geschenk fürs nächste Jahr schon feststeht.", "B01AGVLPLU"),
+        ("Lederhandschuhe mit Futter", "Das einzige Stück hier mit einer Größe — dafür einer, die man an der Hand abschätzt statt an der Figur. Wird von Oktober bis März täglich benutzt.", "B07ZPSKFY1"),
+    ],
+    "pintitle": "Geschenke für die Schwiegermutter: 6 Ideen ohne Fettnäpfchen",
+    "pintitle_c": "Was schenkt man der Schwiegermutter?",
+    "keywords": "geschenk schwiegermutter, geschenkideen schwiegermutter, weihnachtsgeschenk schwiegermutter, geschenk schwiegereltern, was schenkt man der schwiegermutter",
+})
+
+PINTITEL["geschenk-schwiegermutter"] = "Geschenke für die Schwiegermutter: 6 Ideen ohne Fettnäpfchen"
+PINTITEL_C["geschenk-schwiegermutter"] = "Was schenkt man der Schwiegermutter?"
+KEYWORDS["geschenk-schwiegermutter"] = "geschenk schwiegermutter, geschenkideen schwiegermutter, weihnachtsgeschenk schwiegermutter, geschenk schwiegereltern, was schenkt man der schwiegermutter"
