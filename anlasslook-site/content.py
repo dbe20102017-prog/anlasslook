@@ -2218,3 +2218,148 @@ POSTS.append({
 PINTITEL["geschenk-schwiegermutter"] = "Geschenke für die Schwiegermutter: 6 Ideen ohne Fettnäpfchen"
 PINTITEL_C["geschenk-schwiegermutter"] = "Was schenkt man der Schwiegermutter?"
 KEYWORDS["geschenk-schwiegermutter"] = "geschenk schwiegermutter, geschenkideen schwiegermutter, weihnachtsgeschenk schwiegermutter, geschenk schwiegereltern, was schenkt man der schwiegermutter"
+
+
+POSTS.append({
+    "slug": "silvester-outfit-ab-50",
+    "cat": "festtage",
+    "title": "Silvester Outfit ab 50: 6 Teile für den Wechsel ins Jahr 2027",
+    "teaser": "Die englischen Listen sagen alle dasselbe: sparkle. Ab 50 funktioniert das Gegenteil besser — der Glanz wandert von der Fläche auf das Detail.",
+    "img": "silvester-outfit-ab-50.jpg",
+    "meta": "Silvester-Outfit ab 50 für den Jahreswechsel 2027: warum Pailletten auf der Fläche hier selten funktionieren, wo der Glanz stattdessen hingehört, und sechs Teile, die das leisten.",
+    "intro": [
+        "Wer auf Pinterest nach einem Silvester-Outfit ab 50 sucht, landet fast ausschließlich bei englischsprachigen Listen, und die sagen alle dasselbe: sparkle. Glitzer, Pailletten, Metallic — am besten ganzflächig.",
+        "Das ist kein schlechter Rat, er ist nur für ein anderes Alter gedacht. Mit 25 trägt man ein Paillettenkleid und sieht nach Silvester aus. Mit 55 trägt man dasselbe Kleid und sieht aus, als hätte man sich bemüht, nach Silvester auszusehen. Der Unterschied liegt nicht am Körper, sondern daran, dass Glanz auf großer Fläche immer jünger wirken will als der Rest.",
+    ],
+    "sections": [
+        ("Warum die Fläche das Problem ist, nicht der Glanz", [
+            "Pailletten und Metallic brechen das Licht unruhig. Auf kleiner Fläche ist das ein Akzent, auf großer Fläche wird es zur Bewegung, und Bewegung zieht den Blick auf Partien, die man vielleicht gar nicht betonen wollte. Dazu kommt, dass billige Pailletten billig aussehen, teure aber selten im Budget eines Abends liegen.",
+            "Die Lösung ist nicht, auf Glanz zu verzichten. Die Lösung ist, ihn dorthin zu verlegen, wo er ohnehin hingehört: ans Ohr, ans Handgelenk, in den Ausschnitt, ins Haar. Dort ist er nah am Gesicht, dort wirkt er, und dort hat er eine Fläche von wenigen Quadratzentimetern.",
+        ]),
+        ("Was die Fläche stattdessen macht", [
+            "Was groß ist, soll ruhig sein und gut fallen. Crepe, Samt, schwerer Jersey, Wollmischung — Stoffe, die Licht schlucken statt es zu zersplittern. Ein mitternachtsblaues Crepe-Kleid sieht an einem Silvesterabend teurer aus als ein Paillettenkleid, und es sieht auch am nächsten Neujahrsempfang noch gut aus.",
+            "Die Farbe darf dabei ruhig dunkel sein, aber nicht automatisch schwarz. Mitternachtsblau, Tanne, Bordeaux und Anthrazit haben denselben Effekt und sind weniger streng im Gesicht. Schwarz funktioniert, wenn der Glanz am Ohr dagegenhält.",
+        ]),
+        ("Die Drei-Punkte-Regel", [
+            "Glanz braucht Wiederholung, sonst wirkt er versehentlich. Drei Punkte sind das Maß: Ohr, Handgelenk, ein dritter Punkt nach Wahl — Haarspange, Gürtelschnalle, Brosche. Mehr wird unruhig, weniger sieht aus, als hätte man das eine Teil gerade zufällig getragen.",
+            "Wichtig ist, dass die drei Punkte dieselbe Metallfarbe haben. Gold und Silber nebeneinander ist ein Stilmittel für Leute, die es bewusst einsetzen, und ein Fehler für alle anderen. Wer sich nicht sicher ist, nimmt die Farbe, die schon am Ehering sitzt.",
+        ]),
+        ("Der Punkt, an dem die meisten scheitern", [
+            "Nicht am Kleid, sondern am Abend davor und danach. Silvester heißt Anstoßen draußen, Feuerwerk, Kälte zwischen Wohnung und Straße — und dann steht man im Mantel da, der zum Alltag passt und nicht zum Abend.",
+            "Eine Stola oder ein großer Schal in gutem Material löst das in einem Stück. Er geht über die Schultern, er geht über den Mantel, und er macht aus dem Weg nach draußen einen Teil des Abends statt einer Unterbrechung.",
+        ]),
+    ],
+    "products": [
+        ("Goldene Statement-Ohrringe", "Der wichtigste der drei Glanzpunkte, weil er direkt am Gesicht sitzt. Größer als im Alltag, aber nicht schwerer — Ohrringe, die ziehen, sind nach zwei Stunden das Einzige, woran man denkt.", "B0D9RT25LN"),
+        ("Goldketten in drei Längen", "Füllt den Ausschnitt, ohne eine einzelne Kette überladen zu müssen. Bei einem runden Ausschnitt die kürzeste weglassen, bei V-Ausschnitt alle drei.", "B0DC438QJT"),
+        ("Breiter Gürtel in Gold oder Schwarz", "Der dritte Punkt, und gleichzeitig der, der die Silhouette macht. An einem geraden Crepe-Kleid markiert er die Taille, ohne dass das Kleid sie vorgeben muss.", "B0F1MJZ5W5"),
+        ("Haarspange in Gold", "Die unauffälligste Art, den dritten Punkt zu setzen — und die einzige, die auch dann noch sitzt, wenn man den Mantel anhat.", "B0CRZRM3LP"),
+        ("Armband-Set aus mehreren Teilen", "Am Handgelenk darf es mehrteilig sein, weil die Hand sich bewegt und der Glanz dadurch ohnehin nur blitzt. Einzeln getragen wirkt dasselbe Stück schnell zu zurückhaltend.", "B0CRZDMLPX"),
+        ("Kaschmirschal, einfarbig", "Für den Weg nach draußen und zurück. Einfarbig, weil er dann über Kleid und Mantel gleichermaßen funktioniert — ein gemusterter Schal gehört immer nur zu einem von beiden.", "B08VRRXBRN"),
+    ],
+    "pintitle": "Silvester Outfit ab 50: 6 Teile für 2027",
+    "pintitle_c": "Was zieht man mit 50+ an Silvester an?",
+    "keywords": "silvester outfit ab 50, silvester outfit 2027, festliches outfit ab 50, silvester outfit damen, was anziehen silvester",
+})
+
+PINTITEL["silvester-outfit-ab-50"] = "Silvester Outfit ab 50: 6 Teile für 2027"
+PINTITEL_C["silvester-outfit-ab-50"] = "Was zieht man mit 50+ an Silvester an?"
+KEYWORDS["silvester-outfit-ab-50"] = "silvester outfit ab 50, silvester outfit 2027, festliches outfit ab 50, silvester outfit damen, was anziehen silvester"
+
+
+POSTS.append({
+    "slug": "trauzeugin-outfit-winter",
+    "cat": "standesamt",
+    "title": "Trauzeugin im Winter: 6 Teile, die neben der Braut funktionieren",
+    "teaser": "Die Trauzeugin hat eine Aufgabe, kein Kostüm. Das Outfit muss drei Dinge gleichzeitig können — und an genau dem scheitern die meisten Ratgeber.",
+    "img": "trauzeugin-outfit-winter.jpg",
+    "meta": "Trauzeugin-Outfit für die Winterhochzeit: die drei Anforderungen, an denen es wirklich hängt, warum Hände und Taschen das eigentliche Problem sind, und sechs Teile, die beides lösen.",
+    "intro": [
+        "Für Hochzeitsgäste gibt es Listen ohne Ende. Für die Trauzeugin gibt es fast nichts, obwohl ihre Lage eine andere ist: Sie steht den ganzen Tag im Bild, sie steht direkt neben der Braut, und sie hat Dinge zu tun, während alle anderen zusehen.",
+        "Daraus ergeben sich drei Anforderungen, die zugleich erfüllt sein müssen. Das Outfit darf der Braut nicht die Schau stehlen. Es muss auf jedem Foto neben Weiß bestehen. Und es muss funktionieren, während man Ringe hält, Taschentücher reicht und eine Rede vom Zettel abliest.",
+    ],
+    "sections": [
+        ("Nicht weiß — und auch nicht fast weiß", [
+            "Die Regel kennt jede. Unterschätzt wird, wie weit sie reicht: Creme, Elfenbein, Champagner, helles Perlgrau und sehr helles Puder fallen auf Fotos mit Blitz regelmäßig in dieselbe Kategorie wie das Brautkleid. Was im Laden eindeutig beige aussah, ist auf dem Gruppenbild weiß.",
+            "Im Winter ist das leichter zu lösen als im Sommer, weil die Saison ohnehin satte Farben anbietet: Tanne, Bordeaux, Mitternachtsblau, Kamel, Rostrot. Alle fünf stehen neben Weiß gut da und ziehen trotzdem keinen Blick von der Braut weg.",
+        ]),
+        ("Nicht schwarz von Kopf bis Fuß", [
+            "Die zweite Falle ist die Gegenbewegung. Wer ganz sicher nicht in Brautnähe geraten will, greift zu Schwarz — und steht dann in einer Winterkirche, in der es ohnehin dunkel ist, als dunkelste Gestalt neben der hellsten.",
+            "Schwarz ist nicht verboten, es braucht nur einen hellen Gegenpunkt im Gesicht: ein Tuch, eine helle Bluse unter dem Kleid, Perlen am Ohr. Danach ist es die sicherste Farbe überhaupt.",
+        ]),
+        ("Die Aufgabe, an die niemand denkt: die Hände", [
+            "Die Trauzeugin hält die Ringe, das Taschentuch, oft auch den Brautstrauß und das Telefon der Braut. Sie hat also durchgehend die Hände voll und keine zweite Chance, etwas abzulegen.",
+            "Deshalb ist die wichtigste Entscheidung nicht das Kleid, sondern wohin die Dinge kommen. Eine Clutch, die man zuklappen muss, ist dafür die schlechteste aller Lösungen. Besser sind Taschen im Kleid, eine Tasche mit Kette über der Schulter — oder ein Teil mit Innentasche, das man ohnehin trägt.",
+            "Und draußen: Zwischen Standesamt und Auto, zwischen Kirche und Sektempfang steht man im Januar mehrfach in der Kälte, während fotografiert wird. Handschuhe, die man anbehalten kann, ohne dass es nach Winterkleidung aussieht, sind hier kein Luxus.",
+        ]),
+        ("Der Trick mit dem wiederholten Detail", [
+            "Es sieht geplant aus, wenn ein Element zweimal vorkommt. Die Farbe des Tuchs taucht in der Brosche wieder auf, das Silber am Ohr wiederholt sich an der Gürtelschnalle. Das kostet nichts und ist der Unterschied zwischen einem Outfit und zusammengesuchten Teilen.",
+            "Wer es noch einen Schritt weiter treibt, stimmt ein Detail auf die Blumen der Braut ab — nicht die Farbe des Kleids, nur ein Accessoire. Auf den Fotos sieht das aus, als hätte jemand mitgedacht. Hat ja auch.",
+        ]),
+    ],
+    "products": [
+        ("Perlenohrstecker in Silber", "Der helle Punkt am Gesicht, der ein dunkles Kleid trägt und neben Weiß trotzdem nicht konkurriert. Stecker statt Hänger, weil den ganzen Tag Umarmungen anstehen.", "B01MZH56PM"),
+        ("Seidentuch aus Maulbeerseide", "Löst zwei Dinge auf einmal: Farbe ins Gesicht und etwas, das man über die Schultern legen kann, wenn es in der Kirche zieht. Lässt sich außerdem am Griff der Tasche festknoten.", "B09J54HNPJ"),
+        ("Gefütterte Lederhandschuhe", "Für die Fotos vor der Tür. Leder statt Strick, weil Strick im Januar nach Alltag aussieht und Leder nach Anlass.", "B097XZ7HHH"),
+        ("Brosche mit Steinbesatz", "Das wiederholte Detail. Sitzt am Revers, an der Stola oder am Taschengriff und ist das einzige Teil hier, das man auch noch nach der Hochzeit regelmäßig trägt.", "B08MF2NR3K"),
+        ("Schal aus reiner Wolle", "Der Übergang zwischen drinnen und draußen, ohne den Mantel zuknöpfen zu müssen. In einer satten Winterfarbe, dann ist er gleichzeitig der Farbakzent.", "B0BDZM3FR3"),
+        ("Ledergürtel, schlichte Schnalle", "Markiert die Taille bei einem geraden Winterkleid und gibt der Silhouette neben einem Brautkleid eine eigene Linie. Schlicht, weil die Schnalle hier nichts erzählen muss.", "B00NONXQK6"),
+    ],
+    "pintitle": "Trauzeugin Outfit Winter: 6 Teile, die funktionieren",
+    "pintitle_c": "Was zieht die Trauzeugin im Winter an?",
+    "keywords": "trauzeugin outfit winter, trauzeugin kleid winter, outfit trauzeugin standesamt, winterhochzeit trauzeugin, was zieht die trauzeugin an",
+})
+
+PINTITEL["trauzeugin-outfit-winter"] = "Trauzeugin Outfit Winter: 6 Teile, die funktionieren"
+PINTITEL_C["trauzeugin-outfit-winter"] = "Was zieht die Trauzeugin im Winter an?"
+KEYWORDS["trauzeugin-outfit-winter"] = "trauzeugin outfit winter, trauzeugin kleid winter, outfit trauzeugin standesamt, winterhochzeit trauzeugin, was zieht die trauzeugin an"
+
+
+POSTS.append({
+    "slug": "stola-zum-kleid",
+    "cat": "accessoires",
+    "title": "Stola zum Kleid: 6 Modelle und der Trick, dass sie liegen bleibt",
+    "teaser": "Zur Stola findet man auf Deutsch fast nur Produktbilder. Was fehlt, ist die Antwort auf die eigentliche Frage: Welche passt zu welchem Kleid — und warum rutscht sie ständig?",
+    "img": "stola-zum-kleid.jpg",
+    "meta": "Stola zum Kleid: welches Material zu welchem Anlass passt, die drei Trageweisen, und der Grund, warum eine Stola rutscht — mit sechs Modellen vom leichten Tuch bis zur Wollstola.",
+    "intro": [
+        "Sucht man auf Deutsch nach einer Stola zum Kleid, bekommt man Händlerseiten und Produktfotos. Was man nicht bekommt, ist die Antwort auf die zwei Fragen, die man tatsächlich hat: Welche passt zu meinem Kleid, und warum liegt sie bei anderen und bei mir nicht?",
+        "Die zweite Frage hat eine einfache Antwort, die kaum jemand ausspricht: Eine Stola rutscht, weil nichts sie hält. Schultern sind rund, Seide ist glatt, und der Rest ist Physik. Es gibt drei Wege, das zu lösen, und keiner davon kostet etwas.",
+    ],
+    "sections": [
+        ("Das Material entscheidet über den Anlass, nicht über den Preis", [
+            "Seide und leichte Viskose fallen eng am Körper und sehen nach Abend aus. Sie wärmen fast nicht — ihre Aufgabe ist der Ausschnitt, nicht die Temperatur. Für Silvester, Oper, Sommerhochzeit am Abend.",
+            "Wolle und Kaschmir sind das Gegenteil: Sie halten warm, sie bauen Volumen auf, und sie sehen tagsüber richtiger aus als abends. Für Winterhochzeiten, Standesamt im Januar, Taufe im Februar.",
+            "Dazwischen liegt die Mischung aus Wolle und Seide — fällt weicher als reine Wolle, wärmt mehr als Seide, und ist deshalb die vernünftigste Wahl, wenn man nur eine einzige Stola besitzen will.",
+        ]),
+        ("Die drei Trageweisen, und wofür sie taugen", [
+            "Über beide Schultern, vorn offen: die ruhigste Variante. Sie zeigt das Kleid, verdeckt die Oberarme und sieht auf Fotos ordentlich aus. Sie ist zugleich diejenige, die am leichtesten verrutscht.",
+            "Einmal um den Hals gelegt, ein Ende nach hinten: hält von selbst, weil das Gewicht sich verteilt. Gut, wenn man die Hände braucht — bei einer Trauzeugin, einer Rednerin, einer Mutter mit Kind auf dem Arm.",
+            "Wie ein Schal über eine Schulter, diagonal: die modernste Variante und die einzige, die auch über einem Mantel funktioniert. Braucht eine Brosche, sonst öffnet sie sich beim ersten Schritt.",
+        ]),
+        ("Warum sie rutscht, und was hilft", [
+            "Der erste Weg ist eine Brosche. Nicht sichtbar auf der Stola selbst, sondern innen, wo sie Stola und Kleiderstoff miteinander verbindet. Zwei Lagen, eine Nadel, Problem gelöst — und man sieht nichts davon.",
+            "Der zweite Weg ist Gewicht. Eine Stola mit gesäumten Kanten oder Fransen liegt besser als eine mit offener Kante, weil das Gewicht nach unten zieht. Beim Kauf also auf den Saum sehen, nicht nur auf die Farbe.",
+            "Der dritte Weg ist das Format. Alles unter etwa fünfzig Zentimeter Breite rutscht zwangsläufig, weil zu wenig Stoff auf der Schulter aufliegt. Wer schmal kauft, kauft ein Tuch und keine Stola — beides hat seine Berechtigung, nur nicht dieselbe.",
+        ]),
+        ("Die Farbfrage, kurz beantwortet", [
+            "Eine Stola im Ton des Kleids macht die Silhouette länger und ist die sichere Wahl. Eine Stola im Kontrast macht sie kürzer, setzt dafür einen Akzent und lässt das Kleid teurer wirken, wenn der Kontrast ruhig ist — Creme zu Tanne, Kamel zu Bordeaux, Grau zu Mitternachtsblau.",
+            "Was selten funktioniert, ist Muster zu Muster. Hat das Kleid ein Muster, bleibt die Stola einfarbig. Umgekehrt genauso.",
+        ]),
+    ],
+    "products": [
+        ("Großes Tuch 90 × 90 cm", "Das Format, ab dem aus einem Tuch eine Stola wird. Diagonal gefaltet liegt es auf der Schulter auf, statt daran herunterzurutschen.", "B09TSZ8MNV"),
+        ("Kaschmirschal, einfarbig", "Die warme Variante für Winterhochzeit und Standesamt im Januar. Einfarbig, weil eine Stola fast nie allein auftritt, sondern neben Kleid, Mantel und Tasche bestehen muss.", "B018XYS92A"),
+        ("Schal einfarbig Grau oder Marine", "Zwei Farben, die zu fast jedem dunklen Anlasskleid passen und ihm trotzdem einen Kontrast geben. Grau zu Mitternachtsblau ist die unauffälligste gute Kombination überhaupt.", "B00XPI9BMW"),
+        ("Brosche fürs Revers", "Der eigentliche Trick aus diesem Beitrag. Innen gesteckt verbindet sie Stola und Kleid, außen getragen ist sie das Detail, das die diagonale Trageweise erst möglich macht.", "B0F92YSCBD"),
+        ("Seidentuch 50 × 50 cm", "Die Abendvariante: zu klein für die Schultern, richtig für den Ausschnitt oder den Taschengriff. Wer eine Stola sucht, sollte wissen, dass dieses Format keine ist.", "B0BX963Q6V"),
+        ("Seidentuch, mittleres Format", "Der Übergang zwischen beidem — einmal um den Hals gelegt, ein Ende nach hinten, hält von selbst. Die Trageweise für alle, die die Hände frei brauchen.", "B06XC7MMFQ"),
+    ],
+    "pintitle": "Stola zum Kleid: 6 Modelle und wie sie liegen bleibt",
+    "pintitle_c": "Welche Stola passt zu welchem Kleid?",
+    "keywords": "stola zum kleid, stola hochzeit, stola winter kleid, wie trägt man eine stola, schal zum abendkleid",
+})
+
+PINTITEL["stola-zum-kleid"] = "Stola zum Kleid: 6 Modelle und wie sie liegen bleibt"
+PINTITEL_C["stola-zum-kleid"] = "Welche Stola passt zu welchem Kleid?"
+KEYWORDS["stola-zum-kleid"] = "stola zum kleid, stola hochzeit, stola winter kleid, wie trägt man eine stola, schal zum abendkleid"
