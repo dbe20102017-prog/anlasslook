@@ -1,0 +1,105 @@
+# Welche Pin-Varianten b und c schon auf Pinterest stehen.
+# Spalten mit Tabulator getrennt: slug, variante, portion, termin (UTC).
+# Variante a laeuft ueber den RSS-Feed und steht in pinterest-gepinnt.txt.
+# Portion 0 = vor dem 07.10.2026 gepinnt, Termin nicht einzeln nachgehalten.
+# 'frei-ab' = erster Tag ohne geplanten Pin. Schreibt der Erzeuger selbst.
+# 2026-10-22, weil Portion 6 und 7 das Konto bis zum 21.10. belegen.
+frei-ab	2026-10-22
+hochzeitsgast-herbst	b	0	
+hochzeitsgast-ab-40	b	0	
+drei-farben-regel	b	0	
+standesamt-schlicht	b	0	
+weisser-blazer	b	0	
+quiet-business	b	0	
+weite-hose-regel	b	0	
+capsule-buero	b	0	
+khaki-coded	b	0	
+poetcore-cape	b	0	
+layering-regeln	b	0	
+weihnachtsfeier	b	0	
+silvester-gold	b	0	
+brosche-tragen	b	0	
+breiter-guertel	b	0	
+seidentuch-binden	b	0	
+goldschmuck-stapeln	b	0	
+weihnachtsmarkt-outfit	b	0	
+heiligabend-outfit	b	0	
+silvester-herren	b	0	
+winterhochzeit-gast	b	0	
+weihnachtsfeier-ab-50	b	0	
+mantel-ueber-anlass-outfit	b	0	
+herbsthochzeit-gast	b	0	
+taufe-gast-herbst	b	0	
+runder-geburtstag-damen	b	0	
+vorstellungsgespraech-herbst	b	0	
+standesamt-winter-braut	b	0	
+schuhe-strumpfhose-anlasskleid	b	0	
+trauerfeier-outfit	b	0	
+weihnachtsfeier-firma-2026	b	0	
+stiefel-zum-anlasskleid	b	0	
+strickjacke-statt-blazer	b	0	
+weihnachtsfeier-herren-2026	b	0	
+samt-outfit-festlich-2026	b	0	
+geschenke-frauen-accessoires	b	0	
+geschenke-maenner-accessoires	b	0	
+wichtelgeschenke-ideen	b	0	
+festliches-kleid-figur	b	0	
+silvester-outfit-damen	b	0	
+adventskaffee-outfit	b	0	
+wintertaufe-gast	b	0	
+ballkleid-ballsaison-2027	b	0	
+dresscode-festlich	b	0	
+adventskalender-fuellen	b	0	
+geschenk-schwiegermutter	b	0	
+silvester-outfit-ab-50	b	8	2026-10-07T09:30:00
+trauzeugin-outfit-winter	b	8	2026-10-07T09:30:00
+stola-zum-kleid	b	8	2026-10-07T09:30:00
+hochzeitsgast-herbst	c	0	
+hochzeitsgast-ab-40	c	0	
+drei-farben-regel	c	0	
+standesamt-schlicht	c	0	
+weisser-blazer	c	0	
+quiet-business	c	0	
+weite-hose-regel	c	0	
+capsule-buero	c	0	
+khaki-coded	c	0	
+poetcore-cape	c	0	
+layering-regeln	c	0	
+weihnachtsfeier	c	0	
+silvester-gold	c	0	
+brosche-tragen	c	0	
+breiter-guertel	c	0	
+seidentuch-binden	c	0	
+goldschmuck-stapeln	c	0	
+weihnachtsmarkt-outfit	c	0	
+heiligabend-outfit	c	0	
+silvester-herren	c	0	
+winterhochzeit-gast	c	0	
+weihnachtsfeier-ab-50	c	0	
+mantel-ueber-anlass-outfit	c	0	
+herbsthochzeit-gast	c	0	
+taufe-gast-herbst	c	0	
+runder-geburtstag-damen	c	0	
+vorstellungsgespraech-herbst	c	0	
+standesamt-winter-braut	c	0	
+schuhe-strumpfhose-anlasskleid	c	0	
+trauerfeier-outfit	c	0	
+weihnachtsfeier-firma-2026	c	0	
+stiefel-zum-anlasskleid	c	0	
+strickjacke-statt-blazer	c	0	
+weihnachtsfeier-herren-2026	c	0	
+samt-outfit-festlich-2026	c	0	
+geschenke-frauen-accessoires	c	0	
+geschenke-maenner-accessoires	c	0	
+wichtelgeschenke-ideen	c	0	
+festliches-kleid-figur	c	0	
+silvester-outfit-damen	c	0	
+adventskaffee-outfit	c	0	
+wintertaufe-gast	c	0	
+ballkleid-ballsaison-2027	c	0	
+dresscode-festlich	c	0	
+adventskalender-fuellen	c	0	
+geschenk-schwiegermutter	c	0	
+silvester-outfit-ab-50	c	8	2026-10-07T09:30:00
+trauzeugin-outfit-winter	c	8	2026-10-07T09:30:00
+stola-zum-kleid	c	8	2026-10-07T09:30:00

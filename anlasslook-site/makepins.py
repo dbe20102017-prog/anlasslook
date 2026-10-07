@@ -1,5 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import os, sys, textwrap, csv, hashlib
+from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 sys.path.insert(0,'.')
 from content import SITE, POSTS, CATEGORIES
 
@@ -180,7 +182,166 @@ FEED_LIMIT = 6
 GEPINNT = "pinterest-gepinnt.txt"
 
 
-def zeile(p, v="a"):
+# ---------------------------------------------------------------------------
+# TERMINE FÜR DIE PORTIONS-CSV
+#
+# Am 07.10.2026 ging Portion 8 mit leerer Spalte "Publish date" hinaus.
+# Pinterest veröffentlicht solche Zeilen SOFORT: alle sechs Pins erschienen am
+# selben Tag, b und c desselben Beitrags inbegriffen - genau das, was die
+# Abstandsregel verbietet. Ein hochgeladener Pin lässt sich nicht nachträglich
+# umterminieren. Deshalb setzt der Erzeuger die Termine jetzt selbst, und ein
+# Wächter bricht ab, falls doch eine Spalte leer bleibt.
+#
+# Pinterest erwartet UTC. Die Slots unten sind ORTSZEIT; die Umrechnung macht
+# zoneinfo und damit auch die Zeitumstellung am 25.10.2026 (ab dann UTC+1).
+VARIANTEN_GEPINNT = "pinterest-varianten-gepinnt.txt"
+PORTION_GROESSE   = 6          # Zeilen je Portion
+ORTSZEIT_SLOTS    = ("13:30", "19:00")   # zwei Pins am Tag, Ortszeit
+ABSTAND_TAGE      = 5          # mindestens so viel zwischen b und c
+VORLAUF_TAGE      = 2          # frühester Termin: übermorgen, nie unter 24 h
+ZONE              = ZoneInfo("Europe/Berlin")
+
+
+def utc_stempel(tag, hhmm):
+    """'13:30' Ortszeit am 'tag' -> '2026-10-09T11:30:00' in UTC."""
+    std, minute = (int(x) for x in hhmm.split(":"))
+    lokal = datetime(tag.year, tag.month, tag.day, std, minute, tzinfo=ZONE)
+    return lokal.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+
+
+def termine(anzahl, ab_tag):
+    """Zeitstempel, zwei pro Tag, ab 'ab_tag'."""
+    aus, tag = [], ab_tag
+    while len(aus) < anzahl:
+        for slot in ORTSZEIT_SLOTS:
+            if len(aus) < anzahl:
+                aus.append(utc_stempel(tag, slot))
+        tag += timedelta(days=1)
+    return aus
+
+
+def lies_varianten_gepinnt():
+    """{(slug, variante): {"portion": "8", "datum": "2026-10-07T..."}}
+
+    Die Sonderzeile 'frei-ab<TAB>JJJJ-MM-TT' hält fest, bis wann der
+    Terminkalender des Kontos schon belegt ist. Ohne sie würde die neue
+    Portion über die bereits geplanten Pins gelegt - vier Pins am Tag statt
+    zwei. Sie wird bei '--portion-gepinnt' selbst weitergeschrieben.
+    """
+    eintraege = {}
+    if not os.path.exists(VARIANTEN_GEPINNT):
+        return eintraege
+    for z in open(VARIANTEN_GEPINNT, encoding="utf-8"):
+        z = z.rstrip("\n")
+        if not z.strip() or z.startswith("#"):
+            continue
+        t = (z.split("\t") + ["", "", ""])[:4]
+        if t[0] == "frei-ab":
+            continue
+        eintraege[(t[0], t[1])] = {"portion": t[2], "datum": t[3]}
+    return eintraege
+
+
+def lies_frei_ab():
+    """Erster Tag, an dem im Konto noch kein Pin geplant ist."""
+    if not os.path.exists(VARIANTEN_GEPINNT):
+        return None
+    for z in open(VARIANTEN_GEPINNT, encoding="utf-8"):
+        t = z.rstrip("\n").split("\t")
+        if t[0] == "frei-ab" and len(t) > 1 and t[1].strip():
+            return date.fromisoformat(t[1].strip()[:10])
+    return None
+
+
+def naechste_portion(erledigt):
+    nummern = [int(e["portion"]) for e in erledigt.values()
+               if e["portion"].isdigit()]
+    return (max(nummern) + 1) if nummern else 1
+
+
+def baue_portion(erledigt):
+    """Die nächsten PORTION_GROESSE offenen Varianten, fertig terminiert."""
+    offen = [(p, v) for v in ("b", "c") for p in POSTS
+             if (p["slug"], v) not in erledigt]
+    if not offen:
+        return []
+    aus = offen[:PORTION_GROESSE]
+
+    # Abstandsregel gegen schon gepinnte Varianten desselben Beitrags:
+    # liegt die Gegenvariante weniger als ABSTAND_TAGE zurück, beginnt die
+    # ganze Portion entsprechend später.
+    start = date.today() + timedelta(days=VORLAUF_TAGE)
+
+    # Hinter den schon geplanten Pins anschließen, nicht darüber.
+    frei = lies_frei_ab()
+    if frei and frei > start:
+        start = frei
+    belegt = [date.fromisoformat(e["datum"][:10]) for e in erledigt.values()
+              if e["datum"]]
+    if belegt and max(belegt) + timedelta(days=1) > start:
+        start = max(belegt) + timedelta(days=1)
+
+    for p, v in aus:
+        gegen = erledigt.get((p["slug"], "c" if v == "b" else "b"), {}).get("datum", "")
+        if gegen:
+            frueh = date.fromisoformat(gegen[:10]) + timedelta(days=ABSTAND_TAGE)
+            if frueh > start:
+                start = frueh
+
+    # Termine der Reihe nach vergeben - aber wenn b und c desselben Beitrags in
+    # derselben Portion stehen, rückt die zweite Variante so weit nach hinten,
+    # dass ABSTAND_TAGE eingehalten sind. Lieber eine Portion, die etwas länger
+    # läuft, als zwei fast gleiche Grafiken an einem Tag.
+    slots = termine(len(aus) + 2 * ABSTAND_TAGE * len(ORTSZEIT_SLOTS), start)
+    vergeben, zeilen, i = {}, [], 0
+    for p, v in aus:
+        while any(abs((date.fromisoformat(slots[i][:10]) - d).days) < ABSTAND_TAGE
+                  for d in vergeben.get(p["slug"], [])):
+            i += 1
+        zeilen.append(zeile(p, v, datum=slots[i]))
+        vergeben.setdefault(p["slug"], []).append(date.fromisoformat(slots[i][:10]))
+        i += 1
+
+    # --- Wächter 4: kein leerer Termin ---
+    leer = [z["Title"] for z in zeilen if not z["Publish date"]]
+    if leer:
+        print("\n!!! ABBRUCH - Zeilen ohne Veröffentlichungstermin:\n")
+        for t in leer:
+            print("  " + t)
+        print("\nPinterest würde sie sofort veröffentlichen, alle am selben Tag.")
+        print("Das ist der Fehler vom 07.10.2026 und lässt sich nicht rückgängig machen.\n")
+        raise SystemExit(1)
+
+    # --- Wächter 5: b und c desselben Beitrags nicht zu dicht ---
+    tage = {}
+    for (p, v), z in zip(aus, zeilen):
+        tage.setdefault(p["slug"], []).append((v, z["Publish date"]))
+    eng = {s: v for s, v in tage.items() if len(v) > 1 and
+           abs((date.fromisoformat(v[1][1][:10]) - date.fromisoformat(v[0][1][:10])).days)
+           < ABSTAND_TAGE}
+    if eng:
+        print(f"\n!!! ABBRUCH - weniger als {ABSTAND_TAGE} Tage zwischen zwei Varianten:\n")
+        for s, v in eng.items():
+            print(f"  {s}: " + ", ".join(f"{vv} am {d[:10]}" for vv, d in v))
+        print("\nDieselbe Grafik zweimal dicht hintereinander liest sich als Wiederholung.")
+        print("PORTION_GROESSE verkleinern oder die Portion aufteilen.\n")
+        raise SystemExit(1)
+
+    # --- Wächter 6: jeder Titel nur einmal je Datei (häufigster Abweisungsgrund) ---
+    _t = _C(z["Title"] for z in zeilen)
+    doppelt = [t for t, n in _t.items() if n > 1]
+    if doppelt:
+        print("\n!!! ABBRUCH - derselbe Titel zweimal in einer Portion:\n")
+        for t in doppelt:
+            print("  " + t)
+        print("\nPinterest verwirft dann die GANZE Datei, nicht nur die Zeile.")
+        print("Eintrag in PINTITEL_C in content.py ergänzen.\n")
+        raise SystemExit(1)
+
+    return zeilen
+
+
+def zeile(p, v="a", datum=""):
     zusatz={"a":"", "b":" Look zum Nachstylen.", "c":" Alle Teile im Beitrag."}[v]
     return {
       "Title": pintitel(p, v)[:100],
@@ -188,7 +349,7 @@ def zeile(p, v="a"):
       "Pinterest board": CAT[p["cat"]]["title"],
       "Description": (p["meta"] + zusatz + " Mehr Outfit-Ideen auf anlasslook.de. Enthält Werbelinks.")[:500],
       "Link": f"{SITE['url']}/beitraege/{p['slug']}/?utm_source=pinterest&utm_medium=pin&utm_campaign=variante-{v}",
-      "Publish date": "",
+      "Publish date": datum,
       "Keywords": p.get("keywords", ""),
     }
 
@@ -343,8 +504,18 @@ schreibe_csv(f"{DIST}/pinterest-bulk-alle.csv", [zeile(p) for p in POSTS])
 schreibe_csv(f"{DIST}/pinterest-bulk.csv",      [zeile(p) for p in offen])
 
 # --- CSV: die Varianten b und c, ältester Beitrag zuerst ---
+# Vorratsliste zum Nachschauen, NICHT zum Hochladen: ohne Termine. Hochgeladen
+# wird immer nur die Portions-Datei weiter unten.
 varianten_zeilen=[zeile(p,v) for v in ("b","c") for p in POSTS]
 schreibe_csv(f"{DIST}/pinterest-varianten.csv", varianten_zeilen)
+
+# --- CSV: die nächste Portion, fertig terminiert ---
+erledigt_v    = lies_varianten_gepinnt()
+portion_nr    = naechste_portion(erledigt_v)
+portion_zeilen= baue_portion(erledigt_v)
+portion_datei = f"{DIST}/pinterest-portion-{portion_nr:02d}.csv"
+if portion_zeilen:
+    schreibe_csv(portion_datei, portion_zeilen)
 
 anzahl=len(POSTS)*len(VARIANTEN)
 print(f"{anzahl} Pin-Grafiken erzeugt ({len(POSTS)} Beiträge x {len(VARIANTEN)} Varianten), alle inhaltlich verschieden")
@@ -355,15 +526,60 @@ if offen:
     print("  python3 makepins.py --gepinnt")
 else:
     print("  -> dist/pinterest-bulk.csv ist leer: nichts Neues zu pinnen. Das ist richtig so.")
-print(f"\nVarianten b und c: dist/pinterest-varianten.csv ({len(varianten_zeilen)} Zeilen)")
-print("  ACHTUNG: nicht auf einmal hochladen. 10 bis 15 Zeilen pro Woche,")
-print("  sonst sieht das Konto nach Massenupload aus. Datei oben abschneiden,")
-print("  Kopfzeile behalten, den Rest beim nächsten Mal.")
+print(f"\nVorratsliste b und c: dist/pinterest-varianten.csv ({len(varianten_zeilen)} Zeilen)")
+print("  Nur zum Nachschauen. Sie hat keine Termine - hochgeladen gingen alle")
+print("  Zeilen sofort und gleichzeitig online. Nicht von Hand abschneiden.")
+
+print(f"\nZum Hochladen: Portion {portion_nr:02d}")
+if portion_zeilen:
+    print(f"  {portion_datei} ({len(portion_zeilen)} Zeilen)")
+    print(f"  Termine {portion_zeilen[0]['Publish date'][:10]} bis "
+          f"{portion_zeilen[-1]['Publish date'][:10]} (UTC), "
+          f"{len(ORTSZEIT_SLOTS)} am Tag um " + " und ".join(ORTSZEIT_SLOTS) + " Ortszeit")
+    for z in portion_zeilen:
+        print(f"    {z['Publish date']}  {z['Pinterest board']:32s}  {z['Title']}")
+    print(f"\n  Offen danach: {len([1 for v in ('b','c') for q in POSTS if (q['slug'],v) not in erledigt_v]) - len(portion_zeilen)} Varianten")
+    print("  Nach dem Upload einmal ausführen:")
+    print("    python3 makepins.py --portion-gepinnt")
+else:
+    print("  Nichts offen: alle Varianten b und c sind gepinnt.")
+    print("  Nachschub kommt nur aus neuen Beiträgen in content.py.")
 print("Vollständige Liste für einen Neuaufbau des Kontos: dist/pinterest-bulk-alle.csv")
 
 _n = schreibe_video_ebenen()
 print(f"\nTextebenen für Video-Pins: {_n} Stück in dist/assets/video/ (1080x1920, transparent)")
 print("  Darüberlegen mit ffmpeg, siehe claude/anlasslook-video-pins.md")
+
+# --- Portion als gepinnt vormerken ---
+if "--portion-gepinnt" in sys.argv:
+    if not portion_zeilen:
+        print("\nNichts zu vermerken: die Portion ist leer.")
+    else:
+        _kopf = [z for z in open(VARIANTEN_GEPINNT, encoding="utf-8")
+                 if z.startswith("#")] if os.path.exists(VARIANTEN_GEPINNT) else []
+        if not _kopf:
+            _kopf = [
+                "# Welche Pin-Varianten b und c schon auf Pinterest stehen.\n",
+                "# Spalten mit Tabulator getrennt: slug, variante, portion, termin (UTC).\n",
+                "# Variante a laeuft ueber den RSS-Feed und steht in pinterest-gepinnt.txt.\n",
+                "# 'frei-ab' = erster Tag ohne geplanten Pin. Schreibt der Erzeuger selbst.\n",
+            ]
+        _neu = []
+        for z in portion_zeilen:
+            _slug = z["Link"].split("/beitraege/")[1].split("/")[0]
+            _var  = z["Link"].rsplit("variante-", 1)[1]
+            _neu.append((_slug, _var, str(portion_nr), z["Publish date"]))
+        _frei = date.fromisoformat(portion_zeilen[-1]["Publish date"][:10]) + timedelta(days=1)
+        with open(VARIANTEN_GEPINNT, "w", encoding="utf-8") as fh:
+            fh.writelines(_kopf)
+            fh.write(f"frei-ab\t{_frei.isoformat()}\n")
+            for (_s, _v), _e in erledigt_v.items():
+                fh.write(f"{_s}\t{_v}\t{_e['portion']}\t{_e['datum']}\n")
+            for _s, _v, _n, _d in _neu:
+                fh.write(f"{_s}\t{_v}\t{_n}\t{_d}\n")
+        print(f"\n{VARIANTEN_GEPINNT}: Portion {portion_nr:02d} vermerkt "
+              f"({len(portion_zeilen)} Varianten). Der nächste Lauf baut Portion "
+              f"{portion_nr+1:02d}.")
 
 # --- Slugs als gepinnt vormerken ---
 if "--gepinnt" in sys.argv:
