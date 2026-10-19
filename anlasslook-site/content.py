@@ -2363,3 +2363,160 @@ POSTS.append({
 PINTITEL["stola-zum-kleid"] = "Stola zum Kleid: 6 Modelle und wie sie liegen bleibt"
 PINTITEL_C["stola-zum-kleid"] = "Welche Stola passt zu welchem Kleid?"
 KEYWORDS["stola-zum-kleid"] = "stola zum kleid, stola hochzeit, stola winter kleid, wie trägt man eine stola, schal zum abendkleid"
+
+# ---------------------------------------------------------------------------
+# Lauf vom 17.10.2026 — drei Q4-Beiträge vor der Sichtbarkeitsfrist am 21.10.
+# Bilder aus dem Vorrat vom 10.09., kein Higgsfield nötig.
+# ---------------------------------------------------------------------------
+
+POSTS.append({
+    "slug": "adventsfeier-outfit",
+    "cat": "festtage",
+    "title": "Adventsfeier im Verein oder Betrieb: das Outfit, das den Hof und den Saal aushält",
+    "teaser": "Die meisten Adventsfeiern finden zur Hälfte draußen statt — Glühwein im Hof, Essen drinnen. Genau daran scheitern die Outfits, die nur für den Saal gedacht waren.",
+    "img": "adventsfeier-outfit.jpg",
+    "meta": "Adventsfeier-Outfit für Verein, Chor und Betrieb: warum der Abend halb draußen stattfindet, welche Schichten das aushalten, und die sechs Teile, die zwischen Hof und Saal funktionieren.",
+    "intro": [
+        "Eine Adventsfeier ist keine Weihnachtsfeier im Restaurant. Sie beginnt im Hof, an einem Stehtisch, mit einem Becher in der Hand, und sie endet an einer langen Tafel drinnen, wo nach zwanzig Minuten die Heizung zu viel ist. Zwischen beidem liegen keine zwei Stunden.",
+        "Wer sich für den Saal anzieht, friert vorne. Wer sich für den Hof anzieht, sitzt drinnen in einem Pullover, der aus der Nähe aussieht wie Freizeit. Die Lösung ist keine Mitte, sondern eine Reihenfolge: ein festliches Teil unten, eine warme Schicht darüber, die man ablegt, ohne dass etwas fehlt.",
+    ],
+    "sections": [
+        ("Der Fehler ist nicht die Kälte, sondern die Schicht, die nicht weggeht", [
+            "Ein dicker Rollkragenpullover unter dem Mantel ist warm und richtig — bis man drinnen ist. Dann bleibt er an, weil darunter nichts ist, was man zeigen könnte. Der Abend verbringt sich in dem Teil, das für den Hof gedacht war.",
+            "Umgekehrt genauso: Ein ärmelloses Kleid plus Mantel ist für den Saal perfekt und für die halbe Stunde draußen unbrauchbar, weil der Mantel beim Stehtisch offen hängt und der Wind von unten kommt.",
+            "Die Reihenfolge, die funktioniert: festliches Oberteil oder Kleid — darüber eine Strickjacke oder ein Blazer, die beide für sich schon gut aussehen — darüber der Mantel. Drei Schichten, von denen jede einzelne drinnen bestehen kann.",
+        ]),
+        ("Dunkelblau trägt sich bei Kerzenlicht besser als Schwarz", [
+            "Adventsfeiern sind schlecht beleuchtet, und das ist Absicht: Kerzen, Lichterketten, warmes Licht. Schwarz verliert darin jede Struktur und wird zu einer Fläche. Ein Samtblazer in Schwarz sieht auf dem Foto aus wie ein schwarzes Rechteck.",
+            "Mitternachtsblau, Tannengrün und Bordeaux behalten bei warmem Licht ihre Tiefe. Sie sind dunkel genug, um festlich zu wirken, und farbig genug, um nicht zu verschwinden. Das gilt für Herren genauso: ein dunkelgrüner Rollkragen unter einem dunkelblauen Sakko ist der unauffälligste gute Abend-Look, den es gibt.",
+            "Wer bei Schwarz bleiben will, braucht eine Struktur, die das Licht bricht — Samt, Jacquard, Strickmuster. Glatte schwarze Flächen sind die einzige Variante, die im Kerzenlicht wirklich flach aussieht.",
+        ]),
+        ("Die Schuhe entscheidet man nach dem Boden, nicht nach dem Kleid", [
+            "Vereinsheim, Hof, Gemeindesaal, Firmenparkplatz: Der Weg zur Adventsfeier führt fast nie über Parkett. Feine Absätze sinken in Kies ein, Wildleder nimmt Salz auf, und beides lässt sich hinterher nicht reparieren.",
+            "Ein blockiger Absatz von vier bis fünf Zentimetern steht auf jedem Untergrund und sieht trotzdem nicht nach Alltag aus. Für Herren gilt dasselbe in der Sohle: eine leicht profilierte Ledersohle statt einer glatten.",
+            "Wer bei den feinen Schuhen bleiben will, nimmt sie mit und zieht sie drinnen an. Das ist kein Kompromiss, sondern das, was Leute machen, die solche Abende oft haben.",
+        ]),
+        ("Ein Teil darf glänzen — der Rest bleibt ruhig", [
+            "Advent verführt zu Glitzer, und die Feier verträgt genau ein glänzendes Teil. Ein Satinrock, ein Paillettentop unter dem Blazer, eine Brosche am Revers, Ohrringe mit Stein. Eines davon, nicht drei.",
+            "Der Grund ist nicht Geschmack, sondern Licht: In einem Raum voller Kerzen reflektiert jedes glänzende Teil, und zwei davon konkurrieren miteinander. Eines allein zieht den Blick genau dahin, wo man ihn haben will.",
+            "Die einfachste Fassung dieser Regel: Entscheide vor dem Spiegel, welches Teil der Abend sehen soll. Alles andere wird dunkel, matt und einfarbig.",
+        ]),
+    ],
+    "products": [
+        ("Blazer in Mitternachtsblau", "Die mittlere Schicht, die drinnen allein bestehen kann. Dunkelblau behält bei Kerzenlicht seine Tiefe, wo Schwarz zur Fläche wird.", "blazer damen mitternachtsblau elegant"),
+        ("Strickjacke in Tannengrün", "Die wärmere Variante derselben Schicht, für Feiern mit langem Außenteil. Grün ist der Farbton, der im Advent festlich wirkt, ohne nach Kostüm auszusehen.", "strickjacke damen dunkelgrün fein"),
+        ("Rollkragenpullover fein, dunkel", "Für Herren die Alternative zu Hemd und Krawatte — unter dem Sakko festlich, ohne steif zu sein, und auf dem Hof deutlich wärmer.", "rollkragenpullover herren feinstrick dunkelblau"),
+        ("Satinrock midi", "Das eine glänzende Teil, das den Abend trägt. Zum einfarbigen Oberteil ruhig genug, am Stehtisch lang genug.", "satinrock damen midi festlich"),
+        ("Pumps mit Blockabsatz", "Vier bis fünf Zentimeter, stabil auf Kies und Kopfsteinpflaster, und abends an der Tafel trotzdem richtig.", "pumps damen blockabsatz 5 cm"),
+        ("Brosche fürs Revers", "Der Akzent für alle, die lieber einfarbig bleiben. Am Blazer getragen ersetzt sie Kette und Glanzteil zugleich.", "brosche damen elegant revers"),
+    ],
+    "pintitle": "Adventsfeier Outfit Damen 2026",
+    "pintitle_c": "Was zieht man zur Adventsfeier an?",
+    "keywords": "adventsfeier outfit, adventsfeier was anziehen, outfit adventsfeier damen, weihnachtsfeier verein outfit, festliches outfit advent",
+})
+
+PINTITEL["adventsfeier-outfit"] = "Adventsfeier Outfit Damen 2026"
+PINTITEL_C["adventsfeier-outfit"] = "Was zieht man zur Adventsfeier an?"
+KEYWORDS["adventsfeier-outfit"] = "adventsfeier outfit, adventsfeier was anziehen, outfit adventsfeier damen, weihnachtsfeier verein outfit, festliches outfit advent"
+
+
+POSTS.append({
+    "slug": "pailletten-dezent-tragen",
+    "cat": "festtage",
+    "title": "Pailletten dezent tragen: ein glänzendes Teil, und der Rest hält still",
+    "teaser": "Pailletten gelten als zu viel. Sie sind es nur dann, wenn sie mit etwas anderem konkurrieren — und genau das passiert auf fast jedem Foto, das man dazu findet.",
+    "img": "pailletten-dezent-tragen.jpg",
+    "meta": "Pailletten dezent kombinieren: warum ein glänzendes Teil pro Outfit die ganze Regel ist, welche Farben sich im Kunstlicht beruhigen, und sechs Teile, mit denen Pailletten alltagstauglich werden.",
+    "intro": [
+        "Die Suche nach Pailletten liefert zwei Sorten Bilder: Partykleider, die komplett aus Pailletten bestehen, und Beiträge, die davon abraten. Dazwischen liegt das, was die meisten tatsächlich suchen — ein festliches Teil, das glänzt, ohne dass der ganze Abend davon handelt.",
+        "Die Regel dafür ist kurz genug, dass man sie sich merken kann: ein glänzendes Teil, alles andere matt und einfarbig. Alles Weitere in diesem Beitrag sind nur Anwendungen davon.",
+    ],
+    "sections": [
+        ("Pailletten sind ein Teil, keine Kategorie", [
+            "Ein Paillettenkleid ist eine Entscheidung für den ganzen Abend. Ein Paillettentop unter einem einfarbigen Blazer ist eine Entscheidung für zehn Zentimeter Ausschnitt — und die lässt sich auch auf der Weihnachtsfeier im Büro treffen.",
+            "Das ist der eigentliche Unterschied zwischen „zu viel“ und „richtig“: nicht die Menge des Glanzes, sondern wie viel Fläche er einnimmt. Ein Rock, ein Top, eine Jacke, eine Tasche. Eines davon.",
+            "Wer das Paillettenkleid trotzdem will, nimmt alles andere zurück: geschlossene dunkle Schuhe, kein Schmuck außer kleinen Ohrringen, matte Tasche. Das Kleid ist dann das gesamte Outfit, und das ist in Ordnung — aber es ist eine andere Entscheidung.",
+        ]),
+        ("Champagner und Anthrazit glänzen leiser als Silber", [
+            "Silber und helles Gold reflektieren hart und punktuell. In einem Raum mit vielen kleinen Lichtquellen — Kerzen, Spots, Lichterketten — blitzen sie bei jeder Bewegung, und genau das meinen Leute, wenn sie Pailletten „zu viel“ finden.",
+            "Champagner, Bronze, Anthrazit und Dunkelgrün haben einen gebrochenen Glanz. Sie leuchten, statt zu blitzen. Auf Fotos sieht man den Unterschied sofort, mit bloßem Auge erst, wenn man darauf achtet.",
+            "Für den ersten Versuch mit Pailletten ist Champagner die sicherste Farbe: hell genug, um festlich zu sein, warm genug, um neben jeder Hautfarbe zu funktionieren, und so unauffällig im Ton, dass das Teil mehrfach getragen werden kann.",
+        ]),
+        ("Die matte Gegenseite ist wichtiger als das glänzende Teil", [
+            "Ein Paillettentop zu einer Satinhose ist zweimal Glanz und sieht nach Verkleidung aus. Dasselbe Top zu einer Wollhose oder einem Crêpe-Rock sieht nach Abend aus.",
+            "Die Materialien, die sich dafür eignen, sind die unauffälligsten im Schrank: feine Wolle, Crêpe, dichter Baumwollsatin mit matter Oberfläche, fester Strick. Je ruhiger die Oberfläche, desto mehr Raum hat das glänzende Teil.",
+            "Das gilt auch für Schuhe und Tasche. Lack neben Pailletten ist der zweithäufigste Fehler nach Satin neben Pailletten.",
+        ]),
+        ("Ein Blazer macht aus Abendkleidung Bürokleidung", [
+            "Das Teil, das Pailletten im Dezember wirklich tragbar macht, ist kein Paillettenteil, sondern der einfarbige Blazer darüber. Er deckt die Fläche ab, lässt den Ausschnitt frei und verschiebt den ganzen Look von „Party“ zu „festlich“.",
+            "Praktisch heißt das: dasselbe Top geht mittags unter dem Blazer ins Büro und abends ohne ihn auf die Feier. Das ist der Grund, warum sich ein Paillettentop eher lohnt als ein Paillettenkleid.",
+            "Für Herren gibt es die leise Variante ebenfalls: eine Jacquardkrawatte oder ein Einstecktuch mit Lurexanteil. Mehr Glanz als das verträgt ein Anzug nicht, und weniger ist zu Silvester zu wenig.",
+        ]),
+    ],
+    "products": [
+        ("Paillettentop in Champagner", "Der Einstieg: kleine Fläche, gebrochener Glanz, unter dem Blazer bürotauglich und ohne ihn abendtauglich.", "paillettentop damen champagner"),
+        ("Blazer einfarbig, schwarz oder navy", "Das Teil, das aus dem Paillettentop ein Outfit macht. Matte Oberfläche, gerade geschnitten, ohne Muster.", "blazer damen einfarbig tailliert schwarz"),
+        ("Crêpe-Hose weit", "Die matte Gegenseite. Crêpe hat eine ruhige Oberfläche und fällt schwer genug, um neben Pailletten zu bestehen.", "crepe hose damen weit elegant"),
+        ("Paillettenrock midi in Anthrazit", "Für alle, die den Glanz lieber unten tragen. Anthrazit leuchtet, statt zu blitzen, und verträgt oben einen schlichten Rollkragen.", "paillettenrock damen midi anthrazit"),
+        ("Clutch in mattem Samt", "Die Tasche, die neben Pailletten nicht konkurriert. Samt schluckt Licht, wo Lack es zurückwirft.", "clutch damen samt abendtasche"),
+        ("Einstecktuch mit Lurexanteil", "Die Herrenvariante der Regel: ein Quadratzentimeter Glanz im Sakko, mehr braucht ein Anzug zu Silvester nicht.", "einstecktuch herren festlich seide"),
+    ],
+    "pintitle": "Pailletten kombinieren: festlich statt Party",
+    "pintitle_c": "Wie trägt man Pailletten, ohne zu glitzern?",
+    "keywords": "pailletten outfit, paillettentop kombinieren, pailletten dezent tragen, glitzer outfit weihnachtsfeier, festliches outfit pailletten",
+})
+
+PINTITEL["pailletten-dezent-tragen"] = "Pailletten kombinieren: festlich statt Party"
+PINTITEL_C["pailletten-dezent-tragen"] = "Wie trägt man Pailletten, ohne zu glitzern?"
+KEYWORDS["pailletten-dezent-tragen"] = "pailletten outfit, paillettentop kombinieren, pailletten dezent tragen, glitzer outfit weihnachtsfeier, festliches outfit pailletten"
+
+
+POSTS.append({
+    "slug": "festliche-schuhe-winter",
+    "cat": "accessoires",
+    "title": "Festliche Schuhe im Winter: warum der Wechselschuh die bessere Lösung ist",
+    "teaser": "Zwischen Auto und Saal liegen im Dezember selten mehr als zweihundert Meter — und genau auf denen gehen die meisten festlichen Schuhe kaputt.",
+    "img": "festliche-schuhe-winter.jpg",
+    "meta": "Festliche Schuhe im Winter: was Streusalz mit Wildleder macht, welche Absatzform auf Kopfsteinpflaster steht, und warum ein zweites Paar in der Tasche kein Notbehelf ist, sondern die Lösung.",
+    "intro": [
+        "Die Frage lautet meistens, welcher Schuh zum Anlasskleid passt. Im Winter ist das die zweite Frage. Die erste ist, wie man überhaupt ankommt: über einen gestreuten Parkplatz, zwanzig Meter Kies, eine nasse Treppe.",
+        "Wer das zusammen lösen will, landet bei einem Kompromiss, der weder schön noch sicher ist. Wer es getrennt löst, hat beides — und braucht dafür nichts weiter als eine Tasche, in die ein zweites Paar passt.",
+    ],
+    "sections": [
+        ("Streusalz ist für Wildleder endgültig", [
+            "Salz zieht beim Trocknen weiße Ränder, und bei Wildleder und Nubuk sitzen die in der Faser, nicht auf der Oberfläche. Sie lassen sich abbürsten, kommen beim nächsten Mal aber wieder — das Salz bleibt im Material.",
+            "Glattleder verzeiht mehr: feucht abwischen, trocknen lassen, nachfetten. Satin und Textil liegen dazwischen und sind vor allem gegen Nässe empfindlich, nicht gegen Salz.",
+            "Daraus folgt eine einfache Reihenfolge für den Winter: Wildleder nur, wenn der Weg trocken ist. Satin nur drinnen. Glattleder für alles andere.",
+        ]),
+        ("Der Absatz entscheidet nicht über die Höhe, sondern über die Fläche", [
+            "Ein Pfennigabsatz überträgt das ganze Gewicht auf wenige Quadratmillimeter. Auf Kies sinkt er ein, zwischen Kopfsteinpflaster verkeilt er sich, auf nassem Holz rutscht er.",
+            "Ein Blockabsatz derselben Höhe steht auf der zehnfachen Fläche. Er ist nicht flacher und nicht weniger festlich — er ist nur stabil. Dasselbe gilt für den leicht konischen Absatz, der unten breiter ist als am Ansatz.",
+            "Wer bei der feinen Form bleiben will, kann für den Weg Absatzschoner aufstecken. Das hilft gegen das Einsinken, nicht gegen das Rutschen.",
+        ]),
+        ("Der Wechselschuh ist keine Notlösung", [
+            "Leute, die oft zu solchen Abenden gehen, machen es längst so: feste Schuhe oder Stiefel für den Weg, das feine Paar in einer Tasche, Wechsel in der Garderobe. Das dauert zwanzig Sekunden und niemand sieht es.",
+            "Praktisch braucht es dafür nur zwei Dinge: eine Tasche, in die ein Paar flach hineinpasst, und einen Beutel, damit die Sohle nichts im Inneren verschmutzt. Ein Stoffbeutel genügt.",
+            "Der Nebeneffekt ist der eigentliche Gewinn: Weil der feine Schuh nie draußen war, hält er Jahre statt eine Saison. Die Rechnung geht nach zwei Abenden auf.",
+        ]),
+        ("Drinnen zählt der Übergang zur Strumpfhose, nicht die Schuhfarbe", [
+            "Ein dunkler Schuh unter einer dunklen Strumpfhose verlängert das Bein, ein heller Schuh darunter schneidet es ab. Deshalb wirkt im Winter fast jedes Outfit mit dunkler Strumpfhose und dunklem Schuh länger als dasselbe mit nude Schuh.",
+            "Wenn der Schuh hell sein soll, muss die Strumpfhose es auch sein — und dann braucht sie eine Deniezahl, die zum Rest passt. Zwanzig Denier in Hautton zu einem Wollkleid sieht aus wie eine Verwechslung der Jahreszeit.",
+            "Geschlossene Formen sind im Dezember ohnehin die bessere Wahl. Peeptoe und offene Fersen sind für Räume gemacht, in denen man nicht erst ankommen muss.",
+        ]),
+    ],
+    "products": [
+        ("Pumps mit Blockabsatz", "Die Form, die auf Kies und Kopfsteinpflaster steht. Gleiche Höhe wie ein feiner Absatz, zehnfache Standfläche.", "pumps damen blockabsatz elegant"),
+        ("Stiefeletten aus Glattleder", "Der Schuh für den Weg, der auch drinnen bestehen kann. Glattleder verzeiht Streusalz, Wildleder nicht.", "stiefeletten damen glattleder absatz"),
+        ("Faltbare Ballerinas im Beutel", "Das zweite Paar für die Tasche — flach, leicht, und als Rettung für den späten Abend ohnehin sinnvoll.", "faltbare ballerinas damen tasche"),
+        ("Blickdichte Strumpfhose 60 den", "Der Übergang, der das Bein verlängert. Zur dunklen Schuhfarbe gehört die passende Deniezahl, nicht der Hautton.", "strumpfhose damen 60 den blickdicht"),
+        ("Absatzschoner für feine Absätze", "Für alle, die beim Pfennigabsatz bleiben: verhindert das Einsinken im Kies, nicht das Rutschen auf Nässe.", "absatzschoner high heels"),
+        ("Schuhbeutel aus Stoff", "Das Teil, das den Wechselschuh erst praktikabel macht. Trennt die Sohle vom Rest der Tasche.", "schuhbeutel stoff paar"),
+    ],
+    "pintitle": "Festliche Schuhe Winter Damen 2026",
+    "pintitle_c": "Welche Schuhe zur Weihnachtsfeier im Winter?",
+    "keywords": "festliche schuhe winter, schuhe zum anlasskleid winter, pumps winter kalt, stiefeletten festlich damen, schuhe weihnachtsfeier damen",
+})
+
+PINTITEL["festliche-schuhe-winter"] = "Festliche Schuhe Winter Damen 2026"
+PINTITEL_C["festliche-schuhe-winter"] = "Welche Schuhe zur Weihnachtsfeier im Winter?"
+KEYWORDS["festliche-schuhe-winter"] = "festliche schuhe winter, schuhe zum anlasskleid winter, pumps winter kalt, stiefeletten festlich damen, schuhe weihnachtsfeier damen"
