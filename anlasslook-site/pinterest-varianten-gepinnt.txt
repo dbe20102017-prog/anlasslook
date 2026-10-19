@@ -4,7 +4,7 @@
 # Portion 0 = vor dem 07.10.2026 gepinnt, Termin nicht einzeln nachgehalten.
 # 'frei-ab' = erster Tag ohne geplanten Pin. Schreibt der Erzeuger selbst.
 # 2026-10-22, weil Portion 6 und 7 das Konto bis zum 21.10. belegen.
-frei-ab	2026-10-22
+frei-ab	2026-10-29
 hochzeitsgast-herbst	b	0	
 hochzeitsgast-ab-40	b	0	
 drei-farben-regel	b	0	
@@ -103,3 +103,9 @@ geschenk-schwiegermutter	c	0
 silvester-outfit-ab-50	c	8	2026-10-07T09:30:00
 trauzeugin-outfit-winter	c	8	2026-10-07T09:30:00
 stola-zum-kleid	c	8	2026-10-07T09:30:00
+adventsfeier-outfit	b	9	2026-10-22T11:30:00
+pailletten-dezent-tragen	b	9	2026-10-22T17:00:00
+festliche-schuhe-winter	b	9	2026-10-23T11:30:00
+adventsfeier-outfit	c	9	2026-10-27T12:30:00
+pailletten-dezent-tragen	c	9	2026-10-27T18:00:00
+festliche-schuhe-winter	c	9	2026-10-28T12:30:00
