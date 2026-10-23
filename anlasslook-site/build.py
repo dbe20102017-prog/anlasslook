@@ -55,6 +55,10 @@ def amazon(keyword):
     return url
 
 
+def ist_asin(keyword):
+    return bool(re.fullmatch(r"[A-Z0-9]{10}", keyword.strip()))
+
+
 def e(s):
     return html.escape(s, quote=True)
 
@@ -219,19 +223,36 @@ Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.</div>"""
 
 
 def quickpick(products):
-    """Kompakte Liste direkt unter dem Einstieg. Sprungmarken auf die
-    ausführlichen Einträge weiter unten — kein Werbelink über dem Text."""
+    """Kompakte Produktliste im ersten Bildschirm, direkt unter dem Werbehinweis.
+
+    Bis 23.10.2026 sprang dieser Kasten nur zu Ankern weiter unten — der erste
+    Amazon-Link stand damit 700 bis 800 Woerter tief im Beitrag. Seitdem fuehrt
+    jeder Eintrag direkt zu Amazon; "warum" springt zur Begruendung. Der
+    Werbehinweis steht unmittelbar darueber, jeder Link traegt das Sternchen
+    und rel="sponsored nofollow noopener".
+    """
     if not products:
         return ""
     items = "".join(
-        f'<li><a href="#p{i}">{e(name)}</a></li>'
-        for i, (name, _why, _kw) in enumerate(products, 1)
+        f'<li><a class="qp-link" href="{amazon(kw)}" rel="sponsored nofollow noopener" '
+        f'target="_blank">{e(name)}<span class="star">*</span></a> '
+        f'<a class="qp-warum" href="#p{i}">warum</a></li>'
+        for i, (name, _why, kw) in enumerate(products, 1)
     )
     return f"""<aside class="quickpick">
   <p class="quickpick-kopf">Auf einen Blick: {len(products)} Empfehlungen</p>
   <ol class="quickpick-liste">{items}</ol>
-  <p class="quickpick-fuss">Antippen springt zur Empfehlung.</p>
+  <p class="quickpick-fuss">Antippen öffnet das Produkt bei Amazon (Werbelink, mit * markiert). „warum“ springt zur Begründung.</p>
 </aside>"""
+
+
+def prod_hinweis(products):
+    arten = {ist_asin(kw) for _n, _w, kw in products}
+    if arten == {True}:
+        return "Die Links führen direkt zum Produkt bei Amazon. Preis und Verfügbarkeit siehst du dort."
+    if arten == {False}:
+        return "Die Links führen zu einer Amazon-Suche, damit dir immer die aktuelle Auswahl und der aktuelle Preis angezeigt werden."
+    return "Die Links führen zum Produkt oder zu einer passenden Amazon-Suche. Preis und Verfügbarkeit siehst du dort."
 
 
 def product_block(products, heading="Das gehört ins Outfit"):
@@ -246,7 +267,7 @@ def product_block(products, heading="Das gehört ins Outfit"):
     </li>""")
     return f"""<section class="products">
   <h2>{e(heading)}</h2>
-  <p class="prod-hint">Die Links führen zu einer Amazon-Suche, damit dir immer die aktuelle Auswahl und der aktuelle Preis angezeigt werden.</p>
+  <p class="prod-hint">{prod_hinweis(products)}</p>
   <ul class="prod-list">
 {chr(10).join(items)}
   </ul>
@@ -371,8 +392,8 @@ def build_post(pst):
   <div class="post-hero" style="background-color:{tint(pst['img'])};background-image:url({p}assets/img/{pst['img']})"></div>
   <div class="post-body">
     {ad_notice()}
-    {intro}
     {quickpick(pst['products'])}
+    {intro}
     {secs}
   </div>
   <div class="post-body">
@@ -511,7 +532,7 @@ a{color:inherit}
   padding:15px 18px;font-size:14px;color:#5a504c;margin:0 0 32px;line-height:1.55}
 
 /* ---------- Auf einen Blick ---------- */
-.quickpick{background:var(--panel);border:1px solid var(--line);padding:20px 24px 22px;margin:28px 0 34px}
+.quickpick{background:var(--panel);border:1px solid var(--line);padding:20px 24px 22px;margin:-12px 0 34px}
 .quickpick-kopf{margin:0 0 10px;font-size:14px;font-weight:700;letter-spacing:.04em;
   text-transform:uppercase;color:var(--muted)}
 .quickpick-liste{margin:0;padding-left:20px}
@@ -519,6 +540,7 @@ a{color:inherit}
 .quickpick-liste a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);
   text-decoration-thickness:1.5px;text-underline-offset:3px}
 .quickpick-liste a:hover{color:var(--accent)}
+.qp-warum{font-size:13px;color:var(--muted)!important;text-decoration:none!important;margin-left:6px}
 .quickpick-fuss{margin:12px 0 0;font-size:13px;color:var(--muted)}
 .prod{scroll-margin-top:90px}
 

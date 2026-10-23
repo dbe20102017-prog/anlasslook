@@ -1528,10 +1528,10 @@ POSTS.append({
     "title": "Sechs Accessoires, die Frauen wirklich tragen — und nicht in die Schublade legen",
     "teaser": "Das Problem beim Schenken ist selten die Idee, sondern die Größe. Accessoires lösen das, weil sie fast immer passen — wenn man die drei Fallen kennt.",
     "img": "geschenke-frauen-accessoires.jpg",
-    "meta": "Geschenkideen für Frauen: zwölf Accessoires, die getragen statt weggelegt werden, mit den drei häufigsten Fehlgriffen.",
+    "meta": "Geschenkideen für Frauen: sechs Accessoires, die getragen statt weggelegt werden, mit den drei häufigsten Fehlgriffen.",
     "intro": [
         "Kleidung zu verschenken ist heikel, weil die Größe stimmen muss und die Rückgabe peinlich ist. Accessoires umgehen beides: Ein Tuch passt jedem, ein Armreif hat höchstens zwei Größen, eine Tasche gar keine. Deshalb landen sie so oft unter dem Baum — und deshalb auch so oft ungetragen in der Schublade.",
-        "Der Unterschied zwischen beidem liegt nicht am Preis. Er liegt daran, ob das Stück zu dem passt, was sie ohnehin trägt. Die folgenden zwölf sind danach ausgewählt.",
+        "Der Unterschied zwischen beidem liegt nicht am Preis. Er liegt daran, ob das Stück zu dem passt, was sie ohnehin trägt. Die folgenden sechs sind danach ausgewählt.",
     ],
     "sections": [
         ("Die drei Fehlgriffe, die jeder macht", [
