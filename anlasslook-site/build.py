@@ -359,9 +359,35 @@ def build_category(c):
                      c["meta"], body, og_image=c["img"]))
 
 
-def build_post(pst):
+# ----------------------------------------------------------------- Anzeigen-Zielseiten
+# Kopien ausgewaehlter Beitraege unter /aktion/<slug>/ fuer bezahlte Pinterest-
+# Anzeigen. Einziger Unterschied: eigene Tracking-ID, damit Klicks und Kaeufe
+# aus der Werbung im PartnerNet getrennt von den organischen stehen.
+# noindex + canonical auf den Originalbeitrag (kein doppelter Inhalt), nicht in
+# der Sitemap. NICHT per robots.txt sperren - der Pinterest-Pruefer muss die
+# Seite lesen koennen.
+ADS_TAG = "anlasslook-ads-21"
+AKTION_SLUGS = [
+    "geschenke-frauen-accessoires",
+    "geschenke-maenner-accessoires",
+    "wichtelgeschenke-ideen",
+    "geschenk-schwiegermutter",
+    "adventskalender-fuellen",
+]
+
+
+def build_aktion(pst):
+    alt = SITE["amazon_tag"]
+    SITE["amazon_tag"] = ADS_TAG
+    try:
+        build_post(pst, aktion=True)
+    finally:
+        SITE["amazon_tag"] = alt
+
+
+def build_post(pst, aktion=False):
     c = CATBY[pst["cat"]]
-    path = f"beitraege/{pst['slug']}/index.html"
+    path = f"{'aktion' if aktion else 'beitraege'}/{pst['slug']}/index.html"
     p = "../../"
     intro = "".join(f"<p>{e(t)}</p>" for t in pst["intro"])
     secs = ""
@@ -410,8 +436,14 @@ def build_post(pst):
            f'<meta property="article:modified_time" content="{TODAY}T09:00:00+02:00">\n'
            f'<meta property="article:author" content="{e(SITE["name"])}">\n'
            f'<meta property="article:section" content="{e(c["title"])}">\n')
-    write(path, page(path, f"{pst['title']} | {SITE['name']}", pst["meta"], body,
-                     og_image=pst["img"], extra_head=art + ld, og_type="article"))
+    if aktion:
+        art = '<meta name="robots" content="noindex, follow">\n' + art
+    html_out = page(path, f"{pst['title']} | {SITE['name']}", pst["meta"], body,
+                    og_image=pst["img"], extra_head=art + ld, og_type="article")
+    if aktion:
+        html_out = html_out.replace(f"{SITE['url']}/aktion/{pst['slug']}/",
+                                    f"{SITE['url']}/beitraege/{pst['slug']}/")
+    write(path, html_out)
 
 
 def simple_page(slug, title, meta, inner):
@@ -832,6 +864,10 @@ def main():
         build_category(c)
     for p in POSTS:
         build_post(p)
+    for p in POSTS:
+        if p["slug"] in AKTION_SLUGS:
+            build_aktion(p)
+    assert sum(p["slug"] in AKTION_SLUGS for p in POSTS) == len(AKTION_SLUGS), "AKTION_SLUGS: Slug fehlt"
 
     simple_page("ueber-uns", "Über Anlasslook",
                 "Anlasslook stellt komplette Outfits für echte Anlässe zusammen – unabhängig, vollständig und mit Accessoires.", UEBER)
