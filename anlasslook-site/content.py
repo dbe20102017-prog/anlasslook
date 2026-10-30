@@ -194,10 +194,10 @@ POSTS = [
 {
  "slug": "weisser-blazer",
  "cat": "standesamt",
- "title": "Weißer Blazer: 5 Kombinationen von Standesamt bis Büro",
+ "title": "Weißen Blazer kombinieren: 5 Looks für Hochzeit, Standesamt und Büro",
  "teaser": "Ein Teil, fünf Anlässe. Warum der weiße Blazer gerade der meistgesuchte Artikel der Saison ist – und wie man ihn trägt, ohne dass er nach Kellner aussieht.",
  "img": "post-blazer.jpg",
- "meta": "Weißer Blazer kombinieren: fünf Looks für Standesamt, Büro, Abend und Wochenende, jeweils komplett zusammengestellt.",
+ "meta": "Weißen Blazer kombinieren: fünf komplette Outfits mit weißem Blazer für Hochzeit, Standesamt, Büro, Abend und Wochenende – mit den passenden Schuhen und Accessoires.",
  "intro": [
    "Auf Pinterest gehört „white blazer outfits\" zu den am stärksten wachsenden Suchbegriffen der Saison. Der Grund ist praktisch: Kaum ein Teil deckt so viele Anlässe ab, ohne dass man es umstylen muss.",
    "Die Fallstricke sind auch klar: falscher Schnitt, falsches Weiß, falsche Knopfhaltung.",
