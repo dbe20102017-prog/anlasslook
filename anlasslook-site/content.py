@@ -2520,3 +2520,155 @@ POSTS.append({
 PINTITEL["festliche-schuhe-winter"] = "Festliche Schuhe Winter Damen 2026"
 PINTITEL_C["festliche-schuhe-winter"] = "Welche Schuhe zur Weihnachtsfeier im Winter?"
 KEYWORDS["festliche-schuhe-winter"] = "festliche schuhe winter, schuhe zum anlasskleid winter, pumps winter kalt, stiefeletten festlich damen, schuhe weihnachtsfeier damen"
+
+
+# ----------------------------------------------------------------- Freitagslauf 30.10.2026
+POSTS.append({
+    "slug": "festlicher-haarschmuck",
+    "cat": "accessoires",
+    "title": "Festlicher Haarschmuck: sechs kleine Teile, die eine Frisur zum Anlass machen",
+    "teaser": "Für die Weihnachtsfeier muss niemand zum Friseur. Eine Spange an der richtigen Stelle erledigt mehr als eine Stunde mit dem Lockenstab.",
+    "img": "festlicher-haarschmuck.jpg",
+    "meta": "Festlicher Haarschmuck für Weihnachtsfeier und Silvester: welche Spange zu welcher Haarlänge passt, wie Perlennadeln halten und warum ein einziges Teil besser wirkt als drei.",
+    "intro": [
+        "Haarschmuck hat einen Ruf, den er nicht verdient: zu verspielt, zu sehr Hochzeit, zu viel Aufwand. Dabei ist er das einfachste Mittel, aus einer Alltagsfrisur eine Abendfrisur zu machen — ohne Termin, ohne Hitze, in zwei Minuten vor dem Spiegel.",
+        "Entscheidend ist nicht, wie aufwendig das Teil ist, sondern wo es sitzt und wie viele es sind. Fast immer gilt: eins. Höchstens ein zweites, wenn es aus demselben Material ist.",
+    ],
+    "sections": [
+        ("Erst die Haarlänge, dann das Teil", [
+            "Kurzes Haar bis zum Kinn trägt Nadeln und schmale Spangen am besten seitlich über dem Ohr. Ein Haarreif funktioniert auch, wenn er schmal ist und das Haar dahinter glatt liegt.",
+            "Schulterlanges Haar ist am vielseitigsten: halb hochgesteckt mit einer Spange am Hinterkopf, oder offen mit zwei Nadeln an einer Seite. Beides sieht nach Absicht aus, nicht nach Notlösung.",
+            "Langes Haar verlangt nach Halt. Eine große Klammer für einen lockeren Knoten oder ein Kamm im Dutt halten einen ganzen Abend. Nadeln allein rutschen bei schwerem Haar nach einer Stunde heraus.",
+        ]),
+        ("Perlennadeln: drei sind genug, fünf sind zu viel", [
+            "Perlennadeln wirken, wenn sie wie zufällig gestreut aussehen — in einer leichten Diagonale, unterschiedlich weit voneinander entfernt. In einer geraden Reihe erinnern sie an einen Brautsalon.",
+            "Damit sie halten, werden sie gegen die Wuchsrichtung eingeschoben und dann gedreht, sodass die U-Form das Haar umfasst. Eine Nadel, die nur oben aufliegt, ist nach dem ersten Lachen weg.",
+            "Zu Perlenohrsteckern sind Perlennadeln eine Wiederholung zu viel. Dann lieber die Strassnadel oder gar nichts im Haar.",
+        ]),
+        ("Schildpatt, Samt oder Metall — was zum Outfit passt", [
+            "Schildpatt ist die unterschätzte Wahl für den Dezember. Es passt zu Camel, Creme, Grün und Burgund, also zu fast allem, was im Winter getragen wird, und wirkt nie zu festlich für eine Firmenfeier.",
+            "Samt nimmt das Material eines Samtkleids oder Samtblazers auf und ist deshalb die sichere Wahl zur Weihnachtsfeier. Ein schwarzer Samtreif zu einem schwarzen Kleid ist dezent und trotzdem sichtbar.",
+            "Metall und Strass gehören zu Silvester. Hier darf es glänzen — aber an einer Stelle, nicht im Haar, an den Ohren und am Hals gleichzeitig.",
+        ]),
+        ("Ein kleines Geschenk, das selten danebengeht", [
+            "Haarschmuck gehört zu den wenigen Accessoires, bei denen man keine Größe kennen muss. Eine Schildpattklammer oder ein Satz Perlennadeln wird benutzt, auch wenn es nicht genau das ist, was die Beschenkte selbst gekauft hätte.",
+            "Für den Wichtel, den Adventskalender oder als Beigabe zu einem größeren Geschenk passt das Format ohnehin: klein, leicht, schön zu verpacken.",
+            "Wer unsicher ist, nimmt die neutrale Farbe, Schildpatt oder Schwarz. Gold und Silber setzen voraus, dass man weiß, welchen Schmuck sie trägt.",
+        ]),
+    ],
+    "products": [
+        ("Kristall-Haarnadeln", "Für Silvester und alle Abende, an denen es glänzen darf. Zwei oder drei an einer Seite reichen.", "B09LM1SQXJ"),
+        ("Samt-Haarreif in Schwarz", "Nimmt den Samt des Kleides auf und hält kurzes wie langes Haar aus dem Gesicht. Dezent genug für die Firmenfeier.", "B0CSJSWGHR"),
+        ("Perlen-Haarnadeln in U-Form", "Die U-Form umfasst das Haar und hält besser als eine gerade Nadel. Leicht diagonal gestreut, nie in einer Reihe.", "B07SNPCVJF"),
+        ("Große Haarklammer in Schildpatt", "Für den lockeren Knoten bei langem Haar. Passt zu Camel, Grün und Burgund, also zum ganzen Winter.", "B09GYPCCN5"),
+        ("Haarspangen mit Schleife", "Für halb hochgestecktes Haar am Hinterkopf. Eine einzige Schleife genügt, sie ist das Detail des Abends.", "B09TR4T1H5"),
+        ("Perlen-Haarkämme", "Der Halt für Dutt und Hochsteckfrisur, der einen ganzen Abend übersteht. Auch schön als kleines Geschenk.", "B08238S37S"),
+    ],
+    "pintitle": "Festlicher Haarschmuck Weihnachtsfeier 2026",
+    "pintitle_c": "Welcher Haarschmuck zu Silvester und Weihnachtsfeier?",
+    "keywords": "festlicher haarschmuck, haarschmuck weihnachtsfeier, haarschmuck silvester, perlen haarnadeln, haarspange festlich damen",
+})
+
+PINTITEL["festlicher-haarschmuck"] = "Festlicher Haarschmuck Weihnachtsfeier 2026"
+PINTITEL_C["festlicher-haarschmuck"] = "Welcher Haarschmuck zu Silvester und Weihnachtsfeier?"
+KEYWORDS["festlicher-haarschmuck"] = "festlicher haarschmuck, haarschmuck weihnachtsfeier, haarschmuck silvester, perlen haarnadeln, haarspange festlich damen"
+
+POSTS.append({
+    "slug": "perlen-modern-tragen",
+    "cat": "accessoires",
+    "title": "Perlen modern tragen: wie Perlenschmuck aufhört, nach Erbstück auszusehen",
+    "teaser": "Die Perlenkette hat den Ruf eines Erbstücks. Dabei liegt es fast nie an den Perlen, sondern daran, womit man sie kombiniert.",
+    "img": "perlen-modern-tragen.jpg",
+    "meta": "Perlen modern tragen: welche Kettenlänge zu welchem Ausschnitt passt, warum Perlen zu Strick besser wirken als zur Bluse, und wie Perlenschmuck zur Weihnachtsfeier nicht altmodisch aussieht.",
+    "intro": [
+        "Eine einreihige Perlenkette zur weißen Bluse und zum Twinset — das ist das Bild, das die meisten im Kopf haben, und genau das lässt Perlen älter wirken, als sie sind. Die Kette ist nicht das Problem. Die Kombination ist es.",
+        "Modern wirken Perlen durch Kontrast: zu grobem Strick, zu Denim, zu einem schwarzen Rollkragen. Und durch Mengen, die bewusst klein oder bewusst großzügig sind.",
+    ],
+    "sections": [
+        ("Die Länge folgt dem Ausschnitt", [
+            "Eine kurze Kette um die 45 Zentimeter liegt auf dem Schlüsselbein und gehört zu einem runden Ausschnitt oder einem Rollkragen. Zum V-Ausschnitt wirkt sie verloren, weil sie über der Öffnung schwebt.",
+            "Eine lange Kette ab etwa einem Meter kann man einfach tragen, doppelt schlingen oder locker knoten. Sie verlängert den Oberkörper und ist deshalb die bessere Wahl zu Kleidern mit hoher Taille.",
+            "Zu tiefen Ausschnitten braucht es keine Kette, sondern Ohrringe. Perlen an den Ohren und ein freier Hals wirken festlicher als jede Kette.",
+        ]),
+        ("Kontrast macht Perlen jung", [
+            "Der schnellste Weg: Perlen zu etwas tragen, das selbst nicht fein ist. Ein grober Wollpullover, ein Jeanshemd, ein schwarzer Rollkragen aus Merino. Die Perle wirkt dann wie eine Entscheidung, nicht wie eine Pflicht.",
+            "Dasselbe gilt für Metall. Perlen neben einer schlichten Goldkette, in zwei verschiedenen Längen übereinander getragen, nehmen der Perlenkette die Strenge.",
+            "Was Perlen alt macht, ist die perfekte Garnitur: Kette, Ohrstecker und Armband in derselben Größe und Farbe. Ein Stück darf aus der Reihe fallen.",
+        ]),
+        ("Ohrringe sind der leichteste Einstieg", [
+            "Wer mit Perlen fremdelt, fängt an den Ohren an. Kleine Perlenstecker passen ins Büro, zum Hochzeitsgast-Kleid und zur Weihnachtsfeier — es gibt kaum ein Schmuckstück, das man öfter trägt.",
+            "Perlen-Creolen sind die moderne Fassung: Metall als Form, Perle als Detail. Sie funktionieren auch dort, wo ein Stecker zu brav wäre.",
+            "Zur Echtheit eine einfache Regel: Süßwasserperlen sind leicht unregelmäßig, das ist kein Fehler, sondern ihr Erkennungszeichen. Perfekt runde, gleich große Perlen zum kleinen Preis sind fast immer Glas oder Kunststoff — was für eine lange Kette völlig in Ordnung ist.",
+        ]),
+        ("Perlen als Geschenk: worauf es ankommt", [
+            "Perlen gehören zu den sichersten Schmuckgeschenken, weil sie zu Gold und Silber passen. Man muss nicht wissen, welches Metall die Beschenkte trägt.",
+            "Ohrstecker sind dabei sicherer als eine Kette. Eine Kette hat eine Länge, und die passt nicht zu jedem Ausschnitt. Ohrstecker setzen nur eines voraus: Ohrlöcher.",
+            "Eine Brosche ist die überraschende Variante. Sie wird selten selbst gekauft und ist deshalb oft das Stück, über das sich jemand am meisten freut.",
+        ]),
+    ],
+    "products": [
+        ("Kurze Perlenkette, 45 cm", "Liegt auf dem Schlüsselbein, die Länge für Rundhals und Rollkragen. Mit einer schlichten Goldkette darüber wirkt sie sofort moderner.", "B0D9D5ZJSP"),
+        ("Perlenbrosche mit Schleife", "Das unerwartete Geschenk. Am Revers eines dunklen Blazers oder am Mantel ist sie das eine Detail, das auffällt.", "B0CF9LJNXX"),
+        ("Perlen-Creolen in Silber", "Die moderne Fassung des Perlenohrrings: Metall als Form, Perle als Detail.", "B0DNFJMZXZ"),
+        ("Lange Perlenkette", "Einfach, doppelt oder geknotet zu tragen. Verlängert den Oberkörper und passt zu Kleidern mit hoher Taille.", "B09FZ36THG"),
+        ("Perlenkette mit Magnetverschluss", "Für alle, die mit kleinen Verschlüssen kämpfen — und deshalb auch ein gutes Geschenk für Mutter oder Schwiegermutter.", "B00ZA3Z7VE"),
+        ("Perlenohrstecker aus Süßwasserperlen", "Das Schmuckstück, das man am häufigsten trägt. Passt zu Gold und Silber, ins Büro und zur Hochzeit.", "B01MZH56PM"),
+    ],
+    "pintitle": "Perlenkette modern kombinieren Damen",
+    "pintitle_c": "Wie trägt man Perlen, ohne altmodisch zu wirken?",
+    "keywords": "perlen modern tragen, perlenkette kombinieren, perlenohrringe damen, perlenschmuck, perlen weihnachtsfeier",
+})
+
+PINTITEL["perlen-modern-tragen"] = "Perlenkette modern kombinieren Damen"
+PINTITEL_C["perlen-modern-tragen"] = "Wie trägt man Perlen, ohne altmodisch zu wirken?"
+KEYWORDS["perlen-modern-tragen"] = "perlen modern tragen, perlenkette kombinieren, perlenohrringe damen, perlenschmuck, perlen weihnachtsfeier"
+
+POSTS.append({
+    "slug": "clutch-oder-handtasche-anlass",
+    "cat": "accessoires",
+    "title": "Clutch oder Handtasche: welche Tasche zu welchem Anlass passt",
+    "teaser": "Die Tasche hält man den ganzen Abend in der Hand — und trotzdem denkt man über sie am wenigsten nach.",
+    "img": "clutch-oder-handtasche-anlass.jpg",
+    "meta": "Clutch oder Handtasche zum Anlass: was in eine Abendtasche passen muss, wann ein Kettenriemen die bessere Wahl ist und welche Tasche zu Weihnachtsfeier, Hochzeit und Silvester passt.",
+    "intro": [
+        "Zur Weihnachtsfeier nehmen die meisten die Tasche, die sie jeden Tag tragen. Sie ist zu groß, zu sportlich und steht den ganzen Abend unter dem Stuhl. Zum festlichen Outfit passt sie selten, und genau das sieht man auf jedem Foto.",
+        "Die Lösung ist keine teure Abendtasche, sondern die richtige Größe für den Anlass. Und eine ehrliche Antwort auf die Frage, ob man den Abend über eine Hand frei haben möchte.",
+    ],
+    "sections": [
+        ("Was hineinpassen muss — und was nicht", [
+            "Telefon, Schlüssel, Karte, Lippenstift, ein Taschentuch. Mehr braucht es an einem Abend nicht, und für genau diese fünf Dinge ist eine Abendtasche gemacht. Wer mehr mitnimmt, braucht eine kleine Handtasche, keine größere Clutch.",
+            "Vor dem Kauf lohnt ein einfacher Test: Passt das eigene Telefon flach hinein? Viele Clutches sind für Telefone von vor zehn Jahren geschnitten. Die Innenmaße stehen in der Produktbeschreibung, nicht auf dem Foto.",
+            "Was nicht in die Abendtasche gehört, kommt in die Manteltasche oder bleibt im Auto. Das Ladekabel gehört dazu.",
+        ]),
+        ("Clutch oder Kettenriemen: die Frage nach der freien Hand", [
+            "Eine Clutch ohne Riemen ist die eleganteste Form und die unpraktischste. Beim Stehempfang, mit dem Glas in der einen und dem Teller in der anderen Hand, bleibt für sie kein Platz.",
+            "Deshalb ist eine Clutch mit abnehmbarer Kette die bessere Wahl für fast jeden Anlass: in der Hand beim Ankommen, über der Schulter am Buffet, ohne Riemen auf dem Tisch beim Essen.",
+            "Ein Beutel aus Samt mit Zugband ist die dritte Möglichkeit — weich, unempfindlich, und am Handgelenk festlich, ohne steif auszusehen.",
+        ]),
+        ("Welche Tasche zu welchem Anlass", [
+            "Weihnachtsfeier im Betrieb: eine kleine Henkeltasche oder eine schlichte Clutch in Schwarz, Braun oder Dunkelrot. Glitzer wirkt hier schnell nach Party.",
+            "Hochzeit und Standesamt: Satin oder Metallic in einem gedeckten Ton wie Champagner, Gold oder Silber. Wichtig ist der Riemen — man steht und tanzt mehr, als man denkt.",
+            "Silvester: Hier gehört die Strass- oder Glitzerclutch hin. Zu einem schlichten schwarzen Kleid ist sie das einzige Glanzstück, das es braucht.",
+        ]),
+        ("Die Farbe muss nicht zu den Schuhen passen", [
+            "Die Regel, Tasche und Schuhe müssten dieselbe Farbe haben, ist älter als die meisten, die sie noch befolgen. Heute wirkt es frischer, wenn die Tasche eine Farbe aus dem Kleid oder dem Schmuck aufnimmt.",
+            "Wer nur eine Abendtasche besitzen will, nimmt Metallic in Champagner oder Altgold. Das passt zu Schwarz, Navy, Grün und Burgund und zu beiden Schmuckfarben.",
+            "Als Geschenk ist eine Abendtasche einfacher, als man denkt: keine Größe, kein Duft, kein Geschmack, den man treffen muss — nur eine Farbe, die zu fast allem passt.",
+        ]),
+    ],
+    "products": [
+        ("Kleine Abendtasche", "Für die fünf Dinge, die man an einem Abend wirklich braucht. Schlicht genug für Hochzeit und Feier.", "B0D95DMFWP"),
+        ("Glitzer-Clutch im Kuvertformat", "Für Silvester. Zu einem schlichten schwarzen Kleid das einzige Glanzstück, das es braucht.", "B0B6BNXSDR"),
+        ("Clutch mit Kettenriemen", "In der Hand beim Ankommen, über der Schulter am Buffet. Die vielseitigste Form für Hochzeit und Feier.", "B0B4J3DKF5"),
+        ("Clutch in Wildlederoptik", "Matt und weich, deshalb ruhiger als Satin. Passt zur Weihnachtsfeier im Betrieb, wo Glitzer zu viel wäre.", "B07FFW395H"),
+        ("Strass-Clutch", "Das Abendteil für Hochzeit und Silvester, wenn das Kleid schlicht ist. Ein Glanzpunkt, nicht drei.", "B0B5TFX537"),
+        ("Henkeltasche, mittelgroß", "Für alle, die mehr mitnehmen als fünf Dinge. Festlich genug für den Abend und danach eine Tasche für den Alltag.", "B0DFGZ5L9V"),
+    ],
+    "pintitle": "Clutch oder Handtasche zum Anlass Damen",
+    "pintitle_c": "Welche Tasche zur Weihnachtsfeier und Hochzeit?",
+    "keywords": "clutch damen festlich, abendtasche damen, tasche weihnachtsfeier, clutch hochzeit, handtasche anlass",
+})
+
+PINTITEL["clutch-oder-handtasche-anlass"] = "Clutch oder Handtasche zum Anlass Damen"
+PINTITEL_C["clutch-oder-handtasche-anlass"] = "Welche Tasche zur Weihnachtsfeier und Hochzeit?"
+KEYWORDS["clutch-oder-handtasche-anlass"] = "clutch damen festlich, abendtasche damen, tasche weihnachtsfeier, clutch hochzeit, handtasche anlass"

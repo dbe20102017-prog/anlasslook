@@ -293,14 +293,24 @@ def baue_portion(erledigt):
     # dass ABSTAND_TAGE eingehalten sind. Lieber eine Portion, die etwas länger
     # läuft, als zwei fast gleiche Grafiken an einem Tag.
     slots = termine(len(aus) + 2 * ABSTAND_TAGE * len(ORTSZEIT_SLOTS), start)
-    vergeben, zeilen, i = {}, [], 0
+    # Zweite Regel aus dem Portionsdokument (27.09.): nie zweimal am selben Tag
+    # auf dieselbe Pinnwand. Ein belegter Slot bleibt frei und wird spaeter
+    # von einem Beitrag einer anderen Pinnwand genutzt.
+    slots = termine(len(aus) * 4 + 2 * ABSTAND_TAGE * len(ORTSZEIT_SLOTS), start)
+    vergeben, zeilen, genutzt, tafel = {}, [], set(), set()
     for p, v in aus:
-        while any(abs((date.fromisoformat(slots[i][:10]) - d).days) < ABSTAND_TAGE
-                  for d in vergeben.get(p["slug"], [])):
+        brett = CAT[p["cat"]]["title"]
+        i = 0
+        while (i in genutzt
+               or (slots[i][:10], brett) in tafel
+               or any(abs((date.fromisoformat(slots[i][:10]) - d).days) < ABSTAND_TAGE
+                      for d in vergeben.get(p["slug"], []))):
             i += 1
         zeilen.append(zeile(p, v, datum=slots[i]))
         vergeben.setdefault(p["slug"], []).append(date.fromisoformat(slots[i][:10]))
-        i += 1
+        genutzt.add(i)
+        tafel.add((slots[i][:10], brett))
+    zeilen.sort(key=lambda z: z["Publish date"])
 
     # --- Wächter 4: kein leerer Termin ---
     leer = [z["Title"] for z in zeilen if not z["Publish date"]]
