@@ -2672,3 +2672,155 @@ POSTS.append({
 PINTITEL["clutch-oder-handtasche-anlass"] = "Clutch oder Handtasche zum Anlass Damen"
 PINTITEL_C["clutch-oder-handtasche-anlass"] = "Welche Tasche zur Weihnachtsfeier und Hochzeit?"
 KEYWORDS["clutch-oder-handtasche-anlass"] = "clutch damen festlich, abendtasche damen, tasche weihnachtsfeier, clutch hochzeit, handtasche anlass"
+
+
+# ----------------------------------------------------------------- Freitagslauf 06.11.2026
+POSTS.append({
+    "slug": "hochzeitsgast-februar",
+    "cat": "hochzeitsgast",
+    "title": "Hochzeitsgast im Februar: wie man festlich aussieht und trotzdem nicht friert",
+    "teaser": "Eine Hochzeit im Februar hat ein Problem, das im Juni niemand kennt: den Weg vom Auto zur Kirche, das Gruppenfoto draußen und den Saal, in dem es nach Mitternacht kalt wird.",
+    "img": "hochzeitsgast-februar.jpg",
+    "meta": "Hochzeitsgast im Februar: welches Kleid im Winter funktioniert, wie warm die Strumpfhose sein darf, welcher Mantel zum Anlass passt und was beim Gruppenfoto draußen hilft.",
+    "intro": [
+        "Die meisten Hochzeitsgast-Ideen sind für Mai bis September geschrieben: Chiffon, nackte Beine, Sandalen. Im Februar ist davon fast alles falsch, und trotzdem soll das Outfit nach Hochzeit aussehen und nicht nach Büro.",
+        "Die Lösung liegt nicht in einem besonders warmen Kleid, sondern in den Teilen darum herum. Wer Strumpfhose, Mantel und Schuh richtig wählt, kann ein ganz normales festliches Kleid tragen — und muss beim Fotografen nicht als Erste wieder hineinlaufen.",
+    ],
+    "sections": [
+        ("Das Kleid: Stoff mit Gewicht, Ärmel erwünscht", [
+            "Im Winter darf das Kleid schwerer fallen. Strick, Wollcrêpe und dichter Jersey halten warm und wirken trotzdem festlich, wenn der Schnitt klar ist: tailliert, ausgestellter Rock, Knie- oder Wadenlänge.",
+            "Lange Ärmel sind im Februar kein Kompromiss, sondern die elegantere Wahl. Ein ärmelloses Kleid braucht den ganzen Tag eine Jacke darüber, und damit verschwindet genau das, was man zeigen wollte.",
+            "Farben, die im Winter tragen: Terrakotta, Rost, Flaschengrün, Burgund, tiefes Blau. Sie wirken festlich, ohne mit dem Brautweiß oder dem Schwarz der Trauzeugen zu konkurrieren.",
+        ]),
+        ("Die Strumpfhose entscheidet, ob man den Tag genießt", [
+            "Hautfarbene 15 Denier sehen im Februar aus, als hätte man den Wetterbericht nicht gelesen. 40 Denier in Schwarz oder einem dunklen Ton sind die Untergrenze für einen Tag, an dem man zwischendurch draußen steht.",
+            "Matt wirkt dabei edler als glänzend. Eine matte, halb blickdichte Strumpfhose verlängert das Bein zu einem dunklen Schuh und lässt das Kleid wichtiger wirken als die Beine.",
+            "Ein zweites Paar gehört in die Tasche. Eine Laufmasche um 15 Uhr ist bei einer Hochzeit, die bis zwei Uhr nachts geht, kein seltenes Ereignis.",
+        ]),
+        ("Mantel und Schuh: die Teile auf dem Gruppenfoto", [
+            "Auf vielen Winterhochzeiten wird das Gruppenfoto draußen gemacht, und dann sieht man nicht das Kleid, sondern den Mantel. Ein heller Wollmantel mit Gürtel wirkt auf dem Foto festlich, eine Daunenjacke nicht.",
+            "Wer keinen Anlassmantel kaufen will, macht aus dem vorhandenen einen: Ein breiter Ledergürtel über einem schlichten Wollmantel gibt ihm Taille und Form.",
+            "Für den Weg Stiefeletten mit Absatz statt Pumps. Sie halten Kies und Nässe aus und bleiben auch im Saal an, wenn das Kleid lang genug ist. Wer tanzen will, nimmt die Pumps in der Tasche mit.",
+        ]),
+        ("Was im Saal hilft", [
+            "Säle werden nach Mitternacht kühl, besonders in alten Gutshöfen und Scheunen, die im Winter gern gebucht werden. Eine weiche Stola über den Schultern ist dann das Teil, um das einen alle beneiden.",
+            "Sie gehört deshalb nicht in die Garderobe, sondern über die Stuhllehne. Eine Pashmina in einer Farbe aus dem Kleid sieht auch über den Schultern nach Absicht aus.",
+            "Und eine Clutch mit Kettenriemen: Beim Stehempfang in der Kälte will man die Hände in den Manteltaschen haben, nicht an der Tasche.",
+        ]),
+    ],
+    "products": [
+        ("Strumpfhose 40 den, matt", "Die Untergrenze für einen Wintertag mit Gruppenfoto draußen. Matt wirkt edler als glänzend.", "B08JQG8GP1"),
+        ("Clutch mit Kettenriemen", "Über der Schulter beim Empfang, in der Hand beim Ankommen. Beide Hände bleiben frei.", "B0B4J3DKF5"),
+        ("Festliche Pashmina-Stola", "Für den Saal nach Mitternacht. Über der Stuhllehne statt in der Garderobe.", "B097GTQZS7"),
+        ("Strickkleid in A-Linie", "Knielang, mit langen Ärmeln: warm genug für den Februar und festlich durch den klaren Schnitt.", "B0DHCPD7JT"),
+        ("Breiter Bindegürtel aus Leder", "Macht aus einem schlichten Wollmantel einen Anlassmantel und gibt dem Kleid Taille.", "B079FZ7PTP"),
+        ("Stiefeletten mit Absatz", "Für Kies, Nässe und Kirchenstufen. Bleiben im Saal an, wenn das Kleid lang genug ist.", "B0BGJ2W98Y"),
+    ],
+    "pintitle": "Hochzeitsgast Outfit Februar 2027",
+    "pintitle_c": "Was zieht man im Februar zur Hochzeit an?",
+    "keywords": "hochzeitsgast outfit februar, hochzeit winter gast outfit, winterhochzeit gast damen, hochzeitsgast winter kleid, outfit hochzeit kalt",
+})
+
+PINTITEL["hochzeitsgast-februar"] = "Hochzeitsgast Outfit Februar 2027"
+PINTITEL_C["hochzeitsgast-februar"] = "Was zieht man im Februar zur Hochzeit an?"
+KEYWORDS["hochzeitsgast-februar"] = "hochzeitsgast outfit februar, hochzeit winter gast outfit, winterhochzeit gast damen, hochzeitsgast winter kleid, outfit hochzeit kalt"
+
+POSTS.append({
+    "slug": "brautmutter-outfit-winter",
+    "cat": "familienfeier",
+    "title": "Brautmutter-Outfit im Winter: das Kleid steht, es fehlt der Rest",
+    "teaser": "Die meisten Brautmütter finden ihr Kleid früh. Was im Winter fehlt, merkt man erst in der Woche davor: der Mantel, der Schuh, das wärmende Teil für die Kirche.",
+    "img": "brautmutter-outfit-winter.jpg",
+    "meta": "Brautmutter-Outfit im Winter: welcher Mantel zum Kleid passt, welche Schuhe einen langen Tag aushalten, warum ein Kaschmirschal in der Kirche hilft und welches Detail das Outfit zusammenhält.",
+    "intro": [
+        "Die Brautmutter steht auf mehr Fotos als fast jeder andere Gast, und sie ist von morgens bis nachts auf den Beinen. Im Winter kommt dazu, dass ein großer Teil des Tages draußen oder in kalten Räumen stattfindet: Kirche, Standesamt, Fotos, Empfang.",
+        "Das Kleid ist dabei meistens schon entschieden. Dieser Beitrag geht um die Teile, die ein Winterkleid erst tragbar machen — und die man sonst in letzter Minute aus dem eigenen Schrank nimmt.",
+    ],
+    "sections": [
+        ("Der Mantel ist auf den Fotos mehr zu sehen als das Kleid", [
+            "Ankunft vor der Kirche, Spalier, Gruppenfoto: Im Winter trägt die Brautmutter auf vielen Bildern ihren Mantel. Er sollte deshalb zum Kleid passen, nicht nur warm sein.",
+            "Am sichersten ist ein Wollmantel in einem hellen oder gedeckten Ton, Camel, Creme, Rosé oder Grau. Ein langer Schnitt bedeckt ein knielanges Kleid vollständig und wirkt ruhig; ein kurzer zeigt den Saum und das Kleid darunter.",
+            "Schwarz ist möglich, wirkt auf Hochzeitsfotos aber schnell streng. Wer nur einen schwarzen Mantel hat, hellt ihn mit Schal oder Brosche auf.",
+        ]),
+        ("Schuhe für zwölf Stunden", [
+            "Die Brautmutter steht, begrüßt, läuft hin und her und tanzt den ersten Walzer nach dem Brautpaar. Ein hoher, dünner Absatz ist nach der Kirche schon zu viel.",
+            "Pumps mit niedrigem Blockabsatz sind der beste Kompromiss: festlich in der Form, stabil auf Kirchenstufen und Kopfsteinpflaster, und auch um Mitternacht noch tragbar.",
+            "Die Farbe folgt der Strumpfhose, nicht dem Kleid. Zu einer dunklen Strumpfhose ein dunkler Schuh, zu einer hellen ein Nude-Ton.",
+        ]),
+        ("Warm in der Kirche", [
+            "Kirchen sind im Winter selten geheizt, und die Trauung dauert eine Stunde. Ein Mantel über dem Kleid sieht in der ersten Reihe nach Aufbruch aus.",
+            "Ein großer Kaschmirschal löst das eleganter: über die Schultern gelegt, ist er warm und sieht aus wie ein Teil des Outfits. Nach der Trauung wandert er über den Arm oder in die Tasche.",
+            "Wer zur Kälte neigt, nimmt eine blickdichte Strumpfhose in einem warmen Hautton. Unter einem langen Kleid sieht sie niemand, und sie macht den Unterschied zwischen frieren und nicht frieren.",
+        ]),
+        ("Ein Detail, das alles zusammenhält", [
+            "Eine Brosche am Mantelrevers oder am Kleid ist das klassische Brautmutter-Detail. Sie verbindet Mantel und Kleid, wenn beide verschiedene Farben haben, und ist auf den Fotos gut zu sehen.",
+            "Perlen passen fast immer, weil sie zu Gold und Silber funktionieren und zum Brautschmuck selten in Konkurrenz stehen.",
+            "Dazu eine kleine Tasche, in die Taschentücher, Lippenstift und Telefon passen. An diesem Tag braucht man von allen dreien mehr als sonst.",
+        ]),
+    ],
+    "products": [
+        ("Perlenbrosche mit Schleife", "Das klassische Brautmutter-Detail. Am Mantelrevers verbindet sie Mantel und Kleid.", "B0CF9LJNXX"),
+        ("Clutch in Wildlederoptik", "Matt und ruhig, passt zu fast jeder Kleidfarbe. Groß genug für Taschentücher.", "B07FFW395H"),
+        ("Kurzer Mantel", "Zeigt den Saum des Kleides darunter. Für alle, die das Kleid auch draußen sehen lassen wollen.", "B07237KDZM"),
+        ("Pumps mit niedrigem Blockabsatz", "Festlich in der Form, stabil auf Kirchenstufen und um Mitternacht noch tragbar.", "B0D4CXS39S"),
+        ("Kaschmirschal", "Für die ungeheizte Kirche: über die Schultern gelegt, warm und Teil des Outfits.", "B0BDZM3FR3"),
+        ("Langer Wollmantel", "Bedeckt ein knielanges Kleid vollständig und wirkt auf den Fotos ruhig und festlich.", "B0FCYJNXPP"),
+    ],
+    "pintitle": "Brautmutter Outfit Winter Hochzeit",
+    "pintitle_c": "Was trägt die Brautmutter im Winter?",
+    "keywords": "brautmutter outfit winter, brautmutter kleid winter, outfit brautmutter, mutter der braut outfit, winterhochzeit brautmutter",
+})
+
+PINTITEL["brautmutter-outfit-winter"] = "Brautmutter Outfit Winter Hochzeit"
+PINTITEL_C["brautmutter-outfit-winter"] = "Was trägt die Brautmutter im Winter?"
+KEYWORDS["brautmutter-outfit-winter"] = "brautmutter outfit winter, brautmutter kleid winter, outfit brautmutter, mutter der braut outfit, winterhochzeit brautmutter"
+
+POSTS.append({
+    "slug": "silvester-dresscode-black-tie",
+    "cat": "festtage",
+    "title": "Silvester mit Dresscode Black Tie: was er für Frauen wirklich bedeutet",
+    "teaser": "Black Tie steht auf der Einladung, und plötzlich ist unklar, ob das Kleid lang sein muss. Die kurze Antwort: ja. Die längere erklärt, warum das einfacher ist, als es klingt.",
+    "img": "silvester-dresscode-black-tie.jpg",
+    "meta": "Dresscode Black Tie an Silvester: welche Kleidlänge erwartet wird, welche Stoffe passen, wie viel Schmuck richtig ist und welche Schuhe und Taschen dazugehören.",
+    "intro": [
+        "Black Tie ist der zweithöchste Dresscode nach White Tie. Für Männer heißt er Smoking, für Frauen ein bodenlanges Abendkleid oder etwas, das genauso festlich wirkt. Ein Cocktailkleid ist darunter, auch wenn es glitzert.",
+        "Das klingt nach Aufwand, ist aber in einem Punkt leichter als jeder andere Dresscode: Die Erwartung ist klar. Wer lang und schlicht trägt, liegt richtig, und alles Weitere ist Feinarbeit.",
+    ],
+    "sections": [
+        ("Lang, aber schlicht", [
+            "Das Kleid sollte bis zum Knöchel oder zum Boden reichen. Ein Midikleid knapp über dem Knöchel wird inzwischen meistens akzeptiert, ein knielanges Kleid nicht.",
+            "Der Schnitt darf einfach sein. Ein langes schwarzes Kleid mit Ärmeln oder Neckholder ist bei Black Tie nie falsch, gerade weil es nichts beweisen will.",
+            "Stoffe, die passen: Crêpe, Satin, Samt, schwerer Jersey. Baumwolle und dünner Viskosestoff wirken bei bodenlanger Länge schnell wie ein Sommerkleid.",
+        ]),
+        ("Schmuck: ein Schwerpunkt", [
+            "Bei Black Tie darf Schmuck sichtbar sein, aber er braucht einen Schwerpunkt. Lange Ohrringe zu einem hochgeschlossenen Kleid, eine Kette zu einem tiefen Ausschnitt, nie beides groß.",
+            "Hängende Ohrringe mit etwas Glanz sind die sicherste Wahl, weil sie zum hochgesteckten Haar passen, das zu langen Kleidern ohnehin gut aussieht.",
+            "Ein paar Kristallnadeln im Haar wiederholen den Glanz der Ohrringe, ohne mit ihnen zu konkurrieren.",
+        ]),
+        ("Schuhe, Tasche, Stola", [
+            "Die Schuhe sieht man unter einem langen Kleid kaum, man spürt sie aber den ganzen Abend. Eine elegante Sandalette mit mittlerem Absatz ist besser als ein sehr hoher, weil man an Silvester bis weit nach Mitternacht steht.",
+            "Die Tasche ist klein: eine Clutch, gern mit Struktur oder Stickerei, wenn das Kleid schlicht ist. Eine Alltagstasche über der Schulter bricht den Dresscode sofort.",
+            "Für den Weg und für das Feuerwerk draußen eine Stola. Eine weiche Pashmina in Schwarz oder einem dunklen Ton passt zu jedem Abendkleid und ist um Mitternacht das wichtigste Teil.",
+        ]),
+        ("Wenn es kein langes Kleid gibt", [
+            "Ein eleganter Hosenanzug in Schwarz oder Mitternachtsblau mit Seidentop gilt bei den meisten Gastgebern als Black-Tie-tauglich. Entscheidend ist der Stoff, nicht die Form.",
+            "Ein weiter, bodenlanger Rock mit festlichem Oberteil funktioniert ebenso, und beide Teile lassen sich danach getrennt weitertragen.",
+            "Wer unsicher ist, fragt den Gastgeber. Das ist bei Black Tie nicht peinlich, sondern üblich — und erspart den Abend im falschen Kleid.",
+        ]),
+    ],
+    "products": [
+        ("Kristall-Haarnadeln", "Wiederholen den Glanz der Ohrringe im hochgesteckten Haar, ohne mit ihnen zu konkurrieren.", "B09LM1SQXJ"),
+        ("Hängende Ohrringe mit Zirkonia", "Der Schmuckschwerpunkt zu einem hochgeschlossenen langen Kleid.", "B0FCLWKPMM"),
+        ("Pashmina-Stola", "Für den Weg und für das Feuerwerk um Mitternacht. Passt zu jedem Abendkleid.", "B09YHB7KMH"),
+        ("Elegante Sandalette", "Mittlerer Absatz für einen Abend, der bis weit nach Mitternacht geht.", "B0C8BF2321"),
+        ("Clutch mit Stickerei", "Klein, mit Struktur — das Detail zu einem schlichten Kleid.", "B0DP62RJYV"),
+        ("Langes Kleid mit Ärmeln", "Bodenlang und schlicht: die Form, mit der man bei Black Tie nicht falsch liegt.", "B0FH6N9SKG"),
+    ],
+    "pintitle": "Silvester Dresscode Black Tie Damen",
+    "pintitle_c": "Was heißt Black Tie an Silvester für Frauen?",
+    "keywords": "black tie dresscode damen, silvester dresscode, black tie silvester, abendkleid silvester, dresscode black tie frau",
+})
+
+PINTITEL["silvester-dresscode-black-tie"] = "Silvester Dresscode Black Tie Damen"
+PINTITEL_C["silvester-dresscode-black-tie"] = "Was heißt Black Tie an Silvester für Frauen?"
+KEYWORDS["silvester-dresscode-black-tie"] = "black tie dresscode damen, silvester dresscode, black tie silvester, abendkleid silvester, dresscode black tie frau"
