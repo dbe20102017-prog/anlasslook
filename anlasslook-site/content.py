@@ -2824,3 +2824,155 @@ POSTS.append({
 PINTITEL["silvester-dresscode-black-tie"] = "Silvester Dresscode Black Tie Damen"
 PINTITEL_C["silvester-dresscode-black-tie"] = "Was heißt Black Tie an Silvester für Frauen?"
 KEYWORDS["silvester-dresscode-black-tie"] = "black tie dresscode damen, silvester dresscode, black tie silvester, abendkleid silvester, dresscode black tie frau"
+
+
+# ----------------------------------------------------------------- Freitagslauf 13.11.2026
+POSTS.append({
+    "slug": "feinstrumpfhose-farben",
+    "cat": "accessoires",
+    "title": "Strumpfhose zum Anlasskleid: welche Farbe und wie viel Denier wirklich passen",
+    "teaser": "Die Strumpfhose ist das letzte Teil, das man vor der Weihnachtsfeier kauft — und das erste, das auf Fotos auffällt, wenn es nicht passt.",
+    "img": "feinstrumpfhose-farben.jpg",
+    "meta": "Strumpfhose zum festlichen Kleid: Hautton oder Schwarz, matt oder glänzend, 20 oder 60 Denier — und welche Farbe zu welchem Schuh passt. Mit sechs konkreten Empfehlungen.",
+    "intro": [
+        "Von Oktober bis März gehört zu fast jedem Anlasskleid eine Strumpfhose. Trotzdem wird sie oft in der letzten Minute gekauft, und dann entscheidet der Drogeriemarkt um die Ecke über das Outfit.",
+        "Dabei gibt es nur drei Fragen: welcher Ton, welche Dichte, welcher Glanz. Wer sie einmal beantwortet hat, braucht für den ganzen Winter zwei oder drei Paare — und hat nie wieder das Gefühl, dass die Beine nicht zum Kleid gehören.",
+    ],
+    "sections": [
+        ("Hautton oder dunkel: der Schuh entscheidet", [
+            "Die Strumpfhose ist die Verbindung zwischen Kleid und Schuh. Zu dunklen Schuhen gehört eine dunkle Strumpfhose, dann wirkt das Bein durchgehend und länger.",
+            "Zu hellen oder nudefarbenen Schuhen passt eine Strumpfhose im Hautton. Sie sollte eine Spur dunkler sein als die eigene Haut, nie heller, sonst wirkt das Bein im Blitzlicht grau.",
+            "Farbige Strumpfhosen in Marine, Anthrazit oder Bordeaux sind die elegante Abwandlung von Schwarz. Sie nehmen eine Farbe aus dem Kleid auf und wirken dadurch ruhiger als reines Schwarz.",
+        ]),
+        ("Denier: wie viel Haut man sehen soll", [
+            "20 Denier sind fein und fast transparent. Sie gehören zu festlichen Abenden in geheizten Räumen und zu hellen Kleidern.",
+            "40 Denier sind halb blickdicht und der beste Allrounder für den Winter: festlich genug für den Abend, warm genug für den Weg dorthin.",
+            "Ab 60 Denier ist die Strumpfhose blickdicht. Zu Strickkleidern und für Anlässe am Tag ist sie richtig, zu einem Satin- oder Paillettenkleid wirkt sie schnell zu schwer.",
+        ]),
+        ("Matt oder glänzend", [
+            "Matte Strumpfhosen wirken modern und zurückhaltend. Sie lassen das Kleid sprechen und sind deshalb die sichere Wahl für Büro-Weihnachtsfeiern und Hochzeiten.",
+            "Ein feiner Satinglanz passt zu Silvester und zu Abendkleidern. Er reflektiert das Licht und lässt die Beine schmaler wirken, betont aber auch jede Unebenheit.",
+            "Glänzend und blickdicht zusammen ist die einzige Kombination, die fast nie gut aussieht. Entweder matt und dicht oder fein und glänzend.",
+        ]),
+        ("Ein Ersatzpaar gehört in die Tasche", [
+            "Eine Laufmasche ist an einem langen Abend kein Pech, sondern Statistik: Stuhlkanten, Schmuck, Taschenverschlüsse. Ein zweites Paar wiegt nichts und rettet das Outfit.",
+            "Deshalb lohnen sich Mehrfachpackungen besonders: Ein Paar wird getragen, eines liegt in der Abendtasche, eines bleibt für die nächste Feier.",
+            "Wer im Dezember mehrere Termine hat, kauft einmal richtig ein — schwarz matt, Hautton fein, eine Farbe — und ist für die ganze Saison versorgt.",
+        ]),
+    ],
+    "products": [
+        ("Blickdichte Strumpfhose, 80 den", "Für Strickkleider, Anlässe am Tag und kalte Wege. Matt und warm.", "B08HXFMG1K"),
+        ("Strumpfhose 40 den, matt", "Der Allrounder für den Winter: halb blickdicht, festlich genug für den Abend.", "B08JQG8GP1"),
+        ("Feine Strumpfhose mit Satinglanz, 20 den", "Für Silvester und Abendkleider in geheizten Räumen. Eine Spur dunkler als die Haut wählen.", "B001NLFFNM"),
+        ("Strumpfhose 40 den im Doppelpack", "Ein Paar am Bein, eines in der Tasche — für Abende mit Laufmaschen-Risiko.", "B07NDB8ZBV"),
+        ("Feine matte Strumpfhose, 20 den", "Transparent und ohne Glanz: die zurückhaltende Wahl zu hellen Kleidern.", "B0B6KFBDSH"),
+        ("Pumps mit kleinem Absatz", "Der Schuh, nach dem sich die Strumpfhosenfarbe richtet. Spitze Form, bequem für einen langen Abend.", "B01MSQQIPJ"),
+    ],
+    "pintitle": "Strumpfhose zum Kleid: Farbe und Denier",
+    "pintitle_c": "Welche Strumpfhose zum festlichen Kleid?",
+    "keywords": "strumpfhose zum kleid, strumpfhose festlich, welche strumpfhose zu welchen schuhen, strumpfhose denier, strumpfhose weihnachtsfeier",
+})
+
+PINTITEL["feinstrumpfhose-farben"] = "Strumpfhose zum Kleid: Farbe und Denier"
+PINTITEL_C["feinstrumpfhose-farben"] = "Welche Strumpfhose zum festlichen Kleid?"
+KEYWORDS["feinstrumpfhose-farben"] = "strumpfhose zum kleid, strumpfhose festlich, welche strumpfhose zu welchen schuhen, strumpfhose denier, strumpfhose weihnachtsfeier"
+
+POSTS.append({
+    "slug": "kleid-mit-aermeln-festlich",
+    "cat": "festtage",
+    "title": "Festliches Kleid mit Ärmeln: warum es im Winter die elegantere Wahl ist",
+    "teaser": "Ein ärmelloses Kleid braucht im Dezember den ganzen Abend eine Jacke darüber. Ein Kleid mit Ärmeln ist von Anfang an fertig.",
+    "img": "kleid-mit-aermeln-festlich.jpg",
+    "meta": "Festliches Kleid mit langen Ärmeln für Weihnachtsfeier und Silvester: welche Stoffe passen, welche Ärmelform schmeichelt, und welche Kleider sich für den Winter lohnen.",
+    "intro": [
+        "Im Winter wird das festliche Kleid meistens unter einer Strickjacke oder einem Blazer versteckt, weil es im Saal zieht oder der Weg draußen kalt ist. Was man eigentlich zeigen wollte, sieht am Ende niemand.",
+        "Ein Kleid mit langen Ärmeln löst das von vornherein. Es ist warm genug für den ganzen Abend, wirkt geschlossener und damit eleganter — und braucht kein zweites Teil, das den Schnitt unterbricht.",
+    ],
+    "sections": [
+        ("Stoffe, die im Winter festlich wirken", [
+            "Samt ist der klassische Winterstoff: weich, warm und durch seinen Schimmer festlich, ohne zu glänzen. In Flaschengrün, Mitternachtsblau oder Aubergine wirkt er sofort nach Dezember.",
+            "Feiner Strick ist die unterschätzte Wahl. Ein tailliertes Strickkleid mit ausgestelltem Rock ist bequem, warm und mit dem richtigen Schmuck festlich genug für jede Weihnachtsfeier.",
+            "Pailletten mit langen Ärmeln gehören zu Silvester. Der lange Ärmel nimmt dem Glanz das Laute und macht das Kleid tragbar, auch wenn man sonst keine Pailletten trägt.",
+        ]),
+        ("Welche Ärmelform zu wem passt", [
+            "Gerade, schmale Ärmel strecken und passen zu fast jeder Figur. Sie sind die ruhigste Form und die sicherste Wahl für Firmenfeiern.",
+            "Leicht gebauschte Schultern verbreitern optisch die Schulterpartie und lassen die Taille schmaler wirken. Für schmale Schultern ideal, bei breiten Schultern eher meiden.",
+            "Ärmel mit Spitze oder transparentem Stoff sind der Mittelweg: Sie bedecken den Arm, ohne schwer zu wirken, und bringen das Festliche über den Stoff statt über die Farbe.",
+        ]),
+        ("Die Länge für den Abend", [
+            "Knielang ist die vielseitigste Länge. Sie passt zur Weihnachtsfeier, zum Weihnachtsessen und zur Hochzeit im Winter.",
+            "Midi bis zur Wade wirkt im Winter besonders elegant, weil sie mit Stiefeletten und Pumps gleichermaßen funktioniert.",
+            "Zu jeder Länge gehört eine passende Strumpfhose. Bei langen Ärmeln darf das Bein dunkel sein, ohne dass das Outfit schwer wirkt — die Ärmel halten die Linie zusammen.",
+        ]),
+        ("Schmuck: an die Ohren, nicht an den Hals", [
+            "Ein Kleid mit Rundhals und langen Ärmeln lässt wenig Haut sehen. Eine Kette konkurriert dann mit dem Ausschnitt, Ohrringe dagegen haben freie Fläche.",
+            "Kleine goldene Creolen oder Ohrringe mit etwas Glanz reichen. Zu einem Paillettenkleid lieber gar keinen weiteren Glanz.",
+            "Wer zusätzlich etwas tragen will, nimmt eine Brosche oder einen schmalen Gürtel. Beides betont die Form des Kleides, ohne vom Stoff abzulenken.",
+        ]),
+    ],
+    "products": [
+        ("Blickdichte Strumpfhose", "Zu langen Ärmeln darf das Bein dunkel sein. Matt und warm für den Weg zur Feier.", "B08HXFMG1K"),
+        ("Goldene Creolen", "Der Schmuck für ein hochgeschlossenes Kleid: an die Ohren, nicht an den Hals.", "B0DMK4QFP9"),
+        ("Samtkleid mit langen Ärmeln", "Der klassische Winterstoff: warm, weich und festlich durch den Schimmer.", "B0CCMVWFSN"),
+        ("Elegantes Strickkleid", "Die bequeme Variante: tailliert, warm und mit dem richtigen Schmuck festlich genug.", "B0D77JY5ZZ"),
+        ("Paillettenkleid mit langen Ärmeln", "Für Silvester. Der lange Ärmel nimmt dem Glanz das Laute.", "B0C3RFLX6Z"),
+        ("Knielanges Kleid mit Stickerei", "Die vielseitigste Länge, festlich durch das Detail statt durch Glanz.", "B07PLNX2CY"),
+    ],
+    "pintitle": "Festliches Kleid mit Ärmeln Winter 2026",
+    "pintitle_c": "Welches Kleid mit langen Ärmeln zur Weihnachtsfeier?",
+    "keywords": "festliches kleid langarm, kleid mit ärmeln festlich, weihnachtsfeier kleid langarm, samtkleid damen, winterkleid festlich",
+})
+
+PINTITEL["kleid-mit-aermeln-festlich"] = "Festliches Kleid mit Ärmeln Winter 2026"
+PINTITEL_C["kleid-mit-aermeln-festlich"] = "Welches Kleid mit langen Ärmeln zur Weihnachtsfeier?"
+KEYWORDS["kleid-mit-aermeln-festlich"] = "festliches kleid langarm, kleid mit ärmeln festlich, weihnachtsfeier kleid langarm, samtkleid damen, winterkleid festlich"
+
+POSTS.append({
+    "slug": "jahresabschluss-essen-outfit",
+    "cat": "buero",
+    "title": "Outfit zum Jahresabschluss-Essen: zwischen Büro und Abend",
+    "teaser": "Das Jahresabschluss-Essen mit Team oder Kunden ist kein Fest und kein Meeting. Genau das macht die Kleiderfrage schwierig.",
+    "img": "jahresabschluss-essen-outfit.jpg",
+    "meta": "Outfit zum Jahresabschluss-Essen mit Team oder Kunden: wie man vom Büro direkt ins Restaurant geht, welcher Blazer passt und welches Detail das Outfit abendtauglich macht.",
+    "intro": [
+        "Viele Jahresabschluss-Essen finden direkt nach der Arbeit statt. Zum Umziehen fehlt die Zeit, und im Bürooutfit sitzt man dann neben Kolleginnen, die doch noch schnell nach Hause gefahren sind.",
+        "Die Lösung ist ein Outfit, das tagsüber im Büro funktioniert und abends mit zwei kleinen Handgriffen festlicher wird. Der Schlüssel dazu ist ein dunkler Blazer — und das, was man darunter trägt.",
+    ],
+    "sections": [
+        ("Der Blazer gibt den Rahmen", [
+            "Ein dunkler Blazer in Mitternachtsblau oder Schwarz ist das Teil, das zwischen Büro und Abend vermittelt. Tagsüber wirkt er seriös, abends mit dem richtigen Oberteil elegant.",
+            "Mitternachtsblau ist dabei die bessere Wahl als Schwarz. Es wirkt weicher, im Kerzenlicht wärmer und passt zu Gold wie zu Silber.",
+            "Der Schnitt sollte schmal sein und auf Taille sitzen. Ein weiter Oversize-Blazer wirkt am Tisch schnell, als hätte man ihn sich geliehen.",
+        ]),
+        ("Darunter: ein Top mit Glanz", [
+            "Der eigentliche Wechsel passiert unter dem Blazer. Tagsüber eine Bluse, abends ein Top aus Satin oder Seide — das ist der Handgriff, der das Outfit festlich macht.",
+            "Ein schlichtes Satin-Top in Champagner oder Creme reflektiert das Licht ins Gesicht und wirkt sofort nach Abend, ohne verkleidet zu wirken.",
+            "Wer im Büro kein ärmelloses Top tragen will, lässt den Blazer einfach an und wechselt im Waschraum. Das dauert eine Minute.",
+        ]),
+        ("Hose statt Kleid", [
+            "Eine schmale, dunkle Stoffhose ist am Tisch bequemer als ein Kleid und wirkt mit Blazer und Satin-Top trotzdem festlich.",
+            "Die Hose sollte bis zum Knöchel reichen oder knapp darüber enden, damit der Schuh sichtbar bleibt. Ein schmaler Pumps streckt das Bein und macht die Hose eleganter.",
+            "Für den Weg vom Büro ins Restaurant gilt: Pumps in die Tasche, flache Schuhe an. Gewechselt wird an der Garderobe.",
+        ]),
+        ("Zwei Details für den Abend", [
+            "Kleine goldene Creolen oder Ohrringe mit etwas Glanz sind das zweite Signal, dass der Abend begonnen hat. Sie passen in jede Schreibtischschublade.",
+            "Eine kleine Clutch statt der Bürotasche. Die große Tasche bleibt im Büro oder an der Garderobe, am Tisch liegt nur das Nötigste.",
+            "Mehr braucht es nicht: Blazer, Satin-Top, Ohrringe, Clutch. Wer sie morgens mitnimmt, ist abends in zwei Minuten fertig.",
+        ]),
+    ],
+    "products": [
+        ("Goldene Creolen", "Das Signal, dass der Abend begonnen hat — passt in jede Schreibtischschublade.", "B0DMK4QFP9"),
+        ("Clutch in Wildlederoptik", "Statt der Bürotasche: am Tisch liegt nur das Nötigste.", "B07FFW395H"),
+        ("Schmale Stoffhose", "Bequemer am Tisch als ein Kleid und mit Blazer trotzdem festlich.", "B0969CTR1V"),
+        ("Satin-Tops im Mehrfachpack", "Der Wechsel unter dem Blazer, der das Outfit abendtauglich macht.", "B0F6VBLV4X"),
+        ("Taillierter Blazer", "Der Rahmen zwischen Büro und Abend. Schmal geschnitten, in einer dunklen Farbe.", "B07ZC354Y5"),
+        ("Spitze Pumps", "Strecken das Bein unter der Hose. Für den Weg in der Tasche, gewechselt an der Garderobe.", "B0BN93NSK8"),
+    ],
+    "pintitle": "Outfit Jahresabschluss Essen Damen 2026",
+    "pintitle_c": "Was zieht man zum Weihnachtsessen mit Kollegen an?",
+    "keywords": "outfit jahresabschluss, weihnachtsessen firma outfit, outfit büro abendessen, blazer outfit abend damen, outfit essen mit kollegen",
+})
+
+PINTITEL["jahresabschluss-essen-outfit"] = "Outfit Jahresabschluss Essen Damen 2026"
+PINTITEL_C["jahresabschluss-essen-outfit"] = "Was zieht man zum Weihnachtsessen mit Kollegen an?"
+KEYWORDS["jahresabschluss-essen-outfit"] = "outfit jahresabschluss, weihnachtsessen firma outfit, outfit büro abendessen, blazer outfit abend damen, outfit essen mit kollegen"
